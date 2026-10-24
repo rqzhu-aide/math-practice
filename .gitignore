@@ -8,6 +8,12 @@
 !/math-practice/
 !/scripts/
 !/cn-math-bank/
+!/docs/
+
+/docs/*
+!/docs/images/
+/docs/images/*
+!/docs/images/interactive-practice.png
 
 /math-practice/*
 !/math-practice/*.html

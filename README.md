@@ -5,7 +5,36 @@ Repository: [rqzhu-aide/math-practice](https://github.com/rqzhu-aide/math-practi
 A local mathematics practice space developed by [Ruoqing Zhu](https://github.com/rqzhu-aide).
 Includes **3,355 processed Chinese curriculum questions**, displayed in English,
 with answers, worked solutions, diagrams, and preserved Chinese originals.
-AMC questions are not included. There is no frontend build step.
+These are adapted from the Chinese K-12 mathematics repository
+[xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy),
+with source attribution and modification details preserved. There is no frontend
+build step.
+
+We are currently requesting permission from the **Mathematical Association of
+America (MAA)** to include **American Mathematics Competitions (AMC)** questions.
+Permission is pending, and AMC questions are not included in this repository.
+
+## Interactive practice
+
+![Math Practice showing the Record thinking control, mathematical feedback, a progressive hint, and Confidence, Clarity, and Engagement learning signals.](docs/images/interactive-practice.png)
+
+*Illustrative session in the actual UI, using a sample transcript and model
+responses. Interactive model features require the optional connections below.*
+
+- **Record thinking:** speak for up to a minute, then review and edit the
+  transcription alongside your written work.
+- **Get feedback:** check the final answer and mathematical reasoning separately.
+  An optional inference model provides deeper review and hints that the student
+  reveals when ready.
+- **See learning and emotion-related signals:** the backend evaluates expressed
+  confidence, clarity, and engagement or frustration from the original speech
+  transcript. These provisional text-based observations are separate from
+  mathematical correctness; they are not validated measurements of emotion or
+  fixed learner traits.
+
+**Planned development:** use practice history, reasoning feedback, and learning
+signals to recommend suitable questions and adapt study approaches, pacing, and
+hint timing. These recommendations are not implemented yet.
 
 ## Start practicing
 
@@ -72,9 +101,10 @@ the relevant submitted work or recorded audio is sent to your chosen service.
 The harness does not save audio. Runtime logs and optional account work files
 stay in ignored `.local/`.
 
-The Git allowlist includes only application code, bundled assets, tests, and the
-processed Chinese bank. It excludes private configuration, logs, caches, raw
-source collections, processing reports, and AMC content. Do not force-add local
+The Git allowlist includes application code, bundled assets, tests, documentation
+and its UI screenshot, and the processed Chinese bank. It excludes private
+configuration, logs, caches, raw source collections, processing reports, and AMC
+content. Do not force-add local
 files with `git add -f`; review staged changes before publishing.
 
 The question bank and its adaptations retain upstream **CC BY-NC 4.0** terms,
