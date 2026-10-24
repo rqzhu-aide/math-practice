@@ -23,11 +23,11 @@ Permission is pending, and AMC questions are not included in this repository.
 <p><em>Illustrative session in the actual UI, using a sample transcript and model responses. Click the image to view it at full size.</em></p>
 </td>
 <td width="50%" valign="top">
-<p><strong>Record thinking:</strong> speak for up to a minute, then review and edit the transcription alongside your written work.</p>
-<p><strong>Get feedback:</strong> check the final answer and mathematical reasoning separately. An optional inference model provides deeper review and hints that the student reveals when ready.</p>
-<p><strong>See learning and emotion-related signals:</strong> the backend evaluates expressed confidence, clarity, and engagement or frustration from the original speech transcript. These provisional text-based observations are separate from mathematical correctness; they are not validated measurements of emotion or fixed learner traits.</p>
+<p><strong>Record thinking:</strong> talk through your approach as you work. AI speech recognition turns up to a minute of spoken reasoning into an editable draft. Review the transcript, correct any recognition errors, and refine your explanation before sending it to the tutoring agent.</p>
+<p><strong>Get feedback:</strong> the tutoring agent combines answer checks with AI review of your reasoning, assessing each separately. When your answer or explanation needs another look, a deeper reasoning model can ask for clarification or offer a focused hint. Reveal the hint when you are ready, revise your approach, and submit again to check your progress.</p>
+<p><em>Experimental learning signals explore confidence, clarity, and engagement expressed in the original speech transcript. They are not validated emotion assessments.</em></p>
 <p><em>Interactive model features require the optional connections below.</em></p>
-<p><strong>Planned development:</strong> use practice history, reasoning feedback, and learning signals to recommend suitable questions and adapt study approaches, pacing, and hint timing. These recommendations are not implemented yet.</p>
+<p><strong>Planned development:</strong> explore recommendations for questions and study approaches using practice history, feedback, and experimental learning signals. Recommendations are not implemented yet.</p>
 </td>
 </tr>
 </table>
