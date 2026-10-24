@@ -3,9 +3,10 @@
 Use this folder to convert a question collection into the JSON format used by
 Math Practice. The example contains four original Grade 7 questions, covering
 numeric, multiple-choice, short-answer, and explanation responses, plus a diagram.
-These are original format illustrations with no separate license specified.
-Use the actual terms for your own collection. This folder does not change the
-licenses of the application or other banks.
+The template, original example questions, solutions, and diagram are licensed
+under [CC BY-NC 4.0](../LICENSE), like the project's original code and documentation.
+Use the actual license or permission terms for your own collection; importing
+a bank does not change its license.
 
 The importer accepts prepared JSON and figure files. It does not extract questions
 from PDFs, documents, spreadsheets, or websites. Transcribe or convert those

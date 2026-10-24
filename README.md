@@ -123,9 +123,18 @@ bank. It excludes private configuration, logs, caches, raw source collections,
 processing reports, AMC content, and imported custom banks. Do not force-add
 local files with `git add -f`; review staged changes before publishing.
 
-The question bank and its adaptations retain upstream **CC BY-NC 4.0** terms,
+## License
+
+Copyright (c) 2026 Ruoqing Zhu and contributors.
+
+Unless otherwise noted, this project's original code, documentation, question
+templates, sample questions, and artwork are licensed under **Creative Commons
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. See the full
+[license](LICENSE) and the [official license summary](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Third-party material retains its own licenses and required attributions.
+The Chinese question bank and its adaptations retain upstream **CC BY-NC 4.0** terms,
 attribution, and modification notices. Both source questions and translations
 are AI-generated and not teacher reviewed. See
 [bank attribution](cn-math-bank/NOTICE.md) and
-[third-party notices](THIRD_PARTY_NOTICES.md). No new license for the harness code
-is granted by the question-bank license.
+[third-party notices](THIRD_PARTY_NOTICES.md), including the bundled KaTeX MIT license.

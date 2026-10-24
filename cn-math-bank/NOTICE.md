@@ -23,9 +23,9 @@ record retains modification details. Metadata paths to processing-side originals
 are historical references outside this distribution. This adaptation is not endorsed by the upstream authors.
 The upstream materials and translations carry no correctness warranty.
 
-The copied `LICENSE` documents upstream rights in imported material and adapted
-content. It does not make a new blanket licensing decision for the author's own
-harness, converter code, documentation, or unrelated third-party assets. That
-decision is deferred for investigation. Noncommercial use and free-of-charge
+This bank's `LICENSE` documents upstream rights in imported material and adapted
+content. Original project code, documentation, templates, and examples are also
+licensed under CC BY-NC 4.0; see the [repository license](../LICENSE). Unrelated
+third-party assets retain their own licenses. Noncommercial use and free-of-charge
 distribution are different concepts; this notice adds no extra restriction to
 the upstream license. AMC content is not included in this repository.

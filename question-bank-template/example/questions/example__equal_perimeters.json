@@ -18,7 +18,8 @@
   "skill": ["skill:geometry:perimeter-area", "skill:reasoning:counterexample"],
   "Meta": {
     "Attribution": "Math Practice contributors; original example question",
-    "License": "Original example material; no separate license specified",
+    "License": "CC-BY-NC-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
     "SolutionSource": "Original worked solution for this example; no external source"
   }
 }

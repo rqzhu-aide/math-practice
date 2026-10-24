@@ -8,5 +8,6 @@
 - **KaTeX:** bundled locally under its existing MIT license. The distribution
   and its fonts retain the notices under `math-practice/vendor/katex/`.
 
-The question-bank license does not license the harness code or unrelated
-dependencies. No AMC questions, solutions, or figures are part of this repository.
+The repository's [CC BY-NC 4.0 license](LICENSE) covers original project material.
+It does not replace third-party licenses or their attribution requirements.
+No AMC questions, solutions, or figures are part of this repository.
