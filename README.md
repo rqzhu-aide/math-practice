@@ -55,25 +55,35 @@ judged. Add some thinking to open the worked solution. Drafts and your notebook
 stay in the browser. Opening `math-practice/index.html` directly also supports
 practice without model services; microphone input needs the local server.
 
-## Bring your own questions
+## Use your own question bank
 
-The [question-bank template](question-bank-template/) publishes the JSON protocol,
-schemas, original sample questions, and diagram format used by the UI. Convert
-your collection into that format, keeping its answers, solutions, and source
-attribution together. Try the included example from the repository root:
+Use the [question-bank template](question-bank-template/README.md) to process your
+own questions into the shared JSON format, then use the Math Practice UI to serve
+and practice the processed questions. The template includes schemas, four example
+questions, a diagram, and a conversion guide. Preserve each question's answer,
+worked solution, figures, and source attribution when preparing your collection.
+
+From the repository root, replace `path/to/your-bank` with your prepared bank
+folder and run:
 
 ```sh
-python scripts/import_question_bank.py question-bank-template/example --check
-python scripts/import_question_bank.py question-bank-template/example
+python scripts/import_question_bank.py path/to/your-bank --check
+python scripts/import_question_bank.py path/to/your-bank
+python scripts/serve_math_practice.py
 ```
 
-Reload practice and choose **Example: Grade 7 geometry** in the bank selector.
-Replace the example path with your own bank folder to install another collection. The
-importer checks the format and referenced figures, then prepares both the UI
-data and the backend reference records. Imported banks support ordinary practice
-without models and the same optional AI feedback when models are configured.
-They stay in ignored `custom-banks/`; importing does not publish your collection.
-See the template guide for conversion, updates, and answer-checking limits.
+The importer validates the prepared JSON and referenced figures, then generates
+the UI data and backend reference records. It does not extract questions from
+PDFs or other raw sources. Open [Math Practice](http://127.0.0.1:8877/math-practice/)
+and select your bank to browse questions, submit answers, and explore solutions.
+Ordinary practice works without models; configured models add the same optional
+speech input and AI feedback available for the included bank.
+
+To try the supplied examples, use `question-bank-template/example` as the bank
+folder. Add `--replace` when importing an updated version of an existing bank,
+then reload practice. Imported banks stay in ignored `custom-banks/`; importing
+does not publish your collection or change its license. See the template guide
+for conversion details and answer-checking limits.
 
 ## Optional local models
 
