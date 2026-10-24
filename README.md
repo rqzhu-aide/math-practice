@@ -16,25 +16,21 @@ Permission is pending, and AMC questions are not included in this repository.
 
 ## Interactive practice
 
-![Math Practice showing the Record thinking control, mathematical feedback, a progressive hint, and Confidence, Clarity, and Engagement learning signals.](docs/images/interactive-practice.png)
-
-*Illustrative session in the actual UI, using a sample transcript and model
-responses. Interactive model features require the optional connections below.*
-
-- **Record thinking:** speak for up to a minute, then review and edit the
-  transcription alongside your written work.
-- **Get feedback:** check the final answer and mathematical reasoning separately.
-  An optional inference model provides deeper review and hints that the student
-  reveals when ready.
-- **See learning and emotion-related signals:** the backend evaluates expressed
-  confidence, clarity, and engagement or frustration from the original speech
-  transcript. These provisional text-based observations are separate from
-  mathematical correctness; they are not validated measurements of emotion or
-  fixed learner traits.
-
-**Planned development:** use practice history, reasoning feedback, and learning
-signals to recommend suitable questions and adapt study approaches, pacing, and
-hint timing. These recommendations are not implemented yet.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="docs/images/interactive-practice.png"><img src="docs/images/interactive-practice.png" width="100%" alt="Math Practice showing the Record thinking control, mathematical feedback, a progressive hint, and Confidence, Clarity, and Engagement learning signals."></a>
+<p><em>Illustrative session in the actual UI, using a sample transcript and model responses. Click the image to view it at full size.</em></p>
+</td>
+<td width="50%" valign="top">
+<p><strong>Record thinking:</strong> speak for up to a minute, then review and edit the transcription alongside your written work.</p>
+<p><strong>Get feedback:</strong> check the final answer and mathematical reasoning separately. An optional inference model provides deeper review and hints that the student reveals when ready.</p>
+<p><strong>See learning and emotion-related signals:</strong> the backend evaluates expressed confidence, clarity, and engagement or frustration from the original speech transcript. These provisional text-based observations are separate from mathematical correctness; they are not validated measurements of emotion or fixed learner traits.</p>
+<p><em>Interactive model features require the optional connections below.</em></p>
+<p><strong>Planned development:</strong> use practice history, reasoning feedback, and learning signals to recommend suitable questions and adapt study approaches, pacing, and hint timing. These recommendations are not implemented yet.</p>
+</td>
+</tr>
+</table>
 
 ## Start practicing
 
