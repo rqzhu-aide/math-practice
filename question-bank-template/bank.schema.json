@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Math Practice custom bank manifest",
+  "description": "Editor aid for bank.json. Run the importer for validation of the complete bank and its cross-file relationships.",
+  "type": "object",
+  "required": ["id", "label", "attribution", "license"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "maxLength": 48,
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$",
+      "description": "Stable namespace, such as school_geometry. Use single underscores between nonempty parts."
+    },
+    "label": {"type": "string", "minLength": 1},
+    "attribution": {"type": "string", "minLength": 1},
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The actual license or permission terms covering this bank. This field does not grant rights."
+    },
+    "sourceURL": {"type": "string", "pattern": "^https?://[^\\s]+$"}
+  }
+}

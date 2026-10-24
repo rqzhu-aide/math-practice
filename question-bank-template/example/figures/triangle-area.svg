@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="270" viewBox="0 0 420 270" role="img" aria-labelledby="title description">
+  <title id="title">Triangle with base 14 cm and perpendicular height 9 cm</title>
+  <desc id="description">Triangle ABC has horizontal base AB. A dashed perpendicular from C to the base marks a height of 9 cm. The base is labelled 14 cm. The drawing is not to scale.</desc>
+  <rect width="420" height="270" fill="white"/>
+  <g fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 60 210 L 360 210 L 145 50 Z"/>
+    <path d="M 145 50 V 210" stroke-dasharray="6 5"/>
+    <path d="M 145 197 H 158 V 210" stroke-width="1.5"/>
+  </g>
+  <g fill="#1e293b" font-family="Arial, sans-serif" font-size="18">
+    <text x="45" y="228">A</text>
+    <text x="365" y="228">B</text>
+    <text x="139" y="37">C</text>
+    <text x="210" y="242" text-anchor="middle">14 cm</text>
+    <text x="161" y="135">9 cm</text>
+  </g>
+  <text x="210" y="264" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="12">Not to scale</text>
+</svg>

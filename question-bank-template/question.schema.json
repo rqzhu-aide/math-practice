@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Math Practice custom question 2.0",
+  "description": "Custom-bank contract extending the bundled SchemaVersion 2.0 fields. The importer additionally checks namespaces, filenames, grouping, answers, and figure files.",
+  "type": "object",
+  "required": [
+    "ID", "Bank", "SchemaVersion", "ResponseType", "Language", "Level", "Grade",
+    "CurriculumUnit", "Batch", "Number", "Topic", "Question", "Choices",
+    "Correct Answer", "Solution", "domain", "skill", "Meta"
+  ],
+  "properties": {
+    "ID": {
+      "type": "string",
+      "maxLength": 120,
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*__[A-Za-z0-9_]+$",
+      "description": "Must start with the manifest id followed by __. Save as questions/<ID>.json."
+    },
+    "Bank": {"type": "string", "maxLength": 48, "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"},
+    "SchemaVersion": {"const": "2.0"},
+    "ResponseType": {"enum": ["choice", "numeric", "short", "self"]},
+    "GradingStatus": {"enum": ["gradable", "disputed"]},
+    "GradingNote": {"type": "string", "minLength": 1},
+    "Answer Form": {"enum": ["decimal", "standard-monomial", "ordered-list"]},
+    "Language": {"type": "string", "minLength": 1, "description": "Language tag, for example en or zh-CN. The interface labels remain English."},
+    "Year": {"type": ["integer", "null"]},
+    "Grade": {"type": "integer", "minimum": 0},
+    "CurriculumUnit": {"type": "string", "minLength": 1},
+    "Level": {"type": "string", "minLength": 1},
+    "Batch": {"type": "string", "minLength": 1, "description": "Must equal Topic.id."},
+    "Number": {"type": "integer", "minimum": 1},
+    "Area": {"type": "string"},
+    "Difficulty": {"type": "string"},
+    "Topic": {
+      "type": "object",
+      "required": ["id", "label"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "label": {"type": "string", "minLength": 1}
+      }
+    },
+    "Question": {"type": "string", "minLength": 1},
+    "Question Type": {"enum": ["text", "mixed", "figure"], "default": "text"},
+    "Choices Type": {"enum": ["text", "figure"], "default": "text"},
+    "Choices": {
+      "type": "object",
+      "patternProperties": {"^[A-E]$": {"type": "string", "minLength": 1}},
+      "additionalProperties": false
+    },
+    "Correct Answer": {"type": "string", "minLength": 1},
+    "Accepted Answers": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true,
+      "description": "Additional literal answers for short questions only. Empty arrays are permitted for other response types."
+    },
+    "Rejected Answers": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "Unordered Answers": {"type": "boolean"},
+    "Solution": {"type": "string", "minLength": 1},
+    "domain": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^domain:[a-z0-9-]+$"}
+    },
+    "skill": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^skill:[a-zA-Z0-9:_-]+$"}
+    },
+    "Meta": {
+      "type": "object",
+      "required": ["Attribution", "License", "SolutionSource"],
+      "properties": {
+        "Attribution": {"type": "string", "minLength": 1},
+        "License": {"type": "string", "minLength": 1},
+        "SolutionSource": {"type": "string", "minLength": 1},
+        "SourceURL": {"type": "string", "pattern": "^https?://[^\\s]+$"},
+        "SourceQuestionID": {"type": "string"},
+        "SourceTopicID": {"type": "string"},
+        "SourceRevision": {"type": "string"},
+        "LicenseURL": {"type": "string", "pattern": "^https?://[^\\s]+$"},
+        "Modifications": {"type": "array", "items": {"type": "string"}},
+        "Original": {"type": "object", "description": "Optional original source record or transcription, before translation or adaptation."},
+        "Translation": {"type": "object"},
+        "LabelProvenance": {"type": "string"},
+        "Figures": {"type": "array"},
+        "FigureSources": {"type": "object"},
+        "QualityCorrections": {"type": "array"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"ResponseType": {"const": "choice"}}, "required": ["ResponseType"]},
+      "then": {
+        "properties": {
+          "Choices": {"minProperties": 2, "maxProperties": 5},
+          "Correct Answer": {"enum": ["A", "B", "C", "D", "E"]}
+        }
+      },
+      "else": {"properties": {"Choices": {"maxProperties": 0}}}
+    },
+    {
+      "if": {"properties": {"ResponseType": {"not": {"const": "short"}}}, "required": ["ResponseType"]},
+      "then": {"properties": {"Accepted Answers": {"maxItems": 0}}}
+    },
+    {
+      "if": {"properties": {"GradingStatus": {"const": "disputed"}}, "required": ["GradingStatus"]},
+      "then": {"required": ["GradingNote"]}
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Only the standalone harness, runtime, tests, and processed Chinese bank belong here.
+# Only the harness, runtime, public question template, and processed Chinese bank belong here.
 /*
 !/.gitignore
 !/.gitattributes
@@ -9,6 +9,19 @@
 !/scripts/
 !/cn-math-bank/
 !/docs/
+!/question-bank-template/
+
+/question-bank-template/*
+!/question-bank-template/README.md
+!/question-bank-template/*.schema.json
+!/question-bank-template/example/
+/question-bank-template/example/*
+!/question-bank-template/example/bank.json
+!/question-bank-template/example/questions/
+!/question-bank-template/example/figures/
+
+# Banks installed by users are local content, never included automatically.
+/custom-banks/
 
 /docs/*
 !/docs/images/
@@ -33,6 +46,8 @@
 !/scripts/openai_connection.py
 !/scripts/practice_tutor.py
 !/scripts/question_answers.py
+!/scripts/question_banks.py
+!/scripts/import_question_bank.py
 !/scripts/test_*.py
 
 /cn-math-bank/*

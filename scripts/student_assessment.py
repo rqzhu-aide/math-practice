@@ -8,6 +8,7 @@ import re
 import urllib.error
 import urllib.request
 from question_answers import exact_answer_category, answer_form_feedback, enforce_answer_form, not_graded_result
+from question_banks import BankError, custom_question_path
 
 ROOT = Path(__file__).resolve().parents[1]
 OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
@@ -112,9 +113,10 @@ class ModelConfig:
 
 
 class StudentAssessment:
-    def __init__(self, config=None, cn_bank_root=None):
+    def __init__(self, config=None, cn_bank_root=None, root=ROOT):
         self.config = config or ModelConfig.from_environment()
-        self.cn_bank_root = cn_bank_root or ROOT / 'cn-math-bank/questions'
+        self.root = root
+        self.cn_bank_root = cn_bank_root or root / 'cn-math-bank/questions'
         self.active_base = None
         self.decision_mode = 'isolated'
 
@@ -171,10 +173,18 @@ class StudentAssessment:
         if re.fullmatch(r'cnm_(?:p\d{3}|\d{3}|h\d{3}|s\d{3})_q\d+', question_id):
             path = self.cn_bank_root / (question_id + '.json')
         else:
-            raise AssessmentError('Choose a question from the bank first.', 400)
+            try:
+                path = custom_question_path(question_id, self.root)
+            except BankError:
+                path = None
+            if path is None:
+                raise AssessmentError('Choose a question from the bank first.', 400)
         if not path.is_file():
             raise AssessmentError('This question is not in the question bank.', 404)
-        return json.loads(path.read_text(encoding='utf-8'))
+        question = json.loads(path.read_text(encoding='utf-8'))
+        if question.get('ID') != question_id or ('__' in question_id and question.get('Bank') != question_id.split('__', 1)[0]):
+            raise AssessmentError('The installed question does not match its bank. Import the bank again.', 400)
+        return question
 
     def submission(self, attempt):
         if not isinstance(attempt, dict):

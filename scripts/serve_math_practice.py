@@ -18,9 +18,10 @@ from connection_settings import ConnectionSettings, SettingsError
 from openai_connection import OpenAIConnection
 from model_connections import model_status, test_speech, test_inference, transcribe, MAX_AUDIO_BYTES
 from practice_tutor import review_submission
+from question_banks import BankError, custom_asset_path
 
 ROOT = Path(__file__).resolve().parents[1]
-ENGINE_VERSION = 'public-v1'
+ENGINE_VERSION = 'public-v2'
 
 
 def engine_instance(root=ROOT):
@@ -28,12 +29,14 @@ def engine_instance(root=ROOT):
 
 
 class Handler(BaseHTTPRequestHandler):
-    def send_bytes(self, status, data, content_type):
+    def send_bytes(self, status, data, content_type, content_security_policy=None):
         self.send_response(status)
         self.send_header('Content-Type', content_type)
         self.send_header('Content-Length', str(len(data)))
         self.send_header('X-Content-Type-Options', 'nosniff')
         self.send_header('Cache-Control', 'no-store')
+        if content_security_policy:
+            self.send_header('Content-Security-Policy', content_security_policy)
         self.end_headers()
         try:
             self.wfile.write(data)
@@ -195,6 +198,20 @@ class Handler(BaseHTTPRequestHandler):
             return
         if relative in ('', 'math-practice', 'math-practice/'):
             relative = 'math-practice/index.html'
+        if relative.startswith('custom-banks/'):
+            try:
+                asset = custom_asset_path(relative, ROOT)
+            except BankError:
+                asset = None
+            if asset is None:
+                return self.error_json(404, 'File not found.')
+            if relative == 'custom-banks/banks.js':
+                data = asset.read_bytes() if asset.is_file() else b'window.CUSTOM_MATH_BANKS = [];\n'
+                return self.send_bytes(200, data, 'text/javascript; charset=utf-8')
+            if not asset.is_file():
+                return self.error_json(404, 'File not found.')
+            return self.send_bytes(200, asset.read_bytes(), mimetypes.guess_type(asset.name)[0] or 'application/octet-stream',
+                                   content_security_policy="sandbox; default-src 'none'; style-src 'unsafe-inline'")
         allowed = (relative in ('math-practice/index.html', 'cn-math-bank/bank.js',
                                'math-practice/answer-check.js',
                                'math-practice/settings.html', 'math-practice/settings.css', 'math-practice/settings.js',

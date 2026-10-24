@@ -1,0 +1,25 @@
+{
+  "ID": "example__triangle_area",
+  "Bank": "example",
+  "SchemaVersion": "2.0",
+  "ResponseType": "numeric",
+  "Language": "en",
+  "Level": "Middle school",
+  "Grade": 7,
+  "CurriculumUnit": "Perimeter and area",
+  "Batch": "area",
+  "Number": 1,
+  "Topic": {"id": "area", "label": "Area and algebraic expressions"},
+  "Question Type": "mixed",
+  "Question": "In triangle \\(ABC\\), base \\(AB = 14\\) cm and the perpendicular height from \\(C\\) to \\(AB\\) is \\(9\\) cm. Find the area of the triangle in square centimetres. Enter the number only.\n\n[Figure 1](figures/triangle-area.svg)",
+  "Choices": {},
+  "Correct Answer": "63",
+  "Solution": "The area of a triangle is half the product of its base and perpendicular height:\n\\[A = \\frac{1}{2} \\times 14 \\times 9 = 63.\\]\nThe area is \\(63\\) square centimetres.",
+  "domain": ["domain:geometry"],
+  "skill": ["skill:geometry:triangle-area"],
+  "Meta": {
+    "Attribution": "Math Practice contributors; original example question and diagram",
+    "License": "Original example material; no separate license specified",
+    "SolutionSource": "Original worked solution for this example; no external source"
+  }
+}

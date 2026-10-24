@@ -59,6 +59,8 @@ class DistributionTests(unittest.TestCase):
             'math-practice/amc-bank.js', 'question bank/questions/example.json',
             'cn-math-bank/source/raw.json', 'cn-math-bank/reports/check.json',
             'math-practice/test/screenshots/example.png', 'unrelated-personal-file.txt',
+            'custom-banks/banks.js', 'custom-banks/private/questions/private__one.json',
+            'question-bank-template/private-notes.txt',
         ]
         result = subprocess.run(['git', 'check-ignore', '-z', '--stdin'], cwd=ROOT,
                                 input=('\0'.join(private_paths) + '\0').encode(),

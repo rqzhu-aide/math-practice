@@ -55,6 +55,26 @@ judged. Add some thinking to open the worked solution. Drafts and your notebook
 stay in the browser. Opening `math-practice/index.html` directly also supports
 practice without model services; microphone input needs the local server.
 
+## Bring your own questions
+
+The [question-bank template](question-bank-template/) publishes the JSON protocol,
+schemas, original sample questions, and diagram format used by the UI. Convert
+your collection into that format, keeping its answers, solutions, and source
+attribution together. Try the included example from the repository root:
+
+```sh
+python scripts/import_question_bank.py question-bank-template/example --check
+python scripts/import_question_bank.py question-bank-template/example
+```
+
+Reload practice and choose **Example: Grade 7 geometry** in the bank selector.
+Replace the example path with your own bank folder to install another collection. The
+importer checks the format and referenced figures, then prepares both the UI
+data and the backend reference records. Imported banks support ordinary practice
+without models and the same optional AI feedback when models are configured.
+They stay in ignored `custom-banks/`; importing does not publish your collection.
+See the template guide for conversion, updates, and answer-checking limits.
+
 ## Optional local models
 
 Open **Settings → Connection settings**. Each connection is independent. Enter
@@ -98,10 +118,10 @@ The harness does not save audio. Runtime logs and optional account work files
 stay in ignored `.local/`.
 
 The Git allowlist includes application code, bundled assets, tests, documentation
-and its UI screenshot, and the processed Chinese bank. It excludes private
-configuration, logs, caches, raw source collections, processing reports, and AMC
-content. Do not force-add local
-files with `git add -f`; review staged changes before publishing.
+and its UI screenshot, the public question template, and the processed Chinese
+bank. It excludes private configuration, logs, caches, raw source collections,
+processing reports, AMC content, and imported custom banks. Do not force-add
+local files with `git add -f`; review staged changes before publishing.
 
 The question bank and its adaptations retain upstream **CC BY-NC 4.0** terms,
 attribution, and modification notices. Both source questions and translations

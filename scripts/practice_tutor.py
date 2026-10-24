@@ -7,6 +7,7 @@ import re
 from model_connections import request
 from student_assessment import AssessmentError, ModelConfig, ROOT, ANSWER_CREDIT_POLICY
 from question_answers import exact_answer_category, answer_category, answer_form_feedback, not_graded_result
+from question_banks import BankError, bank_root_for_question
 
 SCHEMA = {'type': 'object', 'additionalProperties': False,
           'properties': {'category': {'type': 'string', 'enum': ['correct', 'wrong', 'partial']},
@@ -75,7 +76,10 @@ def validate_review(text, known_answer=None, known_category=None, form_feedback=
 def question_images(question, root=ROOT):
     """Provide source figures as pixels, including image-only questions/choices."""
     urls, names = [], []
-    bank_root = root / 'cn-math-bank'
+    try:
+        bank_root = bank_root_for_question(question, root)
+    except BankError as exc:
+        raise AssessmentError(str(exc), 503) from None
     figure_root = (bank_root / 'figures').resolve()
     texts = [question['Question'], *question['Choices'].values(), question.get('Solution', '')]
     for text in texts:
@@ -131,7 +135,7 @@ def review_submission(assessor, settings, openai, attempt):
         raise AssessmentError('A tutor review requires a wrong, partial, or unresolved answer or reasoning result.', 400)
     known_category = exact_answer_category(question, answer)
     known_answer = {'correct': True, 'wrong': False}.get(known_category)
-    images, image_names = question_images(question)
+    images, image_names = question_images(question, root=assessor.root)
     prompt = json.dumps({'reference': {'question': question['Question'], 'choices': question['Choices'],
                                      'answer': question['Correct Answer'], 'solution': question.get('Solution', ''),
                                      'responseType': question.get('ResponseType', 'choice'), 'acceptedAnswers': question.get('Accepted Answers', []),

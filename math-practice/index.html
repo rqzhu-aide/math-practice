@@ -153,7 +153,7 @@
   .bank-choice { margin: 0 0 16px; max-width: 350px; }
   .bank-choice select, .pool-selects select { max-width: 100%; }
   .pool-selects > .field-inline { max-width: 100%; }
-  .pool-selects[data-bank="cn-math"] #topicField { flex: 1; min-width: 160px; }
+  .pool-selects[data-navigation="curriculum"] #topicField { flex: 1; min-width: 160px; }
   .free-answer { min-width: 0; min-height: 44px; width: 100%; max-width: 360px; flex: 1; padding: 10px 12px; border: 1px solid var(--field-line); border-radius: 10px; font: inherit; color: var(--ink); background: var(--input-surface); }
   .free-answer:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
   .written-answer textarea.free-answer { max-width: none; min-height: 118px; line-height: 1.5; }
@@ -885,10 +885,10 @@ summary { cursor: pointer; }
 .bank-choice { max-width: none; }
 .pool-selects { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0; }
 .pool-selects select { width: 100%; min-width: 0; }
-.pool-selects[data-bank="cn-math"] #topicField { min-width: 0; }
-.pool-selects[data-bank="cn-math"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.pool-selects[data-bank="cn-math"] #topicField { grid-column: 1 / -1; }
-.pool-selects[data-bank="cn-math"] .pool-reset { grid-column: 2; }
+.pool-selects[data-navigation="curriculum"] #topicField { min-width: 0; }
+.pool-selects[data-navigation="curriculum"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.pool-selects[data-navigation="curriculum"] #topicField { grid-column: 1 / -1; }
+.pool-selects[data-navigation="curriculum"] .pool-reset { grid-column: 2; }
 .pool-reset { grid-column: 4; justify-self: end; }
 .field-inline label, .answer-label { text-transform: none; letter-spacing: 0; font-size: .8125rem; font-weight: 600; }
 .pool-hint { font-size: .8125rem; line-height: 1.6; }
@@ -1215,6 +1215,7 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
 </div>
 
 <script src="../cn-math-bank/bank.js"></script>
+<script src="../custom-banks/banks.js"></script>
 <script src="answer-check.js"></script>
 <script src="vendor/katex/katex.min.js"></script>
 <script src="vendor/katex/contrib/auto-render.min.js"></script>
@@ -1270,9 +1271,12 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
 
   /* ---------- Question pool ---------- */
 
-  var BANKS = [window.AMC_BANK, window.CN_MATH_BANK].filter(function (b) { return b && b.questions.length; });
+  var customBanks = Array.isArray(window.CUSTOM_MATH_BANKS) ? window.CUSTOM_MATH_BANKS : [];
+  var BANKS = [window.AMC_BANK, window.CN_MATH_BANK].concat(customBanks).filter(function (b) { return b && Array.isArray(b.questions) && b.questions.length; });
   var BANK = BANKS[0] || { id: 'cn-math', questions: [] };
-  var questionIndex = {};
+  function usesGradeNavigation(bank) { return bank !== window.AMC_BANK; }
+  var cnSourceNotice = Array.prototype.slice.call($('sourceNotice').childNodes || []);
+  var questionIndex = Object.create(null);
   BANKS.forEach(function (bank) { bank.questions.forEach(function (q) { questionIndex[q.id] = { question: q, bank: bank }; }); });
   Object.keys(attempts).forEach(function (id) {
     var draft = attempts[id];
@@ -1368,7 +1372,7 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
     saveAttempt();
     BANK = source.bank; pool.bank.value = BANK.id || 'amc'; configureBank(); fillYears();
     pool.level.value = q.level; fillYearOptions();
-    pool.year.value = String(q.bank === 'cn-math' ? q.grade : q.year); fillBatches();
+    pool.year.value = String(usesGradeNavigation(BANK) ? q.grade : q.year); fillBatches();
     pool.batch.value = q.batch; fillNums();
     pool.num.value = String(q.number); loadQuestion();
     $('problemPicker').open = false;
@@ -1415,14 +1419,14 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
     sel.replaceChildren.apply(sel, opts);
   }
   function uniq(arr) {
-    var seen = {}, out = [];
+    var seen = Object.create(null), out = [];
     arr.forEach(function (v) { if (!seen[v]) { seen[v] = 1; out.push(v); } });
     return out;
   }
   function qsIn(level, year, batch) {
     return BANK.questions.filter(function (q) {
       return (level == null || q.level === level) &&
-             (year == null || (BANK.id === 'cn-math' ? q.grade : q.year) === year) &&
+             (year == null || (usesGradeNavigation(BANK) ? q.grade : q.year) === year) &&
              (batch == null || q.batch === batch);
     });
   }
@@ -1457,7 +1461,7 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
   }
 
   function fillYears() {
-    var levelsPresent = {};
+    var levelsPresent = Object.create(null);
     BANK.questions.forEach(function (q) { levelsPresent[q.level] = 1; });
     var levels = Object.keys(levelsPresent).sort();
     setOptions(pool.level, levels.map(function (l) { return [l, l]; }));
@@ -1466,9 +1470,9 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
   }
   function fillYearOptions() {
     var l = pool.level.value;
-    var cn = BANK.id === 'cn-math';
-    var years = uniq(qsIn(l, null, null).map(function (q) { return cn ? q.grade : q.year; })).sort(function (a, b) { return cn ? a-b : b-a; });
-    setOptions(pool.year, years.map(function (y) { var sample = qsIn(l,y,null)[0]; return [y, cn ? sample.unit : y]; }), cn ? 'Choose grade / unit' : '— year —');
+    var curriculum = usesGradeNavigation(BANK);
+    var years = uniq(qsIn(l, null, null).map(function (q) { return curriculum ? q.grade : q.year; })).sort(function (a, b) { return curriculum ? a-b : b-a; });
+    setOptions(pool.year, years.map(function (y) { var sample = qsIn(l,y,null)[0]; return [y, curriculum ? sample.unit : y]; }), curriculum ? 'Choose grade / unit' : '— year —');
     pool.year.value = "";
     fillBatches();
   }
@@ -1483,7 +1487,7 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
     }
     pool.batch.disabled = false;
     var batches = uniq(qsIn(l, y, null).map(function (q) { return q.batch; })).sort();
-    function batchLabel(b) { var q = qsIn(l, y, b)[0]; return BANK.id === 'cn-math' && q.topic ? q.topic.label : b; }
+    function batchLabel(b) { var q = qsIn(l, y, b)[0]; return usesGradeNavigation(BANK) && q.topic ? q.topic.label : b; }
     if (batches.length === 1) {
       /* nothing to choose (e.g. AMC 8): auto-resolve and lock */
       setOptions(pool.batch, batches.map(function (b) { return [b, batchLabel(b)]; }));
@@ -1492,7 +1496,7 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
       fillNums();
       return;
     }
-    setOptions(pool.batch, batches.map(function (b) { return [b, batchLabel(b)]; }), BANK.id === 'cn-math' ? 'Choose topic' : '— batch —');
+    setOptions(pool.batch, batches.map(function (b) { return [b, batchLabel(b)]; }), usesGradeNavigation(BANK) ? 'Choose topic' : '— batch —');
     pool.batch.value = "";
     fillNums();
   }
@@ -1694,10 +1698,14 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
 
     if (sol && q.solutionSource) {
       var sourceLine = el("p", "pool-hint", "Solution source: ");
-      var sourceLink = el("a", null, q.solutionSource === "live-poshenloh" ? "LIVE past contest archive" : q.solutionSource);
-      sourceLink.href = q.sourceURL || "https://live.poshenloh.com/past-contests";
-      sourceLink.target = "_blank"; sourceLink.rel = "noopener";
-      sourceLine.appendChild(sourceLink);
+      var sourceText = q.solutionSource === "live-poshenloh" ? "LIVE past contest archive" : q.solutionSource;
+      var sourceURL = httpURL(q.sourceURL);
+      if (sourceURL) {
+        var sourceLink = el("a", null, sourceText);
+        sourceLink.href = sourceURL;
+        sourceLink.target = "_blank"; sourceLink.rel = "noopener noreferrer";
+        sourceLine.appendChild(sourceLink);
+      } else sourceLine.appendChild(document.createTextNode(sourceText));
       body.appendChild(sourceLine);
     }
     solBody.replaceChildren(body);
@@ -1767,15 +1775,35 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
 
   function configureBank() {
     var cn = BANK.id === 'cn-math';
-    pool.count.textContent = BANK.questions.length + (cn ? ' English questions' : ' problems banked');
-    $('yearLabel').textContent = cn ? 'Grade / unit' : 'Year';
-    $('batchLabel').textContent = cn ? 'Topic' : 'Batch';
+    var curriculum = usesGradeNavigation(BANK);
+    pool.count.textContent = BANK.questions.length + (cn ? ' English questions' : curriculum ? (BANK.questions.length === 1 ? ' question' : ' questions') : ' problems banked');
+    $('yearLabel').textContent = curriculum ? 'Grade / unit' : 'Year';
+    $('batchLabel').textContent = curriculum ? 'Topic' : 'Batch';
     $('poolSelectors').dataset.bank = BANK.id || 'amc';
-    $('sourceNotice').hidden = !cn;
-    pool.hint.textContent = cn ? 'Explore a curriculum topic, or start with a problem below.' : 'Start with an AMC 8 problem, or browse the collection above.';
+    $('poolSelectors').dataset.navigation = curriculum ? 'curriculum' : 'contest';
+    var notice = $('sourceNotice');
+    if (cn) notice.replaceChildren.apply(notice, cnSourceNotice);
+    else {
+      notice.replaceChildren();
+      if (curriculum) {
+        if (BANK.attribution) notice.appendChild(document.createTextNode(BANK.attribution + ' · '));
+        notice.appendChild(document.createTextNode('Source: '));
+        var source = el('a', null, BANK.label || BANK.id), sourceURL = httpURL(BANK.sourceURL);
+        if (sourceURL) { source.href = sourceURL; source.target = '_blank'; source.rel = 'noopener noreferrer'; }
+        else source = document.createTextNode(BANK.label || BANK.id);
+        notice.appendChild(source);
+        if (BANK.license) notice.appendChild(document.createTextNode(' · License: ' + BANK.license));
+      }
+    }
+    notice.hidden = !curriculum;
+    pool.hint.textContent = cn ? 'Explore a curriculum topic, or start with a problem below.' : curriculum ? 'Explore a topic, or start with a problem below.' : 'Start with an AMC 8 problem, or browse the collection above.';
+  }
+  function httpURL(value) {
+    try { var url = new URL(value); return url.protocol === 'http:' || url.protocol === 'https:' ? url.href : null; }
+    catch (_) { return null; }
   }
   function questionTitle(q) {
-    return q.bank === 'cn-math' ? q.unit + ' · ' + q.topic.label + ' · Problem ' + q.number : q.level + ' ' + q.year + (q.batch !== 'NA' ? ' ' + q.batch : '') + ' · Problem ' + q.number;
+    return usesGradeNavigation(questionIndex[q.id].bank) ? q.unit + ' · ' + q.topic.label + ' · Problem ' + q.number : q.level + ' ' + q.year + (q.batch !== 'NA' ? ' ' + q.batch : '') + ' · Problem ' + q.number;
   }
 
   function el(tag, cls, text) {
