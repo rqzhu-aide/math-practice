@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connections · Math Practice</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="settings.css">
+  <link rel="stylesheet" href="theme.css">
+  <script src="settings.js" defer></script>
+</head>
+<body class="settings-page">
+<div class="page">
+  <header>
+    <a class="back-link" href="./">Back to practice</a>
+    <div class="settings-header-actions"><span class="app-name">Math Practice</span>
+      <div class="theme-toggle" role="group" aria-label="Appearance">
+        <button class="theme-choice" type="button" data-theme-choice="light" aria-label="Light theme" aria-pressed="true" title="Light theme"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg></button>
+        <button class="theme-choice" type="button" data-theme-choice="dark" aria-label="Dark theme" aria-pressed="false" title="Dark theme"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"></path></svg></button>
+      </div></div>
+  </header>
+  <main>
+    <h1>Connections</h1>
+    <p class="intro">Add optional models for decisions, speech, and deeper mathematical reasoning. Answer checks and solutions work without them.</p>
+    <p id="pageStatus" class="page-status" role="status">Loading saved settings…</p>
+    <div class="actions">
+      <button type="button" class="secondary" id="loadConfiguration">Load Configuration</button>
+      <button type="button" class="secondary" id="testConnections">Test Connection</button>
+      <button type="button" class="primary" id="saveConfiguration" hidden>Save Configuration</button>
+    </div>
+    <p class="help">Settings come from <code>config.json</code> beside <code>index.html</code>. To start the local engine, open <strong>Start Math Practice.cmd</strong> in the same folder.</p>
+
+    <section data-model-role="decision" aria-labelledby="decisionTitle">
+      <div class="section-head"><h2 id="decisionTitle">Decision model</h2><span id="decisionBadge" class="badge">Not tested</span></div>
+      <p class="section-description">Reads original speech for learning signals and checks submitted answers and edited reasoning independently.</p>
+      <form id="decisionForm">
+        <div class="field">
+          <label for="decisionBases">Server addresses</label>
+          <textarea id="decisionBases" rows="2" spellcheck="false" placeholder="http://localhost:8000" aria-describedby="decisionHelp"></textarea>
+          <p class="help" id="decisionHelp">Optional. Leave addresses and model ID blank to disable. Use one address per line for a service with the typed decision API at /v1/systemone.</p>
+        </div>
+        <div class="field-pair">
+          <div class="field"><label for="decisionModel">Model ID</label><input id="decisionModel" type="text" placeholder="Your model ID" maxlength="200" spellcheck="false"></div>
+          <div class="field"><label for="decisionKey">API key</label><input id="decisionKey" type="password" autocomplete="new-password" maxlength="4096" aria-describedby="decisionKeyHelp"><p id="decisionKeyHelp" class="help">Leave blank to keep the configured key.</p></div>
+        </div>
+        <div class="actions"><button type="submit" class="primary" id="saveDecision">Save decision settings</button><button type="button" class="secondary" id="testDecision">Test decision model</button></div>
+        <p id="decisionResult" class="result" role="status" tabindex="-1">Test sends a short example to the addresses entered above.</p>
+      </form>
+    </section>
+
+    <section data-model-role="speech" aria-labelledby="speechTitle">
+      <div class="section-head"><h2 id="speechTitle">Speech to text</h2><span id="speechBadge" class="badge">Not tested</span></div>
+      <p class="section-description">Turns spoken thinking into a text draft for the student to review.</p>
+      <form id="speechForm">
+        <div class="field">
+          <label for="speechBases">Server addresses</label>
+          <textarea id="speechBases" rows="2" spellcheck="false" placeholder="http://localhost:8000" aria-describedby="speechHelp"></textarea>
+          <p class="help" id="speechHelp">Optional. Leave addresses and model ID blank to disable. Use one address per line for a service that accepts WAV audio at /v1/audio/transcriptions.</p>
+        </div>
+        <div class="field-pair">
+          <div class="field"><label for="speechModel">Model ID</label><input id="speechModel" type="text" placeholder="Your model ID" maxlength="200" spellcheck="false"></div>
+          <div class="field"><label for="speechKey">API key</label><input id="speechKey" type="password" autocomplete="new-password" maxlength="4096" aria-describedby="speechKeyHelp"><p id="speechKeyHelp" class="help">Leave blank to keep the configured key.</p></div>
+        </div>
+        <div class="actions"><button type="submit" class="primary" id="saveSpeech">Save speech settings</button><button type="button" class="secondary" id="testSpeech">Test speech to text</button></div>
+        <p id="speechResult" class="result" role="status" tabindex="-1">Test sends a one-second silent WAV to check the connection. It does not use your microphone.</p>
+      </form>
+    </section>
+
+    <section data-model-role="inference" aria-labelledby="inferenceTitle">
+      <div class="section-head"><h2 id="inferenceTitle">Inference model</h2><span id="inferenceBadge" class="badge">Not tested</span></div>
+      <p class="section-description">Reviews your math and prepares hints when your answer or explanation needs another look.</p>
+      <form id="inferenceForm">
+        <div class="field">
+          <label for="inferenceProvider">Connection</label>
+          <select id="inferenceProvider"><option value="api" selected>Compatible API</option><option value="codex">Codex account</option></select>
+        </div>
+        <div id="codexConnection" hidden>
+          <p id="accountStatus" class="account-status" role="status">Choose Codex account to check sign-in on this computer.</p>
+          <div class="account-actions actions">
+            <button type="button" class="secondary" id="loginOpenai" disabled>Sign in with OpenAI</button>
+            <button type="button" class="text-button" id="refreshOpenai">Refresh status</button>
+            <button type="button" class="text-button" id="cancelLogin" hidden>Cancel sign-in</button>
+          </div>
+          <div id="deviceLogin" class="device-login" hidden>
+            <p>Enter this code on OpenAI’s website:</p>
+            <div class="device-actions"><code id="deviceCode"></code><button type="button" class="secondary" id="copyCode">Copy code</button></div>
+            <a id="deviceLink" class="back-link" target="_blank" rel="noreferrer">Open OpenAI sign-in</a>
+            <p class="help">Return here after signing in. The status updates automatically.</p>
+          </div>
+          <p class="help account-help">Uses this computer’s Codex account. Sign-in happens on OpenAI’s website; credentials stay in the backend.</p>
+        </div>
+        <div id="inferenceApiFields">
+          <div class="field">
+            <label for="inferenceBases">Server addresses</label>
+            <textarea id="inferenceBases" rows="2" spellcheck="false" placeholder="http://localhost:8000" aria-describedby="inferenceHelp"></textarea>
+            <p class="help" id="inferenceHelp">Optional. Leave addresses and model ID blank to disable. Use one address per line for a compatible chat-completions API. A base address may include /v1.</p>
+          </div>
+          <div class="field"><label for="inferenceKey">API key</label><input id="inferenceKey" type="password" autocomplete="new-password" maxlength="4096" aria-describedby="inferenceKeyHelp"><p id="inferenceKeyHelp" class="help">Leave blank to keep the configured key.</p></div>
+        </div>
+        <div class="field-pair">
+          <div class="field"><label for="inferenceModel">Model ID</label><input id="inferenceModel" type="text" placeholder="Your model ID" maxlength="200" spellcheck="false"></div>
+          <div class="field" id="effortField" hidden><label for="inferenceEffort">Reasoning effort</label><select id="inferenceEffort"><option value="low">Low</option><option value="medium" selected>Medium</option><option value="high">High</option><option value="xhigh">Extra high</option><option value="max">Maximum</option></select></div>
+        </div>
+        <div class="actions"><button type="submit" class="primary" id="saveInference">Save inference settings</button><button type="button" class="secondary" id="testInference" disabled>Test inference model</button></div>
+        <p id="inferenceResult" class="result" role="status" tabindex="-1">Test runs one short request with the connection and model entered above.</p>
+      </form>
+    </section>
+
+    <div class="workflow-note" aria-labelledby="workflowTitle">
+      <h2 id="workflowTitle">How these connections are used</h2>
+      <p>Practice checks supported answers against the supplied answer key. Thinking is checked only when a decision or inference model is configured. A speech connection adds transcription; a decision connection adds learning signals from original speech. With an inference connection, unresolved work receives a deeper review and optional hints.</p>
+      <p class="help">Saving or opening this page does not start inference or use your microphone.</p>
+    </div>
+  </main>
+  <footer><span>Settings apply to this local installation. Your practice drafts stay in the browser.</span><span class="site-credit">Developed by Ruoqing Zhu · <a href="https://github.com/rqzhu-aide" target="_blank" rel="noopener noreferrer">GitHub: rqzhu-aide</a></span></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "ID": "cnm_p175_q3",
+  "Bank": "cn-math",
+  "SchemaVersion": "2.0",
+  "Year": null,
+  "Level": "Primary",
+  "Grade": 5,
+  "CurriculumUnit": "Grade 5",
+  "Batch": "cnm_p175",
+  "Number": 3,
+  "Area": "Probability and statistics",
+  "domain": [
+    "domain:probability-statistics"
+  ],
+  "skill": [
+    "skill:cn:cnm_p175"
+  ],
+  "Topic": {
+    "id": "cnm_p175",
+    "label": "Line Graphs"
+  },
+  "Difficulty": "standard",
+  "Language": "en",
+  "ResponseType": "numeric",
+  "Question Type": "text",
+  "Choices Type": "text",
+  "Question": "20 books were checked out on Monday, and 15 books were checked out on Tuesday. How many fewer books were checked out on Tuesday than on Monday? Calculate: \\(20-15=\\,?\\)",
+  "Choices": {},
+  "Correct Answer": "5",
+  "Accepted Answers": [],
+  "Unordered Answers": false,
+  "Solution": "\\(20-15=5\\).",
+  "Meta": {
+    "SourceURL": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+    "SourceRevision": "62b341d4b66b175413d6e3f697e37639fd96aa2d",
+    "SourceQuestionID": "cnm_p175_q3",
+    "SourceTopicID": "cnm_p175",
+    "SolutionSource": "cn-math-taxonomy (AI-generated; not teacher reviewed)",
+    "License": "CC-BY-NC-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "Attribution": "xiaoyang111222/cn-math-taxonomy contributors",
+    "Modifications": [
+      "Converted to learning-harness schema",
+      "English translation"
+    ],
+    "Translation": {
+      "status": "machine-translated",
+      "humanReviewed": false,
+      "model": "gpt-6.1-sol (xhigh)"
+    },
+    "LabelProvenance": "Domain from upstream category; provisional skill from upstream topic, not a formula-level judgment.",
+    "Original": {
+      "id": "cnm_p175_q3",
+      "topicId": "cnm_p175",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "星期一借出 20 本，星期二借出 15 本。星期二比星期一少几本？计算：20－15＝？",
+      "answer": "5",
+      "explanation": "20－15＝5。",
+      "verify": "20-15"
+    },
+    "FigureSources": {},
+    "Figures": []
+  }
+}

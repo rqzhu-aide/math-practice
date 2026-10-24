@@ -1,0 +1,11 @@
+{
+  "decision": {"bases": [], "model": "", "apiKey": ""},
+  "speech": {"bases": [], "model": "", "apiKey": ""},
+  "inference": {
+    "provider": "api",
+    "bases": [],
+    "model": "",
+    "effort": "medium",
+    "apiKey": ""
+  }
+}

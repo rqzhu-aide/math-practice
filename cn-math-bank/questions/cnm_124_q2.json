@@ -1,0 +1,87 @@
+{
+  "ID": "cnm_124_q2",
+  "Bank": "cn-math",
+  "SchemaVersion": "2.0",
+  "Year": null,
+  "Level": "Middle school",
+  "Grade": 8,
+  "CurriculumUnit": "Grade 8",
+  "Batch": "cnm_124",
+  "Number": 2,
+  "Area": "Geometry",
+  "domain": [
+    "domain:geometry"
+  ],
+  "skill": [
+    "skill:cn:cnm_124"
+  ],
+  "Topic": {
+    "id": "cnm_124",
+    "label": "Congruence Criteria: Angle-Side-Angle (ASA) and Angle-Angle-Side (AAS)"
+  },
+  "Difficulty": "basic",
+  "Language": "en",
+  "ResponseType": "choice",
+  "Question Type": "text",
+  "Choices Type": "text",
+  "Question": "In \\(\\triangle ABC\\) and \\(\\triangle DEF\\), \\(\\angle A=\\angle D\\), \\(AB=DE\\), and \\(\\angle B=\\angle E\\). Which criterion establishes congruence?",
+  "Choices": {
+    "A": "AAS",
+    "B": "SAS",
+    "C": "ASA",
+    "D": "SSS"
+  },
+  "Correct Answer": "C",
+  "Accepted Answers": [],
+  "Unordered Answers": false,
+  "Solution": "\\(AB\\) is the common included side between \\(\\angle A\\) and \\(\\angle B\\), and \\(DE\\) is the included side between \\(\\angle D\\) and \\(\\angle E\\). Two angles and their included side are respectively equal, so the criterion is ASA.",
+  "Meta": {
+    "SourceURL": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+    "SourceRevision": "62b341d4b66b175413d6e3f697e37639fd96aa2d",
+    "SourceQuestionID": "cnm_124_q2",
+    "SourceTopicID": "cnm_124",
+    "SolutionSource": "cn-math-taxonomy (AI-generated; not teacher reviewed)",
+    "License": "CC-BY-NC-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "Attribution": "xiaoyang111222/cn-math-taxonomy contributors",
+    "Modifications": [
+      "Converted to learning-harness schema",
+      "English translation"
+    ],
+    "Translation": {
+      "status": "machine-translated",
+      "humanReviewed": false,
+      "model": "gpt-6.1-sol (xhigh)"
+    },
+    "LabelProvenance": "Domain from upstream category; provisional skill from upstream topic, not a formula-level judgment.",
+    "Original": {
+      "id": "cnm_124_q2",
+      "topicId": "cnm_124",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "△ABC 与 △DEF 中，∠A=∠D，AB=DE，∠B=∠E，可判定全等，依据是：",
+      "answer": "C",
+      "choices": [
+        {
+          "key": "A",
+          "text": "AAS"
+        },
+        {
+          "key": "B",
+          "text": "SAS"
+        },
+        {
+          "key": "C",
+          "text": "ASA"
+        },
+        {
+          "key": "D",
+          "text": "SSS"
+        }
+      ],
+      "explanation": "AB 是 ∠A、∠B 的公共夹边，DE 是 ∠D、∠E 的夹边，两角及其夹边对应相等，依据 ASA。"
+    },
+    "FigureSources": {},
+    "Figures": []
+  }
+}

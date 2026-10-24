@@ -1,0 +1,88 @@
+{
+  "ID": "cnm_p130_q4",
+  "Bank": "cn-math",
+  "SchemaVersion": "2.0",
+  "Year": null,
+  "Level": "Primary",
+  "Grade": 4,
+  "CurriculumUnit": "Grade 4",
+  "Batch": "cnm_p130",
+  "Number": 4,
+  "Area": "Probability and statistics",
+  "domain": [
+    "domain:probability-statistics"
+  ],
+  "skill": [
+    "skill:cn:cnm_p130"
+  ],
+  "Topic": {
+    "id": "cnm_p130",
+    "label": "Double Bar Graphs"
+  },
+  "Difficulty": "standard",
+  "Language": "en",
+  "ResponseType": "choice",
+  "Question Type": "text",
+  "Choices Type": "text",
+  "Question": "Which is the result of \\(20+14\\)?",
+  "Choices": {
+    "A": "24",
+    "B": "30",
+    "C": "34",
+    "D": "36"
+  },
+  "Correct Answer": "C",
+  "Accepted Answers": [],
+  "Unordered Answers": false,
+  "Solution": "\\(20+14=34\\).",
+  "Meta": {
+    "SourceURL": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+    "SourceRevision": "62b341d4b66b175413d6e3f697e37639fd96aa2d",
+    "SourceQuestionID": "cnm_p130_q4",
+    "SourceTopicID": "cnm_p130",
+    "SolutionSource": "cn-math-taxonomy (AI-generated; not teacher reviewed)",
+    "License": "CC-BY-NC-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "Attribution": "xiaoyang111222/cn-math-taxonomy contributors",
+    "Modifications": [
+      "Converted to learning-harness schema",
+      "English translation"
+    ],
+    "Translation": {
+      "status": "machine-translated",
+      "humanReviewed": false,
+      "model": "gpt-6.1-sol (xhigh)"
+    },
+    "LabelProvenance": "Domain from upstream category; provisional skill from upstream topic, not a formula-level judgment.",
+    "Original": {
+      "id": "cnm_p130_q4",
+      "topicId": "cnm_p130",
+      "difficulty": "standard",
+      "type": "choice",
+      "prompt": "20＋14 的得数是哪一个？",
+      "choices": [
+        {
+          "key": "A",
+          "text": "24"
+        },
+        {
+          "key": "B",
+          "text": "30"
+        },
+        {
+          "key": "C",
+          "text": "34"
+        },
+        {
+          "key": "D",
+          "text": "36"
+        }
+      ],
+      "answer": "C",
+      "explanation": "20＋14＝34。",
+      "verify": "20+14"
+    },
+    "FigureSources": {},
+    "Figures": []
+  }
+}

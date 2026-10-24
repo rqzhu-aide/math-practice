@@ -1,0 +1,88 @@
+{
+  "ID": "cnm_p161_q4",
+  "Bank": "cn-math",
+  "SchemaVersion": "2.0",
+  "Year": null,
+  "Level": "Primary",
+  "Grade": 5,
+  "CurriculumUnit": "Grade 5",
+  "Batch": "cnm_p161",
+  "Number": 4,
+  "Area": "Geometry",
+  "domain": [
+    "domain:geometry"
+  ],
+  "skill": [
+    "skill:cn:cnm_p161"
+  ],
+  "Topic": {
+    "id": "cnm_p161",
+    "label": "Surface Area of a Rectangular Prism"
+  },
+  "Difficulty": "standard",
+  "Language": "en",
+  "ResponseType": "choice",
+  "Question Type": "text",
+  "Choices Type": "text",
+  "Question": "Which of the following is the value of \\(4\\times4\\times6\\)?",
+  "Choices": {
+    "A": "96",
+    "B": "16",
+    "C": "48",
+    "D": "64"
+  },
+  "Correct Answer": "A",
+  "Accepted Answers": [],
+  "Unordered Answers": false,
+  "Solution": "The surface area of a cube with an edge length of 4 is 96.",
+  "Meta": {
+    "SourceURL": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+    "SourceRevision": "62b341d4b66b175413d6e3f697e37639fd96aa2d",
+    "SourceQuestionID": "cnm_p161_q4",
+    "SourceTopicID": "cnm_p161",
+    "SolutionSource": "cn-math-taxonomy (AI-generated; not teacher reviewed)",
+    "License": "CC-BY-NC-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "Attribution": "xiaoyang111222/cn-math-taxonomy contributors",
+    "Modifications": [
+      "Converted to learning-harness schema",
+      "English translation"
+    ],
+    "Translation": {
+      "status": "machine-translated",
+      "humanReviewed": false,
+      "model": "gpt-6.1-sol (xhigh)"
+    },
+    "LabelProvenance": "Domain from upstream category; provisional skill from upstream topic, not a formula-level judgment.",
+    "Original": {
+      "id": "cnm_p161_q4",
+      "topicId": "cnm_p161",
+      "difficulty": "standard",
+      "type": "choice",
+      "prompt": "4×4×6 的得数是哪一个？",
+      "choices": [
+        {
+          "key": "A",
+          "text": "96"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "48"
+        },
+        {
+          "key": "D",
+          "text": "64"
+        }
+      ],
+      "answer": "A",
+      "explanation": "棱长 4 的正方体表面积是 96。",
+      "verify": "4*4*6"
+    },
+    "FigureSources": {},
+    "Figures": []
+  }
+}

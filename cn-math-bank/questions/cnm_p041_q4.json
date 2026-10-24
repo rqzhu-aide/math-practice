@@ -1,0 +1,65 @@
+{
+  "ID": "cnm_p041_q4",
+  "Bank": "cn-math",
+  "SchemaVersion": "2.0",
+  "Year": null,
+  "Level": "Primary",
+  "Grade": 2,
+  "CurriculumUnit": "Grade 2",
+  "Batch": "cnm_p041",
+  "Number": 4,
+  "Area": "Geometry",
+  "domain": [
+    "domain:geometry"
+  ],
+  "skill": [
+    "skill:cn:cnm_p041"
+  ],
+  "Topic": {
+    "id": "cnm_p041",
+    "label": "Introduction to Meters"
+  },
+  "Difficulty": "standard",
+  "Language": "en",
+  "ResponseType": "numeric",
+  "Question Type": "text",
+  "Choices Type": "text",
+  "Question": "The flagpole is about 3 meters tall, and the lectern is about 1 meter long. About how many meters taller is the flagpole than the lectern? Calculate: \\(3-1=?\\)",
+  "Choices": {},
+  "Correct Answer": "2",
+  "Accepted Answers": [],
+  "Unordered Answers": false,
+  "Solution": "\\(3-1=2\\).",
+  "Meta": {
+    "SourceURL": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+    "SourceRevision": "62b341d4b66b175413d6e3f697e37639fd96aa2d",
+    "SourceQuestionID": "cnm_p041_q4",
+    "SourceTopicID": "cnm_p041",
+    "SolutionSource": "cn-math-taxonomy (AI-generated; not teacher reviewed)",
+    "License": "CC-BY-NC-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "Attribution": "xiaoyang111222/cn-math-taxonomy contributors",
+    "Modifications": [
+      "Converted to learning-harness schema",
+      "English translation"
+    ],
+    "Translation": {
+      "status": "machine-translated",
+      "humanReviewed": false,
+      "model": "gpt-6.1-sol (xhigh)"
+    },
+    "LabelProvenance": "Domain from upstream category; provisional skill from upstream topic, not a formula-level judgment.",
+    "Original": {
+      "id": "cnm_p041_q4",
+      "topicId": "cnm_p041",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "旗杆高约 3 米，讲台长约 1 米。旗杆比讲台大约高几米？计算：3－1＝？",
+      "answer": "2",
+      "explanation": "3－1＝2。",
+      "verify": "3-1"
+    },
+    "FigureSources": {},
+    "Figures": []
+  }
+}

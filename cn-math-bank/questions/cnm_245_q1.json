@@ -1,0 +1,82 @@
+{
+  "ID": "cnm_245_q1",
+  "Bank": "cn-math",
+  "SchemaVersion": "2.0",
+  "Year": null,
+  "Level": "Middle school",
+  "Grade": 9,
+  "CurriculumUnit": "Grade 9",
+  "Batch": "cnm_245",
+  "Number": 1,
+  "Area": "Geometry",
+  "domain": [
+    "domain:geometry"
+  ],
+  "skill": [
+    "skill:cn:cnm_245"
+  ],
+  "Topic": {
+    "id": "cnm_245",
+    "label": "Properties of Rotations"
+  },
+  "Difficulty": "basic",
+  "Language": "en",
+  "ResponseType": "choice",
+  "Question Type": "text",
+  "Choices Type": "text",
+  "Question": "What relationships hold between corresponding line segments and corresponding angles before and after a rotation?",
+  "Choices": {
+    "A": "Corresponding line segments are equal in length, and corresponding angles are equal",
+    "B": "Corresponding line segments are proportional, and corresponding angles are equal",
+    "C": "Corresponding line segments are equal in length, and corresponding angles are supplementary"
+  },
+  "Correct Answer": "A",
+  "Accepted Answers": [],
+  "Unordered Answers": false,
+  "Solution": "The figures before and after a rotation are congruent, so corresponding line segments are equal in length and corresponding angles are equal.",
+  "Meta": {
+    "SourceURL": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+    "SourceRevision": "62b341d4b66b175413d6e3f697e37639fd96aa2d",
+    "SourceQuestionID": "cnm_245_q1",
+    "SourceTopicID": "cnm_245",
+    "SolutionSource": "cn-math-taxonomy (AI-generated; not teacher reviewed)",
+    "License": "CC-BY-NC-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "Attribution": "xiaoyang111222/cn-math-taxonomy contributors",
+    "Modifications": [
+      "Converted to learning-harness schema",
+      "English translation"
+    ],
+    "Translation": {
+      "status": "machine-translated",
+      "humanReviewed": false,
+      "model": "gpt-6.1-sol (xhigh)"
+    },
+    "LabelProvenance": "Domain from upstream category; provisional skill from upstream topic, not a formula-level judgment.",
+    "Original": {
+      "id": "cnm_245_q1",
+      "topicId": "cnm_245",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "旋转前后对应线段、对应角有何关系？",
+      "answer": "A",
+      "choices": [
+        {
+          "key": "A",
+          "text": "对应线段相等，对应角相等"
+        },
+        {
+          "key": "B",
+          "text": "对应线段成比例，对应角相等"
+        },
+        {
+          "key": "C",
+          "text": "对应线段相等，对应角互补"
+        }
+      ],
+      "explanation": "旋转前后的图形全等，所以对应线段分别相等，对应角分别相等。"
+    },
+    "FigureSources": {},
+    "Figures": []
+  }
+}
