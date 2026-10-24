@@ -1,4 +1,6 @@
-# Math Practice
+# math-practice
+
+Repository: [rqzhu-aide/math-practice](https://github.com/rqzhu-aide/math-practice).
 
 A local mathematics practice space developed by [Ruoqing Zhu](https://github.com/rqzhu-aide).
 Includes **3,355 processed Chinese curriculum questions**, displayed in English,
