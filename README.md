@@ -3,16 +3,21 @@
 Repository: [rqzhu-aide/math-practice](https://github.com/rqzhu-aide/math-practice).
 
 A local mathematics practice space developed by [Ruoqing Zhu](https://github.com/rqzhu-aide).
-Includes **3,355 processed Chinese curriculum questions**, displayed in English,
-with answers, worked solutions, diagrams, and preserved Chinese originals.
-These are adapted from the Chinese K-12 mathematics repository
+Includes **5,435 AMC questions and answer keys** and **3,355 processed Chinese
+curriculum questions**, displayed in English. The Chinese bank includes worked
+solutions, diagrams, and preserved Chinese originals. It is adapted from the Chinese K-12 mathematics repository
 [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy),
 with source attribution and modification details preserved. There is no frontend
 build step.
 
-We are currently requesting permission from the **Mathematical Association of
-America (MAA)** to include **American Mathematics Competitions (AMC)** questions.
-Permission is pending, and AMC questions are not included in this repository.
+The **American Mathematics Competitions (AMC)** material is credited to the
+**[Mathematical Association of America (MAA)](https://maa.org/student-programs/amc/)**
+and shared with permission under **CC BY-NC-SA 4.0**. This bank includes all 195
+papers in our processed AMC 8, AMC 10, and AMC 12 collection, including historical
+predecessors. The two included official MAA solution booklets cover 2023 AMC 8
+and 2022 AMC 10A, totaling 50 questions, and open from their matching questions.
+Copied LIVE by Po-Shen Loh worked solutions are not included. Other AMC questions
+provide answer keys and source links. See [AMC coverage and attribution](amc-bank/README.md).
 
 ## Interactive practice
 
@@ -47,11 +52,13 @@ Open [Math Practice](http://127.0.0.1:8877/math-practice/). Keep the terminal ru
 On Windows, you can instead double-click **Start Math Practice.cmd** to start the
 server in the background and open practice. If the port is occupied, add
 `--port 8878` to the Python command and use that port in the browser.
+After updating the repository, stop and restart any running Math Practice server
+so it can serve newly added banks and official solution booklets.
 
 Choose **Try a problem** or browse by level, unit, and topic. Enter an answer,
 write your thinking, and submit. Without models, known answers are checked
 locally; reasoning and unfamiliar symbolic or open answers are not automatically
-judged. Add some thinking to open the worked solution. Drafts and your notebook
+judged. Add some thinking to open the answer and available solution. Drafts and your notebook
 stay in the browser. Opening `math-practice/index.html` directly also supports
 practice without model services; microphone input needs the local server.
 
@@ -75,7 +82,7 @@ python scripts/serve_math_practice.py
 The importer validates the prepared JSON and referenced figures, then generates
 the UI data and backend reference records. It does not extract questions from
 PDFs or other raw sources. Open [Math Practice](http://127.0.0.1:8877/math-practice/)
-and select your bank to browse questions, submit answers, and explore solutions.
+and select your bank to browse questions, submit answers, and explore included solutions.
 Ordinary practice works without models; configured models add the same optional
 speech input and AI feedback available for the included bank.
 
@@ -128,9 +135,9 @@ The harness does not save audio. Runtime logs and optional account work files
 stay in ignored `.local/`.
 
 The Git allowlist includes application code, bundled assets, tests, documentation
-and its UI screenshot, the public question template, and the processed Chinese
-bank. It excludes private configuration, logs, caches, raw source collections,
-processing reports, AMC content, and imported custom banks. Do not force-add
+and its UI screenshot, the public question template, and the published AMC and
+Chinese banks. It excludes private configuration, logs, caches, raw source
+collections, processing reports, copied third-party AMC solutions, and imported custom banks. Do not force-add
 local files with `git add -f`; review staged changes before publishing.
 
 ## License
@@ -142,9 +149,19 @@ templates, sample questions, and artwork are licensed under **Creative Commons
 Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. See the full
 [license](LICENSE) and the [official license summary](https://creativecommons.org/licenses/by-nc/4.0/).
 
-Third-party material retains its own licenses and required attributions.
-The Chinese question bank and its adaptations retain upstream **CC BY-NC 4.0** terms,
-attribution, and modification notices. Both source questions and translations
-are AI-generated and not teacher reviewed. See
-[bank attribution](cn-math-bank/NOTICE.md) and
-[third-party notices](THIRD_PARTY_NOTICES.md), including the bundled KaTeX MIT license.
+Different parts of this repository have different licenses:
+
+| Material | Attribution | License |
+| --- | --- | --- |
+| Original app, documentation, template, and examples | Ruoqing Zhu and contributors | [CC BY-NC 4.0](LICENSE) |
+| AMC questions, answer keys, included diagrams, official MAA solution booklets, and our adaptations of AMC material | Mathematical Association of America (MAA); transcription provenance credits LIVE by Po-Shen Loh | [CC BY-NC-SA 4.0](amc-bank/LICENSE) |
+| Chinese K-12 questions and our adaptations | [xiaoyang111222/cn-math-taxonomy contributors](https://github.com/xiaoyang111222/cn-math-taxonomy) | [CC BY-NC 4.0](cn-math-bank/LICENSE) |
+| Bundled KaTeX and fonts | KaTeX contributors | MIT and retained font notices |
+
+AMC adaptations must retain ShareAlike terms. The original app license does not
+replace the AMC license. Preserve attribution, license links, and modification
+notices when sharing either bank. See [AMC notices](amc-bank/NOTICE.md),
+[Chinese bank notices](cn-math-bank/NOTICE.md), and
+[third-party notices](THIRD_PARTY_NOTICES.md). The Chinese source questions and
+English translations are AI-generated and not teacher reviewed. None of these
+attributions implies endorsement of Math Practice by the source authors.

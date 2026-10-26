@@ -1,0 +1,49 @@
+{
+  "Year": 1996,
+  "Level": "AMC 12",
+  "Batch": "NA",
+  "Area": "Unclassified",
+  "Number": 7,
+  "Question": "A father takes his twins and a younger child out to dinner on the twins’ birthday. The restaurant charges \\(\\$4.95\\) for the father and \\(\\$0.45\\) for each year of a child’s age, where age is defined as the age at the most recent birthday. If the bill is \\(\\$9.45,\\) which of the following could be the age of the youngest child?",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(1\\)",
+    "B": "\\(2\\)",
+    "C": "\\(3\\)",
+    "D": "\\(4\\)",
+    "E": "\\(5\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "B",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "Pending topic curation",
+    "Concepts": "linear Diophantine equations; age problems",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc12/1996/solutions",
+    "SourceSHA256": "b1d80c6134a966f372117d5107b2c5af62ef48702126ea45581c7791c33ca38a",
+    "Figures": [],
+    "FigureSources": {},
+    "SourceQuestionCount": 30,
+    "HistoricalSeries": "AHSME",
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "1996_AMC_12_Q07",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [],
+  "skill": []
+}

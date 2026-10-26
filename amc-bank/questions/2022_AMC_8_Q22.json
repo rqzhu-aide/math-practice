@@ -1,0 +1,56 @@
+{
+  "Year": 2022,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Prealgebra",
+  "Number": 22,
+  "Question": "A bus takes \\(2\\) minutes to drive from one stop to the next, and waits \\(1\\) minute at each stop to let passengers board. Zia takes \\(5\\) minutes to walk from one bus stop to the next. As Zia reaches a bus stop, if the bus is at the previous stop or has already left the previous stop, then she will wait for the bus. Otherwise she will start walking toward the next stop. Suppose the bus and Zia start at the same time toward the library, with the bus \\(3\\) stops behind. After how many minutes will Zia board the bus?\n\n[Figure 1](figures/2022_AMC_8_Q22_question_fig1.svg)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(17\\)",
+    "B": "\\(19\\)",
+    "C": "\\(20\\)",
+    "D": "\\(21\\)",
+    "E": "\\(23\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "A",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.70",
+    "Concepts": "process simulation; distance rate and time",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2022/solutions",
+    "SourceSHA256": "f6ad07a456359e4a04c57b5f7113696c7dfb0efd7fa5aa98d9fc2b7c9e8650bd",
+    "Figures": [
+      "figures/2022_AMC_8_Q22_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2022_AMC_8_Q22_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2022/22.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2022_AMC_8_Q22",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

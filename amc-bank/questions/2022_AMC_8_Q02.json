@@ -1,0 +1,49 @@
+{
+  "Year": 2022,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Prealgebra",
+  "Number": 2,
+  "Question": "Consider these two operations: \\[\\begin{align*} a\\,\\blacklozenge\\,b &= a^2 - b^2 \\\\ a \\star b &= (a - b)^2 \\end{align*}\\]\n\nCompute the value:\n\n\\[ (5\\,\\blacklozenge\\,3) \\star 6 \\]",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(-20\\)",
+    "B": "\\(4\\)",
+    "C": "\\(16\\)",
+    "D": "\\(100\\)",
+    "E": "\\(220\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "D",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.74",
+    "Concepts": "custom operation; order of operations",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2022/solutions",
+    "SourceSHA256": "f6ad07a456359e4a04c57b5f7113696c7dfb0efd7fa5aa98d9fc2b7c9e8650bd",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2022_AMC_8_Q02",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

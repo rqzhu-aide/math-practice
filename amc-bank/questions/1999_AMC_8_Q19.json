@@ -1,0 +1,49 @@
+{
+  "Year": 1999,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Unclassified",
+  "Number": 19,
+  "Question": "The drummer gets sick. The concert is cancelled. Walter and Gretel must make enough pans of cookies to supply \\(216\\) cookies. There are \\(8\\) tablespoons in a stick of butter. How many sticks of butter will be needed? (Some butter may be left over, of course.)",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(5\\)",
+    "B": "\\(6\\)",
+    "C": "\\(7\\)",
+    "D": "\\(8\\)",
+    "E": "\\(9\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "B",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "Pending topic curation",
+    "Concepts": "unit conversion; floor and ceiling functions",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/1999/solutions",
+    "SourceSHA256": "04d2d255dc830e69954bca25aa04a9fe71ec71839e4ebc225c964dec588a0d6b",
+    "Figures": [],
+    "FigureSources": {},
+    "SourceQuestionCount": 25,
+    "HistoricalSeries": "AMC 8",
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "1999_AMC_8_Q19",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [],
+  "skill": []
+}

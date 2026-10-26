@@ -10,6 +10,7 @@ from question_answers import numeric_list, normalized
 ROOT = Path(__file__).resolve().parents[1]
 BANK_ID = re.compile(r'[a-z][a-z0-9]*(?:_[a-z0-9]+)*')
 QUESTION_ID = re.compile(r'[A-Za-z0-9_]{1,120}')
+AMC_QUESTION_ID = re.compile(r'\d{4}_(?:Fall_)?AMC_(?:8|10[AB]?|12[AB]?)_Q(?:0[1-9]|[1-4]\d|50)')
 FIGURE = re.compile(r'\[Figure \d+\]\(([^)]+)\)')
 FIGURE_PATH = re.compile(r'figures/[A-Za-z0-9][A-Za-z0-9_.-]*\.(?:svg|png|jpg|jpeg|webp)')
 
@@ -256,6 +257,9 @@ def custom_question_path(question_id, root=ROOT):
 def bank_root_for_question(question, root=ROOT):
     if question.get('Bank') == 'cn-math':
         return root / 'cn-math-bank'
+    if (question.get('Bank') == 'amc' and isinstance(question.get('ID'), str)
+            and AMC_QUESTION_ID.fullmatch(question['ID'])):
+        return root / 'amc-bank'
     path = custom_question_path(question.get('ID'), root)
     if path is None or question.get('Bank') != question['ID'].split('__', 1)[0]:
         raise BankError('This question does not belong to an installed bank.')

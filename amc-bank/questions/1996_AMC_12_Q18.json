@@ -1,0 +1,49 @@
+{
+  "Year": 1996,
+  "Level": "AMC 12",
+  "Batch": "NA",
+  "Area": "Unclassified",
+  "Number": 18,
+  "Question": "A circle of radius \\(2\\) has center at \\((2,0).\\) A circle of radius \\(1\\) has center at \\((5,0).\\) A line is tangent to the two circles at points in the first quadrant. Which of the following is closest to the \\(y\\)-intercept of the line?",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(\\frac{\\sqrt2}{4}\\)",
+    "B": "\\(\\frac{\\sqrt8}{3}\\)",
+    "C": "\\(1+\\sqrt3\\)",
+    "D": "\\(2\\sqrt2\\)",
+    "E": "\\(3\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "D",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "Pending topic curation",
+    "Concepts": "coordinate geometry; common tangents",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc12/1996/solutions",
+    "SourceSHA256": "b1d80c6134a966f372117d5107b2c5af62ef48702126ea45581c7791c33ca38a",
+    "Figures": [],
+    "FigureSources": {},
+    "SourceQuestionCount": 30,
+    "HistoricalSeries": "AHSME",
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "1996_AMC_12_Q18",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [],
+  "skill": []
+}

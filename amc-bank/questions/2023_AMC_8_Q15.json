@@ -1,0 +1,63 @@
+{
+  "Year": 2023,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Prealgebra",
+  "Number": 15,
+  "Question": "Viswam walks half a mile to get to school each day. His route consists of \\(10\\) city blocks of equal length and he takes one minute to walk each block. Today, after walking \\(5\\) blocks, Viswam discovers that he has to make a detour, walking \\(3\\) blocks of equal length instead of \\(1\\) block to reach the next corner. From the time he starts his detour, at what speed, in miles per hour, must Viswam walk in order to arrive at school at his usual time?\n\n[Figure 1](figures/2023_AMC_8_Q15_question_fig1.svg)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(4\\)",
+    "B": "\\(4.2\\)",
+    "C": "\\(4.5\\)",
+    "D": "\\(4.8\\)",
+    "E": "\\(5\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "B",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.90",
+    "Concepts": "distance rate and time; unit conversion",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2023/solutions",
+    "SourceSHA256": "8c29db496c61771d3c8756ea8fffce12920def81479453a1c776e1113dde3037",
+    "Figures": [
+      "figures/2023_AMC_8_Q15_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2023_AMC_8_Q15_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2023/15.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "OfficialSolution": {
+      "url": "../amc-bank/official-solutions/AMC8_2023_Solutions.pdf",
+      "sourceURL": "https://maa.org/wp-content/uploads/2024/08/2023_AMC8_Solutions_.pdf",
+      "label": "2023 AMC 8",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2023_AMC_8_Q15",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

@@ -1,0 +1,56 @@
+{
+  "Year": 2022,
+  "Level": "AMC 10",
+  "Batch": "A",
+  "Area": "Prealgebra",
+  "Number": 12,
+  "Question": "On Halloween \\(31\\) children walked into the principal’s office asking for candy. They can be classified into three types: Some always lie; some always tell the truth; and some alternately lie and tell the truth. The alternaters arbitrarily choose their first response, either a lie or the truth, but each subsequent statement has the opposite truth value from its predecessor. The principal asked everyone the same three questions in this order.\n\n“Are you a truth-teller?” The principal gave a piece of candy to each of the \\(22\\) children who answered yes.\n\n“Are you an alternater?” The principal gave a piece of candy to each of the \\(15\\) children who answered yes.\n\n“Are you a liar?” The principal gave a piece of candy to each of the \\(9\\) children who answered yes.\n\nHow many pieces of candy in all did the principal give to the children who always tell the truth?",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(7\\)",
+    "B": "\\(12\\)",
+    "C": "\\(21\\)",
+    "D": "\\(27\\)",
+    "E": "\\(31\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "A",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.59",
+    "Concepts": "truth-tellers and liars; logical deduction",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc10/2022A/solutions",
+    "SourceSHA256": "e43e7f220a244ac0aa134865b6717777598543c07095f8a1b5fab987d16c007b",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "OfficialSolution": {
+      "url": "../amc-bank/official-solutions/AMC10A_2022_Solutions.pdf",
+      "sourceURL": "https://maa.org/wp-content/uploads/2024/08/2022-AMC-10A-solutions.pdf",
+      "label": "2022 AMC 10A",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2022_AMC_10A_Q12",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

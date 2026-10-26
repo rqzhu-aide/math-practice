@@ -1,0 +1,56 @@
+{
+  "Year": 2020,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Geometry",
+  "Number": 25,
+  "Question": "Rectangles \\(R_1\\) and \\(R_2,\\) and squares \\(S_1,\\) \\(S_2,\\) and \\(S_3,\\) shown below, combine to form a rectangle that is \\(3322\\) units wide and \\(2020\\) units high. What is the side length of \\(S_2\\) in units?\n\n[Figure 1](figures/2020_AMC_8_Q25_question_fig1.svg)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(651\\)",
+    "B": "\\(655\\)",
+    "C": "\\(656\\)",
+    "D": "\\(662\\)",
+    "E": "\\(666\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "A",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.80",
+    "Concepts": "system of equations; rectangle",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2020/solutions",
+    "SourceSHA256": "be1a6cea841966b2cc427031537ce1a397804872aa4b8cd4137c70e761692179",
+    "Figures": [
+      "figures/2020_AMC_8_Q25_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2020_AMC_8_Q25_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2020/25.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2020_AMC_8_Q25",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:geometry"
+  ],
+  "skill": []
+}

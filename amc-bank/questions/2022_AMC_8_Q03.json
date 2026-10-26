@@ -1,0 +1,49 @@
+{
+  "Year": 2022,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Counting & Probability",
+  "Number": 3,
+  "Question": "When three positive integers \\(a,\\) \\(b,\\) and \\(c\\) are multiplied together, their product is \\(100.\\) Suppose \\(a < b < c.\\) In how many ways can the numbers be chosen?",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(0\\)",
+    "B": "\\(1\\)",
+    "C": "\\(2\\)",
+    "D": "\\(3\\)",
+    "E": "\\(4\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "E",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.53",
+    "Concepts": "factor; casework",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2022/solutions",
+    "SourceSHA256": "f6ad07a456359e4a04c57b5f7113696c7dfb0efd7fa5aa98d9fc2b7c9e8650bd",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2022_AMC_8_Q03",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:counting-probability"
+  ],
+  "skill": []
+}

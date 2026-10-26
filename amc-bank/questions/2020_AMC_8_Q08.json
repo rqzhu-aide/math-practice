@@ -1,0 +1,49 @@
+{
+  "Year": 2020,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Prealgebra",
+  "Number": 8,
+  "Question": "Ricardo has \\(2020\\) coins, some of which are pennies (\\(1\\)-cent coins) and the rest of which are nickels (\\(5\\)-cent coins). He has at least one penny and at least one nickel. What is the difference in cents between the greatest possible and least possible amounts of money that Ricardo can have?",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(8062\\)",
+    "B": "\\(8068\\)",
+    "C": "\\(8072\\)",
+    "D": "\\(8076\\)",
+    "E": "\\(8082\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "C",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.41",
+    "Concepts": "linear equation; optimization",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2020/solutions",
+    "SourceSHA256": "be1a6cea841966b2cc427031537ce1a397804872aa4b8cd4137c70e761692179",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2020_AMC_8_Q08",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

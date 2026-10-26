@@ -1,4 +1,4 @@
-# Only the harness, runtime, public question template, and processed Chinese bank belong here.
+# Only the harness, runtime, template, and published question banks belong here.
 /*
 !/.gitignore
 !/.gitattributes
@@ -9,6 +9,7 @@
 !/math-practice/
 !/scripts/
 !/cn-math-bank/
+!/amc-bank/
 !/docs/
 !/question-bank-template/
 
@@ -49,6 +50,7 @@
 !/scripts/question_answers.py
 !/scripts/question_banks.py
 !/scripts/import_question_bank.py
+!/scripts/export_amc_bank.py
 !/scripts/test_*.py
 
 /cn-math-bank/*
@@ -60,6 +62,18 @@
 !/cn-math-bank/LICENSE
 !/cn-math-bank/NOTICE.md
 !/cn-math-bank/README.md
+
+/amc-bank/*
+!/amc-bank/README.md
+!/amc-bank/NOTICE.md
+!/amc-bank/LICENSE
+!/amc-bank/bank.js
+!/amc-bank/sources.json
+!/amc-bank/schema.json
+!/amc-bank/taxonomy/
+!/amc-bank/questions/
+!/amc-bank/figures/
+!/amc-bank/official-solutions/
 
 # Never commit machine settings, credentials, sessions, or generated evidence.
 config.json
@@ -95,9 +109,9 @@ venv/
 reports/
 screenshots/
 
-# AMC material and raw/processing work are intentionally outside this release.
+# Raw source collections and private processing work remain outside this release.
 amc-bank.js
-*AMC*
+AMC original questions/
 question bank/
 source/
 staging/

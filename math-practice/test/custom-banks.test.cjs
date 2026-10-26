@@ -45,7 +45,16 @@ function customBank(fields = {}) {
     question('garden_math_shape', {batch: 'shapes', topic: {id: 'shapes', label: 'Shapes'}}),
     question('garden_math_grade4', {grade: 4, unit: 'Grade 4'})], ...fields};
 }
-function environment(customBanks) {
+function amcBank() {
+  const sample = {bank: 'amc', level: 'AMC 8', year: 2026, batch: 'NA', number: 1,
+    responseType: 'choice', question: 'What is 2 + 2?', choices: {A: '2', B: '4'}, answer: 'B',
+    solution: 'Adding two and two gives four.', solutionSource: 'live-poshenloh',
+    sourceURL: 'https://live.poshenloh.com/past-contests/amc8/2026/1'};
+  return {id: 'amc', label: 'AMC contests', figuresBase: '../amc-bank/figures/', questions: [
+    {id: 'amc8_2026_1', ...sample},
+    {id: 'amc8_2026_2', ...sample, number: 2, solution: '', solutionSource: ''}]};
+}
+function environment(customBanks, amc) {
   const elements = new Map(), storage = new Map(), root = new Element();
   const node = id => {
     if (!elements.has(id)) { const value = new Element(); root.appendChild(value); elements.set(id, value); }
@@ -60,6 +69,7 @@ function environment(customBanks) {
     CN_MATH_BANK: {id: 'cn-math', label: 'Chinese curriculum (English)', questions: [question('cn-sample', {
       bank: 'cn-math', grade: 1, unit: 'Grade 1', batch: 'numbers', topic: {id: 'numbers', label: 'Numbers'}})]}};
   if (customBanks !== undefined) window.CUSTOM_MATH_BANKS = customBanks;
+  if (amc) window.AMC_BANK = amc;
   const context = vm.createContext({window, document: {getElementById: node, addEventListener() {},
     body: new Element(), createElement: tag => new Element(tag), createTextNode: text},
     location: {protocol: 'file:'}, localStorage: {getItem: key => storage.get(key), setItem: (key, value) => storage.set(key, value)},
@@ -79,6 +89,113 @@ test('the optional custom bundle loads before practice starts', () => {
   const custom = index.indexOf('<script src="../custom-banks/banks.js"></script>');
   assert.ok(custom > 0);
   assert.ok(custom < index.indexOf('<script>'));
+});
+
+test('the AMC snapshot loads before practice starts and source credits stay visible', () => {
+  const amc = index.indexOf('<script src="../amc-bank/bank.js"></script>');
+  assert.ok(amc > 0);
+  assert.ok(amc < index.indexOf('<script>'));
+  const footer = index.match(/<footer>[\s\S]*?<\/footer>/)[0];
+  assert.match(footer, /href="https:\/\/maa\.org\/student-programs\/amc\/"[^>]*>Mathematical Association of America \(MAA\)<\/a>/);
+  assert.match(footer, /href="https:\/\/creativecommons\.org\/licenses\/by-nc-sa\/4\.0\/"/);
+  assert.match(footer, /href="https:\/\/github\.com\/xiaoyang111222\/cn-math-taxonomy"/);
+  assert.match(footer, /href="https:\/\/creativecommons\.org\/licenses\/by-nc\/4\.0\/"/);
+  assert.match(footer, /Developed by Ruoqing Zhu/);
+  assert.match(footer, /Original app:/);
+});
+
+test('AMC navigation, answer checks, solution provenance, and CN return work without models', async () => {
+  const env = environment([], amcBank());
+  assert.deepEqual(options(env.node('selBank')), [
+    ['cn-math', 'Chinese curriculum (English)'], ['amc', 'AMC contests']]);
+  assert.equal(env.node('selBank').value, 'cn-math');
+  await select(env, 'selBank', 'amc');
+  assert.equal(env.node('poolSelectors').dataset.navigation, 'contest');
+  assert.equal(env.node('yearLabel').textContent, 'Year');
+  assert.equal(env.node('batchLabel').textContent, 'Batch');
+  assert.equal(env.node('poolCount').textContent, '2 problems banked');
+  assert.equal(env.node('sourceNotice').hidden, false);
+  assert.match(env.node('sourceNotice').textContent, /AMC questions by Mathematical Association of America/);
+  assert.match(env.node('sourceNotice').textContent, /CC BY-NC-SA 4\.0/);
+  assert.match(env.node('sourceNotice').textContent, /Formatting and selected corrections applied\. No MAA endorsement\./);
+  assert.deepEqual(env.node('sourceNotice').children.filter(child => child.tagName === 'A').map(link => link.href), [
+    'https://maa.org/student-programs/amc/',
+    'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+    'https://github.com/rqzhu-aide/math-practice/blob/main/amc-bank/NOTICE.md']);
+  await select(env, 'selYear', 2026);
+  assert.equal(env.node('selBatch').value, 'NA');
+  assert.equal(env.node('selBatch').disabled, true);
+  await select(env, 'selNum', 1);
+  assert.equal(env.node('pickerTitle').textContent, 'AMC 8 2026 · Problem 1');
+  const choice = env.node('answerOpts').children.find(button => button.dataset.answer === 'B');
+  await choice.emit('click');
+  await env.node('thoughtsSubmit').emit('click');
+  assert.match(env.node('answerFeedback').textContent, /Correct\./);
+  await find(env.node('poolDisplay'), 'sol-btn').emit('click');
+  assert.match(env.node('solBody').textContent, /LIVE by Po-Shen Loh \(third-party solution\)/);
+  assert.doesNotMatch(env.node('solBody').textContent, /official/i);
+  await env.node('solClose').emit('click');
+  await env.node('nextProblem').emit('click');
+  await find(env.node('poolDisplay'), 'sol-btn').emit('click');
+  assert.match(env.node('solBody').textContent, /Correct answer: \(B\)/);
+  assert.match(env.node('solBody').textContent, /A worked solution for this problem is not included\./);
+  const archiveLink = find(env.node('solBody'), 'pool-hint').children.find(child => child.tagName === 'A');
+  assert.equal(archiveLink.textContent, 'View the source page at LIVE by Po-Shen Loh');
+  assert.equal(archiveLink.href, 'https://live.poshenloh.com/past-contests/amc8/2026/1');
+  assert.doesNotMatch(env.node('solBody').textContent, /Solution source:|Which idea made this solution work/);
+  await env.node('solClose').emit('click');
+  await select(env, 'selBank', 'cn-math');
+  assert.equal(env.node('sourceNotice').textContent, env.cnNotice);
+  assert.equal(env.node('yearLabel').textContent, 'Grade / unit');
+});
+
+test('disputed AMC solutions retain the historical key and explain why the problem is not graded', async () => {
+  const amc = amcBank();
+  const gradingNote = 'The printed choices do not provide a unique correct answer.';
+  amc.questions = [{...amc.questions[1], gradingStatus: 'disputed', gradingNote}];
+  const env = environment([], amc);
+  await select(env, 'selBank', 'amc');
+  await env.node('beginPractice').emit('click');
+  await find(env.node('poolDisplay'), 'sol-btn').emit('click');
+  assert.match(env.node('solBody').textContent, /Not graded\. Historical printed key: \(B\)\./);
+  assert.ok(env.node('solBody').textContent.includes(gradingNote));
+  assert.match(env.node('solBody').textContent, /A worked solution for this problem is not included\./);
+  assert.doesNotMatch(env.node('solBody').textContent, /Correct answer:|See the explanation below/);
+});
+
+for (const booklet of ['AMC8_2023_Solutions.pdf', 'AMC10A_2022_Solutions.pdf']) {
+  test(`AMC questions open the bundled official MAA booklet ${booklet}`, async () => {
+    const amc = amcBank();
+    const url = '../amc-bank/official-solutions/' + booklet;
+    amc.questions = [{...amc.questions[1], officialSolution: {url}}];
+    const env = environment([], amc);
+    await select(env, 'selBank', 'amc');
+    await env.node('beginPractice').emit('click');
+    await find(env.node('poolDisplay'), 'sol-btn').emit('click');
+    assert.match(env.node('solBody').textContent, /Correct answer: \(B\)/);
+    assert.match(env.node('solBody').textContent, /Official MAA solutions are available in the original booklet\./);
+    const link = find(env.node('solBody'), 'pool-hint').children.find(child => child.tagName === 'A');
+    assert.equal(link.href, url);
+    assert.equal(link.textContent, 'Read official MAA solutions (PDF)');
+    assert.equal(link.target, '_blank');
+    assert.equal(link.rel, 'noopener noreferrer');
+    assert.doesNotMatch(env.node('solBody').textContent, /not included|LIVE by Po-Shen Loh|Which idea made/);
+  });
+}
+
+test('unrecognized official booklet metadata retains the honest AMC source-page fallback', async () => {
+  for (const url of ['javascript:alert(1)', '../amc-bank/official-solutions/unknown.pdf', 'https://example.org/solutions.pdf']) {
+    const amc = amcBank();
+    amc.questions = [{...amc.questions[1], officialSolution: {url}}];
+    const env = environment([], amc);
+    await select(env, 'selBank', 'amc');
+    await env.node('beginPractice').emit('click');
+    await find(env.node('poolDisplay'), 'sol-btn').emit('click');
+    assert.match(env.node('solBody').textContent, /A worked solution for this problem is not included\./);
+    assert.doesNotMatch(env.node('solBody').textContent, /Official MAA solutions|Read official/);
+    const link = find(env.node('solBody'), 'pool-hint').children.find(child => child.tagName === 'A');
+    assert.equal(link.href, amc.questions[0].sourceURL);
+  }
 });
 
 for (const customBanks of [undefined, []]) {

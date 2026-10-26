@@ -1,0 +1,3537 @@
+{
+  "notice": "Historical transcription sources. Raw source pages and printouts are not distributed. MAA permission is the basis for sharing AMC material; LIVE solution text is not included.",
+  "sources": [
+    {
+      "exam": "1950_AMC_12",
+      "contest": "amc12",
+      "edition": "1950",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1950/solutions",
+      "bytes": 1738475,
+      "sha256": "e47ee75ba899b382a7a89dafda12f73ac07eb620803c5b4bfe312b3d6a8a8a0c"
+    },
+    {
+      "exam": "1950_AMC_12",
+      "contest": "amc12",
+      "edition": "1950",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1950-exam.pdf",
+      "bytes": 193083,
+      "sha256": "82413fdde2d471202b872987c48939512981fa24e3e52a2c56a71d0f801cea9a"
+    },
+    {
+      "exam": "1951_AMC_12",
+      "contest": "amc12",
+      "edition": "1951",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1951/solutions",
+      "bytes": 1757764,
+      "sha256": "16cd62a57d315232a8d921099487ee94248e2d9f87e6573d3da8284526142346"
+    },
+    {
+      "exam": "1951_AMC_12",
+      "contest": "amc12",
+      "edition": "1951",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1951-exam.pdf",
+      "bytes": 204303,
+      "sha256": "99c4840074ed0ae95dfd32522212dbe8f60b3bb77ef4e61d0f792212e2385b24"
+    },
+    {
+      "exam": "1952_AMC_12",
+      "contest": "amc12",
+      "edition": "1952",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1952/solutions",
+      "bytes": 2056808,
+      "sha256": "88f9806f95fedce22fc1e033557da042ed73d43022a4ed32a87905a7ed2412b4"
+    },
+    {
+      "exam": "1952_AMC_12",
+      "contest": "amc12",
+      "edition": "1952",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1952-exam.pdf",
+      "bytes": 205404,
+      "sha256": "5f2c37e4be84edae979d87a3e9cd87575cdc819b92643b2b0a05517e859955cc"
+    },
+    {
+      "exam": "1953_AMC_12",
+      "contest": "amc12",
+      "edition": "1953",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1953/solutions",
+      "bytes": 1758223,
+      "sha256": "60873ce1614619db90264fb558efa169838aca22649d765fbf52807192c7c115"
+    },
+    {
+      "exam": "1953_AMC_12",
+      "contest": "amc12",
+      "edition": "1953",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1953-exam.pdf",
+      "bytes": 188806,
+      "sha256": "2a2a5f9c7fe15dc84808baf95b0592b6ef62573f097a1c203b92b6b04d0bdf9b"
+    },
+    {
+      "exam": "1954_AMC_12",
+      "contest": "amc12",
+      "edition": "1954",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1954/solutions",
+      "bytes": 1941675,
+      "sha256": "20f603b074655515a20b4f729e90b4e241bfc6b07762e9b64aa5f0a64083175d"
+    },
+    {
+      "exam": "1954_AMC_12",
+      "contest": "amc12",
+      "edition": "1954",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1954-exam.pdf",
+      "bytes": 214756,
+      "sha256": "82db0f116aa69472156d6b1e52808ffc5aabeff10748b771f8d2b60b3e1a79d7"
+    },
+    {
+      "exam": "1955_AMC_12",
+      "contest": "amc12",
+      "edition": "1955",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1955/solutions",
+      "bytes": 1845369,
+      "sha256": "19a5d3423f77d47a591e3c9856ce3965fec097b7bf86e4543c3dad300d2b0293"
+    },
+    {
+      "exam": "1955_AMC_12",
+      "contest": "amc12",
+      "edition": "1955",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1955-exam.pdf",
+      "bytes": 201221,
+      "sha256": "bba63c9b3e894b76b506e556c2664dad052928ae3d65b0e93aadac2e72593620"
+    },
+    {
+      "exam": "1956_AMC_12",
+      "contest": "amc12",
+      "edition": "1956",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1956/solutions",
+      "bytes": 1858326,
+      "sha256": "f55ee2e49fc970d814ff562709187a044b6a0ea086bcae7290b0b5bfd349f6ed"
+    },
+    {
+      "exam": "1956_AMC_12",
+      "contest": "amc12",
+      "edition": "1956",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1956-exam.pdf",
+      "bytes": 201597,
+      "sha256": "7600ce6f549a6698a11e2d5ed2ee4bf5a692181f6377256bc2b3f299e9c91f31"
+    },
+    {
+      "exam": "1957_AMC_12",
+      "contest": "amc12",
+      "edition": "1957",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1957/solutions",
+      "bytes": 1879577,
+      "sha256": "965586b847da0c30167fd544e2318e963f8884cb96bcad2486f17c947fee0b5c"
+    },
+    {
+      "exam": "1957_AMC_12",
+      "contest": "amc12",
+      "edition": "1957",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1957-exam.pdf",
+      "bytes": 216115,
+      "sha256": "52f0014d61c071c2978814647ccfe5eda39b7b9f0cdceec34744e6b75bbc6288"
+    },
+    {
+      "exam": "1958_AMC_12",
+      "contest": "amc12",
+      "edition": "1958",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1958/solutions",
+      "bytes": 1977338,
+      "sha256": "a361ffbb638bfd240d5006f5668e2ea29738b07ae2627ab9c57220f7cfd5e940"
+    },
+    {
+      "exam": "1958_AMC_12",
+      "contest": "amc12",
+      "edition": "1958",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1958-exam.pdf",
+      "bytes": 224310,
+      "sha256": "d5d5c05fafcca9d8ddc425e184f7f4d7603821a40311614879d8e90f5395f0b6"
+    },
+    {
+      "exam": "1959_AMC_12",
+      "contest": "amc12",
+      "edition": "1959",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1959/solutions",
+      "bytes": 1845713,
+      "sha256": "9f7e179ec2aa64887f6755a192fd65ffc6501b37532f772333bf7910d08ce1a9"
+    },
+    {
+      "exam": "1959_AMC_12",
+      "contest": "amc12",
+      "edition": "1959",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1959-exam.pdf",
+      "bytes": 197180,
+      "sha256": "107620c774b93643bd735c25a3fd9ea2c13ca0f2b7c9c645085affdf1b8e86a4"
+    },
+    {
+      "exam": "1960_AMC_12",
+      "contest": "amc12",
+      "edition": "1960",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1960/solutions",
+      "bytes": 1440649,
+      "sha256": "e37001760def9e13350712b8409531786020d8a8aaa54b03483c34ae446e0f24"
+    },
+    {
+      "exam": "1960_AMC_12",
+      "contest": "amc12",
+      "edition": "1960",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1960-exam.pdf",
+      "bytes": 189609,
+      "sha256": "ac477599b8b3067e995b8d074c848e828d00a72bcfebb382f0ca8020edf68dbc"
+    },
+    {
+      "exam": "1961_AMC_12",
+      "contest": "amc12",
+      "edition": "1961",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1961/solutions",
+      "bytes": 1612200,
+      "sha256": "68e52985d323370480933c274a10d22344ef53d5997842ab16d48311fe6b4325"
+    },
+    {
+      "exam": "1961_AMC_12",
+      "contest": "amc12",
+      "edition": "1961",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1961-exam.pdf",
+      "bytes": 176645,
+      "sha256": "50676b578a3802eb738b8bb9c82147905b345f1337d751eedf144f83b0a8a4b1"
+    },
+    {
+      "exam": "1962_AMC_12",
+      "contest": "amc12",
+      "edition": "1962",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1962/solutions",
+      "bytes": 1567405,
+      "sha256": "b506df12dc7ab62da2e1c50438b76f728a35560eedad4715524971cfe84f6932"
+    },
+    {
+      "exam": "1962_AMC_12",
+      "contest": "amc12",
+      "edition": "1962",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1962-exam.pdf",
+      "bytes": 175346,
+      "sha256": "0788b33da47cde36b435a68c54c026ba6ede8f9d11f650bdc7e636446e97067a"
+    },
+    {
+      "exam": "1963_AMC_12",
+      "contest": "amc12",
+      "edition": "1963",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1963/solutions",
+      "bytes": 1559201,
+      "sha256": "76d4142af3bbfce8323cc54d238655225a8371c39b8e8dc7180ed7df870ab519"
+    },
+    {
+      "exam": "1963_AMC_12",
+      "contest": "amc12",
+      "edition": "1963",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1963-exam.pdf",
+      "bytes": 195602,
+      "sha256": "4e4e2dc0df40c6bff74ef1afa0643970325444aaca72fd4d5f659f26e4cb67e6"
+    },
+    {
+      "exam": "1964_AMC_12",
+      "contest": "amc12",
+      "edition": "1964",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1964/solutions",
+      "bytes": 1639783,
+      "sha256": "14560913557eb2cd9af7fc8a6b2f8094c592a3d4da27fe0badc9860b98c775be"
+    },
+    {
+      "exam": "1964_AMC_12",
+      "contest": "amc12",
+      "edition": "1964",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1964-exam.pdf",
+      "bytes": 204937,
+      "sha256": "4204fc05f00fd564b624f338b94d38f0c2a8e9d567dc14dfca71c68ad97d6cf1"
+    },
+    {
+      "exam": "1965_AMC_12",
+      "contest": "amc12",
+      "edition": "1965",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1965/solutions",
+      "bytes": 1610865,
+      "sha256": "36c05804d7c9d6c26945dd3fc392487954a706d215c29446b06ab70fb5774239"
+    },
+    {
+      "exam": "1965_AMC_12",
+      "contest": "amc12",
+      "edition": "1965",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1965-exam.pdf",
+      "bytes": 185750,
+      "sha256": "b47fa14ed984a50cb1147e7cf45236beb36b8d6ee7711faea3d68ceae893fbc7"
+    },
+    {
+      "exam": "1966_AMC_12",
+      "contest": "amc12",
+      "edition": "1966",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1966/solutions",
+      "bytes": 1701229,
+      "sha256": "83724ecbbea8dae452796a38c7e1b32a9613a99fa8786d7331ac8f5b8d5d3efe"
+    },
+    {
+      "exam": "1966_AMC_12",
+      "contest": "amc12",
+      "edition": "1966",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1966-exam.pdf",
+      "bytes": 199259,
+      "sha256": "b993e5ba0e2884fda0f617d44f388e3c8691a3ff0f3bb6cce5ccfce7361b8f03"
+    },
+    {
+      "exam": "1967_AMC_12",
+      "contest": "amc12",
+      "edition": "1967",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1967/solutions",
+      "bytes": 1717151,
+      "sha256": "6cb59b117a2dbeb6337f7a0732529be6ae7986d3329b064a962e41ad5e253dda"
+    },
+    {
+      "exam": "1967_AMC_12",
+      "contest": "amc12",
+      "edition": "1967",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1967-exam.pdf",
+      "bytes": 183537,
+      "sha256": "213c5a553ee3b2b835f0f159d5c99219e3dd59de1218cb32681bfe72be62a2d2"
+    },
+    {
+      "exam": "1968_AMC_12",
+      "contest": "amc12",
+      "edition": "1968",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1968/solutions",
+      "bytes": 1359826,
+      "sha256": "b26f97ac28c6b91e414682bb7893888c43e77a25227bb57afc4f3019669d22a9"
+    },
+    {
+      "exam": "1968_AMC_12",
+      "contest": "amc12",
+      "edition": "1968",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1968-exam.pdf",
+      "bytes": 175103,
+      "sha256": "9ed4be8512e85c89547c07f1b6bc54ec6d1a79fef7f0a7001b3540eb9d4ad33f"
+    },
+    {
+      "exam": "1969_AMC_12",
+      "contest": "amc12",
+      "edition": "1969",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1969/solutions",
+      "bytes": 1486148,
+      "sha256": "6a1bd98ce4adf68b7fd7227e49f94f00a89012d5fde4d88726182dd32da02e93"
+    },
+    {
+      "exam": "1969_AMC_12",
+      "contest": "amc12",
+      "edition": "1969",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1969-exam.pdf",
+      "bytes": 175161,
+      "sha256": "0055fa2e34219b0489fe87decb45b159d1583e04ac2d02a294684b3829d5eb8c"
+    },
+    {
+      "exam": "1970_AMC_12",
+      "contest": "amc12",
+      "edition": "1970",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1970/solutions",
+      "bytes": 1464554,
+      "sha256": "69ed9b671f611301ded9a5ab2a3e2ecc461750d1d28f6e27b7890fa994537b97"
+    },
+    {
+      "exam": "1970_AMC_12",
+      "contest": "amc12",
+      "edition": "1970",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1970-exam.pdf",
+      "bytes": 164939,
+      "sha256": "b2598373ec6688c14a1e89a0fb0392401b545286cdb2bf2e4e91a19b73ec52e5"
+    },
+    {
+      "exam": "1971_AMC_12",
+      "contest": "amc12",
+      "edition": "1971",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1971/solutions",
+      "bytes": 1371526,
+      "sha256": "75f3efa79241c53e51afb1c217f9e4a849b62b8b3f76ccb60aae0fd6e9231ea4"
+    },
+    {
+      "exam": "1971_AMC_12",
+      "contest": "amc12",
+      "edition": "1971",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1971-exam.pdf",
+      "bytes": 171547,
+      "sha256": "d3fd7f18e5a0f965b26bc254541774e0980d9c879cbc1939ca19a17ff991eaee"
+    },
+    {
+      "exam": "1972_AMC_12",
+      "contest": "amc12",
+      "edition": "1972",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1972/solutions",
+      "bytes": 1512278,
+      "sha256": "4051594ae383d687f680ade42a00d9a8e4db07b35b5adf73af3592eb784741a9"
+    },
+    {
+      "exam": "1972_AMC_12",
+      "contest": "amc12",
+      "edition": "1972",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1972-exam.pdf",
+      "bytes": 187176,
+      "sha256": "40d6a45754e5789bc1439dfbd8e6dd535359c5d959d0b2932f66b9d9d70cdcd6"
+    },
+    {
+      "exam": "1973_AMC_12",
+      "contest": "amc12",
+      "edition": "1973",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1973/solutions",
+      "bytes": 1508713,
+      "sha256": "57dabea34964a972dacb3721221d58eb404a80c46d54182adca0160191b16f80"
+    },
+    {
+      "exam": "1973_AMC_12",
+      "contest": "amc12",
+      "edition": "1973",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1973-exam.pdf",
+      "bytes": 193040,
+      "sha256": "f83d5208c44c23059086d77e7d7529c8054de324d76b122808ffb031b9078f0a"
+    },
+    {
+      "exam": "1974_AMC_12",
+      "contest": "amc12",
+      "edition": "1974",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1974/solutions",
+      "bytes": 1334534,
+      "sha256": "e4f1e8c8fd6f91286eb4833b4d6d354abd619158e44750f09a586eadeead64bf"
+    },
+    {
+      "exam": "1974_AMC_12",
+      "contest": "amc12",
+      "edition": "1974",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1974-exam.pdf",
+      "bytes": 164636,
+      "sha256": "a082db98e199c16ea3ea94120f0be207b2a7e9a58ee64cc1514ea01061fbbfeb"
+    },
+    {
+      "exam": "1975_AMC_12",
+      "contest": "amc12",
+      "edition": "1975",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1975/solutions",
+      "bytes": 1236247,
+      "sha256": "2e146f15470563c5bb16d0f5e86050af9e9164cf616405a4c7c774926b3446a0"
+    },
+    {
+      "exam": "1975_AMC_12",
+      "contest": "amc12",
+      "edition": "1975",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1975-exam.pdf",
+      "bytes": 165125,
+      "sha256": "9d3ba6266a1beb4d05eae919754b0732d9611ad70d50fe605ba5fb441394b27e"
+    },
+    {
+      "exam": "1976_AMC_12",
+      "contest": "amc12",
+      "edition": "1976",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1976/solutions",
+      "bytes": 1307849,
+      "sha256": "c7b7fbfd62e7c1856d056b815d85fbbacdfc98b64d30c160efdd0b3e4997fc61"
+    },
+    {
+      "exam": "1976_AMC_12",
+      "contest": "amc12",
+      "edition": "1976",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1976-exam.pdf",
+      "bytes": 172010,
+      "sha256": "cfd586a1f24355189f90a63804ccb16773579602da24d0882b6d34aac7b952d1"
+    },
+    {
+      "exam": "1977_AMC_12",
+      "contest": "amc12",
+      "edition": "1977",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1977/solutions",
+      "bytes": 1284324,
+      "sha256": "3adbfe6449bb09329d8b90945b6a6d2cda8e5bebc6f4bca4959b8adbe62ab0e1"
+    },
+    {
+      "exam": "1977_AMC_12",
+      "contest": "amc12",
+      "edition": "1977",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1977-exam.pdf",
+      "bytes": 174183,
+      "sha256": "4eeb9648399d9992b672746e04e1e3ff97ea0cd6c672ef100a66b242b0586ead"
+    },
+    {
+      "exam": "1978_AMC_12",
+      "contest": "amc12",
+      "edition": "1978",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1978/solutions",
+      "bytes": 1358534,
+      "sha256": "6fe8af4b47abfd84f965ae1f5b8fb70c3f0742ae18dc92373487d6b7fb62ce81"
+    },
+    {
+      "exam": "1978_AMC_12",
+      "contest": "amc12",
+      "edition": "1978",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1978-exam.pdf",
+      "bytes": 170411,
+      "sha256": "1676e0f568af3825d82d2355471ef03b2737c361d1fd1892ba3f41b80c9b0f13"
+    },
+    {
+      "exam": "1979_AMC_12",
+      "contest": "amc12",
+      "edition": "1979",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1979/solutions",
+      "bytes": 1429305,
+      "sha256": "5b14bebe1717596ce1f9cbfeedefaf4ac142135443b80a5b8ef0975c32612872"
+    },
+    {
+      "exam": "1979_AMC_12",
+      "contest": "amc12",
+      "edition": "1979",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1979-exam.pdf",
+      "bytes": 184986,
+      "sha256": "cf05bfbf06493787587c8f3b3d8c74293c571e783b0cb21f7630c1d9095cebb6"
+    },
+    {
+      "exam": "1980_AMC_12",
+      "contest": "amc12",
+      "edition": "1980",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1980/solutions",
+      "bytes": 1322915,
+      "sha256": "04f00c7cca329d211d9145d051d66a917caf80bfd93aa0ca4ae2fc6b7b89337e"
+    },
+    {
+      "exam": "1980_AMC_12",
+      "contest": "amc12",
+      "edition": "1980",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1980-exam.pdf",
+      "bytes": 178363,
+      "sha256": "8f1e2bc685a1af24f68dd635878edbff80ad29484de611c74e187fb249c207ea"
+    },
+    {
+      "exam": "1981_AMC_12",
+      "contest": "amc12",
+      "edition": "1981",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1981/solutions",
+      "bytes": 1355959,
+      "sha256": "c6ce7f738599c6031ac5c5d72d3b942196e165311f2d4a2376f35275ef654332"
+    },
+    {
+      "exam": "1981_AMC_12",
+      "contest": "amc12",
+      "edition": "1981",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1981-exam.pdf",
+      "bytes": 194368,
+      "sha256": "e42b4ce895e09ab2cfa84583639c1161c2dd1bd29a6744bcbaf1ddc9478b194c"
+    },
+    {
+      "exam": "1982_AMC_12",
+      "contest": "amc12",
+      "edition": "1982",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1982/solutions",
+      "bytes": 1284185,
+      "sha256": "592192ab8db06b0185cc50fa4dfe731f639d39436734a7e2fbb9156b25082bf4"
+    },
+    {
+      "exam": "1982_AMC_12",
+      "contest": "amc12",
+      "edition": "1982",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1982-exam.pdf",
+      "bytes": 203204,
+      "sha256": "06d45272ae81c0a2cbb6ba47b76252c90b9a870dd229db699a30bfdf7154e3bc"
+    },
+    {
+      "exam": "1983_AMC_12",
+      "contest": "amc12",
+      "edition": "1983",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1983/solutions",
+      "bytes": 1301425,
+      "sha256": "859ef0562c235f43381cdbc9f6df93be1f3271fa584abf2d2617dbb52b8fff33"
+    },
+    {
+      "exam": "1983_AMC_12",
+      "contest": "amc12",
+      "edition": "1983",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1983-exam.pdf",
+      "bytes": 178055,
+      "sha256": "932671a2cca823fe0fa772d90908a17d9a7321fe9cad95cb78330cd532e8e808"
+    },
+    {
+      "exam": "1984_AMC_12",
+      "contest": "amc12",
+      "edition": "1984",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1984/solutions",
+      "bytes": 1282800,
+      "sha256": "592873cb9b2ac111b3d714a889e90d7781b6ef87f97efe57c496e5f72085e4c5"
+    },
+    {
+      "exam": "1984_AMC_12",
+      "contest": "amc12",
+      "edition": "1984",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1984-exam.pdf",
+      "bytes": 167344,
+      "sha256": "a3af664608d7e5aca2747f31a3447089758377a8ebcc4e71afc4834424c36655"
+    },
+    {
+      "exam": "1985_AMC_12",
+      "contest": "amc12",
+      "edition": "1985",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1985/solutions",
+      "bytes": 1266911,
+      "sha256": "4035dc55e1331719881b28228c949d83122bfa0cec92d1713cdbe7ad2f8b0017"
+    },
+    {
+      "exam": "1985_AMC_12",
+      "contest": "amc12",
+      "edition": "1985",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1985-exam.pdf",
+      "bytes": 173039,
+      "sha256": "fd299709f9c2a24510bb3127a3f7f0d6625fa3eada7e511c39d988e1e4ed884b"
+    },
+    {
+      "exam": "1985_AMC_8",
+      "contest": "amc8",
+      "edition": "1985",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1985/solutions",
+      "bytes": 801917,
+      "sha256": "7007de3cf699ec7e912a98c3fc076ace2c8ffe426aace0eaf5907c905505e5e8"
+    },
+    {
+      "exam": "1985_AMC_8",
+      "contest": "amc8",
+      "edition": "1985",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1985-exam.pdf",
+      "bytes": 158247,
+      "sha256": "baacfa10b44a961c22c8dca7cdac9ffa4f4521c8b2eac822c6aac80fed6c19c1"
+    },
+    {
+      "exam": "1986_AMC_12",
+      "contest": "amc12",
+      "edition": "1986",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1986/solutions",
+      "bytes": 1224155,
+      "sha256": "8d20d23ce0f72bb025b35ffc9ed337c5e4819f8c1437e78dd46400674a55df01"
+    },
+    {
+      "exam": "1986_AMC_12",
+      "contest": "amc12",
+      "edition": "1986",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1986-exam.pdf",
+      "bytes": 187398,
+      "sha256": "d15c1c7c1e0b4007728c31d763d378d62be877ce032e6a26e8ea04004284a588"
+    },
+    {
+      "exam": "1986_AMC_8",
+      "contest": "amc8",
+      "edition": "1986",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1986/solutions",
+      "bytes": 786558,
+      "sha256": "815a947ad6133f96677ccccf7390360a6b9198c1ba52b2e812039f2a70254aa3"
+    },
+    {
+      "exam": "1986_AMC_8",
+      "contest": "amc8",
+      "edition": "1986",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1986-exam.pdf",
+      "bytes": 170722,
+      "sha256": "09a5cd7be1db88df932f3aff7560280b8d70f4cab4b1bc12250fd7edf8e4aaef"
+    },
+    {
+      "exam": "1987_AMC_12",
+      "contest": "amc12",
+      "edition": "1987",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1987/solutions",
+      "bytes": 1292326,
+      "sha256": "8ea94b811d4d2d0707dd571dd09d82ef15404340d887ab3b00b164745c23d1b8"
+    },
+    {
+      "exam": "1987_AMC_12",
+      "contest": "amc12",
+      "edition": "1987",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1987-exam.pdf",
+      "bytes": 190945,
+      "sha256": "9bcf2a670e172660f3341582843c4b873ea7b6a2306d2c3107e0a68d37aa136c"
+    },
+    {
+      "exam": "1987_AMC_8",
+      "contest": "amc8",
+      "edition": "1987",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1987/solutions",
+      "bytes": 862585,
+      "sha256": "cdaa2f7329a749c47e859af2dbdb411136dfa48a0289dac2ba2262f909f783e4"
+    },
+    {
+      "exam": "1987_AMC_8",
+      "contest": "amc8",
+      "edition": "1987",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1987-exam.pdf",
+      "bytes": 149851,
+      "sha256": "e12443743f1a6b1f0f50f869751047c130e5798d62294f6a2ca1311babec5d54"
+    },
+    {
+      "exam": "1988_AMC_12",
+      "contest": "amc12",
+      "edition": "1988",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1988/solutions",
+      "bytes": 1225472,
+      "sha256": "ae11b19bf29522ae863b7d0b18332487070d66b1a01bf176e6e4f3d8ecf93d29"
+    },
+    {
+      "exam": "1988_AMC_12",
+      "contest": "amc12",
+      "edition": "1988",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1988-exam.pdf",
+      "bytes": 193552,
+      "sha256": "69e91dd09ec763416880a9b155b4640ab9dabfc09c07b4c4e6664bb1a4564220"
+    },
+    {
+      "exam": "1988_AMC_8",
+      "contest": "amc8",
+      "edition": "1988",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1988/solutions",
+      "bytes": 847675,
+      "sha256": "cacef2d4ca304ff3b47e04203d2c1141600783ba2796e788570d3eb5d0d53cf7"
+    },
+    {
+      "exam": "1988_AMC_8",
+      "contest": "amc8",
+      "edition": "1988",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1988-exam.pdf",
+      "bytes": 143915,
+      "sha256": "c0bd20a217b4ebe0b80839093d20768572dc8822da47ba1ce58cb05ce989b0e4"
+    },
+    {
+      "exam": "1989_AMC_12",
+      "contest": "amc12",
+      "edition": "1989",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1989/solutions",
+      "bytes": 1137084,
+      "sha256": "923cbb875d678ebcbf1868d51b37d14f9021ddb09aee9f1dd72ec657954c4c82"
+    },
+    {
+      "exam": "1989_AMC_12",
+      "contest": "amc12",
+      "edition": "1989",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1989-exam.pdf",
+      "bytes": 193503,
+      "sha256": "ad3d8bd5519809af1bec947524da0d3489875a9e6d937816f5d695724fee53c1"
+    },
+    {
+      "exam": "1989_AMC_8",
+      "contest": "amc8",
+      "edition": "1989",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1989/solutions",
+      "bytes": 832084,
+      "sha256": "bac0f04bcfde8934366e125ad716de441c31056103d353be5b7c2e36206d217e"
+    },
+    {
+      "exam": "1989_AMC_8",
+      "contest": "amc8",
+      "edition": "1989",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1989-exam.pdf",
+      "bytes": 160274,
+      "sha256": "20c5e77d0446ef488a1303eb082b1cd129dfa13dd74bad402d9622a8d741b26e"
+    },
+    {
+      "exam": "1990_AMC_12",
+      "contest": "amc12",
+      "edition": "1990",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1990/solutions",
+      "bytes": 1225241,
+      "sha256": "848d6e7c73ff6871bc49565e2db9249ad0802ec283945667a6714effffe47d65"
+    },
+    {
+      "exam": "1990_AMC_12",
+      "contest": "amc12",
+      "edition": "1990",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1990-exam.pdf",
+      "bytes": 183164,
+      "sha256": "e6db79c421863556336f90af041284459890e7e7ad5855e21f4a6fc13cde8173"
+    },
+    {
+      "exam": "1990_AMC_8",
+      "contest": "amc8",
+      "edition": "1990",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1990/solutions",
+      "bytes": 796641,
+      "sha256": "503873d1d9a591a23f7f691df30c6ef81e8cc74db143266448e1c9c6c4525ebf"
+    },
+    {
+      "exam": "1990_AMC_8",
+      "contest": "amc8",
+      "edition": "1990",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1990-exam.pdf",
+      "bytes": 159437,
+      "sha256": "0f2edbb8cda5a1aea2551ec2fb26913a2b0eb33c849b6871d23b3e4a139bb926"
+    },
+    {
+      "exam": "1991_AMC_12",
+      "contest": "amc12",
+      "edition": "1991",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1991/solutions",
+      "bytes": 1334117,
+      "sha256": "a6c741e113d049b21ee17c46c95ff98b7b3b89165401451f4620413027e776bd"
+    },
+    {
+      "exam": "1991_AMC_12",
+      "contest": "amc12",
+      "edition": "1991",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1991-exam.pdf",
+      "bytes": 200928,
+      "sha256": "64d7fb10dd1a56ed42a58c79216ebff9b3b00f8bd45153006e04cbfd92706130"
+    },
+    {
+      "exam": "1991_AMC_8",
+      "contest": "amc8",
+      "edition": "1991",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1991/solutions",
+      "bytes": 832232,
+      "sha256": "ddd5f5f16fdb27cd86b79be6a8f3351a925f41a57e93daf929b8a82d788567b9"
+    },
+    {
+      "exam": "1991_AMC_8",
+      "contest": "amc8",
+      "edition": "1991",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1991-exam.pdf",
+      "bytes": 153765,
+      "sha256": "7743644cfb9b8a1a3d98b2109a363052d095ea9bf63f5a39e2806d986a904289"
+    },
+    {
+      "exam": "1992_AMC_12",
+      "contest": "amc12",
+      "edition": "1992",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1992/solutions",
+      "bytes": 1343123,
+      "sha256": "65e384e463413b22f1ee7be2b8885f390ffb2cf66ce4549e5f5498fc9207f80b"
+    },
+    {
+      "exam": "1992_AMC_12",
+      "contest": "amc12",
+      "edition": "1992",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1992-exam.pdf",
+      "bytes": 176687,
+      "sha256": "dd99094c380ecfb1e9fd723220cd462970038271db8d93b4fe2d89423d6c198b"
+    },
+    {
+      "exam": "1992_AMC_8",
+      "contest": "amc8",
+      "edition": "1992",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1992/solutions",
+      "bytes": 821527,
+      "sha256": "0d5a91a357cfcffdb86d897c4d8861d9c18e0ba6cd15a9536348f977d488d156"
+    },
+    {
+      "exam": "1992_AMC_8",
+      "contest": "amc8",
+      "edition": "1992",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1992-exam.pdf",
+      "bytes": 165832,
+      "sha256": "b7aedcbea37553916b59ecbccda16782a25837b290d02a2899b4faa5fa0dbe05"
+    },
+    {
+      "exam": "1993_AMC_12",
+      "contest": "amc12",
+      "edition": "1993",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1993/solutions",
+      "bytes": 1302218,
+      "sha256": "46db3f30697679fcf9883843210deda9eac3ce6ae59eddee116ea2d59ab385b5"
+    },
+    {
+      "exam": "1993_AMC_12",
+      "contest": "amc12",
+      "edition": "1993",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1993-exam.pdf",
+      "bytes": 188984,
+      "sha256": "fc6b0487d6bd25c40db644215a0ae5daf4d3e5b92a61c138cf547681eed58fc1"
+    },
+    {
+      "exam": "1993_AMC_8",
+      "contest": "amc8",
+      "edition": "1993",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1993/solutions",
+      "bytes": 877637,
+      "sha256": "8bf45efbce15dbd66341a19987a3796573f98dc4aeb9bb7bfd51e6225e9a5119"
+    },
+    {
+      "exam": "1993_AMC_8",
+      "contest": "amc8",
+      "edition": "1993",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1993-exam.pdf",
+      "bytes": 180406,
+      "sha256": "8c4707e1cd9912a8c24f761fad724680589db9cc7eb8e51abd181c0022efb907"
+    },
+    {
+      "exam": "1994_AMC_12",
+      "contest": "amc12",
+      "edition": "1994",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1994/solutions",
+      "bytes": 1141371,
+      "sha256": "db5b3cf923b6f645f02a44f7f446683ac3f50e6e97d16b211ae70e44e4e68b1d"
+    },
+    {
+      "exam": "1994_AMC_12",
+      "contest": "amc12",
+      "edition": "1994",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1994-exam.pdf",
+      "bytes": 169567,
+      "sha256": "a2980338c109c64701c3d0fde9e1ef331fe81f1b86419d64a960b2225f68a221"
+    },
+    {
+      "exam": "1994_AMC_8",
+      "contest": "amc8",
+      "edition": "1994",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1994/solutions",
+      "bytes": 857672,
+      "sha256": "71117b6fe9ed274efb5fa2416be5dae5453e22e74a119bbcd1f8031672ab03d1"
+    },
+    {
+      "exam": "1994_AMC_8",
+      "contest": "amc8",
+      "edition": "1994",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1994-exam.pdf",
+      "bytes": 163462,
+      "sha256": "d143663890a44b0886afabc4c04b736850e5d86fef6073fc210bc3e70f649442"
+    },
+    {
+      "exam": "1995_AMC_12",
+      "contest": "amc12",
+      "edition": "1995",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1995/solutions",
+      "bytes": 1147614,
+      "sha256": "e088a9da53ef1e299af1be6b119f59785328d20a576185ce4a662964fcaf6ddb"
+    },
+    {
+      "exam": "1995_AMC_12",
+      "contest": "amc12",
+      "edition": "1995",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1995-exam.pdf",
+      "bytes": 179500,
+      "sha256": "5c14ef402198b698fe815e48c217c31cead50cde92599887a17082cb23c4cd33"
+    },
+    {
+      "exam": "1995_AMC_8",
+      "contest": "amc8",
+      "edition": "1995",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1995/solutions",
+      "bytes": 852518,
+      "sha256": "fa5233c4b09470876cf23b7bbeccb8de7f14bab1a61d72084f76a954e4a817d9"
+    },
+    {
+      "exam": "1995_AMC_8",
+      "contest": "amc8",
+      "edition": "1995",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1995-exam.pdf",
+      "bytes": 218080,
+      "sha256": "e9eb5337d6e29d6b78371f3a8334e92d2a65a042a4b908554eee4438a5373d0d"
+    },
+    {
+      "exam": "1996_AMC_12",
+      "contest": "amc12",
+      "edition": "1996",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1996/solutions",
+      "bytes": 1196634,
+      "sha256": "b1d80c6134a966f372117d5107b2c5af62ef48702126ea45581c7791c33ca38a"
+    },
+    {
+      "exam": "1996_AMC_12",
+      "contest": "amc12",
+      "edition": "1996",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1996-exam.pdf",
+      "bytes": 174339,
+      "sha256": "c2e7278e10963c64aab3cae09eeb849dd58a6176f5211ea7ea5104bd8ca278bc"
+    },
+    {
+      "exam": "1996_AMC_8",
+      "contest": "amc8",
+      "edition": "1996",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1996/solutions",
+      "bytes": 889052,
+      "sha256": "6d784d8452446970d7db005ddd768a8ecda923acd2aae2cdfa828f229001f8fd"
+    },
+    {
+      "exam": "1996_AMC_8",
+      "contest": "amc8",
+      "edition": "1996",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1996-exam.pdf",
+      "bytes": 168522,
+      "sha256": "4cdfd60cdf205d9dfb5bfa036c0062fb996a6dd62100e59abfb8e572a1822121"
+    },
+    {
+      "exam": "1997_AMC_12",
+      "contest": "amc12",
+      "edition": "1997",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1997/solutions",
+      "bytes": 1192454,
+      "sha256": "e1bdaed886ff824d80e3eb8e4e87dd3b6a239c8d7218a36b95d0c933a4dc3960"
+    },
+    {
+      "exam": "1997_AMC_12",
+      "contest": "amc12",
+      "edition": "1997",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1997-exam.pdf",
+      "bytes": 193237,
+      "sha256": "479fd48479ce3ec8a2bbf121e40fedf0bb78115cdb753a0ed20f048e746009b8"
+    },
+    {
+      "exam": "1997_AMC_8",
+      "contest": "amc8",
+      "edition": "1997",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1997/solutions",
+      "bytes": 833907,
+      "sha256": "f4c1e2c110df65aa9016860d751c31e78006995c2b55fabf936654ab00eac0fa"
+    },
+    {
+      "exam": "1997_AMC_8",
+      "contest": "amc8",
+      "edition": "1997",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1997-exam.pdf",
+      "bytes": 148834,
+      "sha256": "b42b360bbc3bec77e4030e62cac7c32dd913574b4cb1e8bea470e180ec687f0d"
+    },
+    {
+      "exam": "1998_AMC_12",
+      "contest": "amc12",
+      "edition": "1998",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1998/solutions",
+      "bytes": 1125764,
+      "sha256": "cc4a5d74b68a7084ebc611b03b53a5b905ea275cb0a16bcd8cf3fda214a74276"
+    },
+    {
+      "exam": "1998_AMC_12",
+      "contest": "amc12",
+      "edition": "1998",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1998-exam.pdf",
+      "bytes": 164619,
+      "sha256": "d81dafb00b30420266fde4fca7a4d9474f2fbf0688ae3ba592601b26432fd0b7"
+    },
+    {
+      "exam": "1998_AMC_8",
+      "contest": "amc8",
+      "edition": "1998",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1998/solutions",
+      "bytes": 791762,
+      "sha256": "2e364f14095cf4dfb1616f0e80b368bd2581bd87fb4eb2bcfa8b3989fb95189f"
+    },
+    {
+      "exam": "1998_AMC_8",
+      "contest": "amc8",
+      "edition": "1998",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1998-exam.pdf",
+      "bytes": 168924,
+      "sha256": "d636152b0981624fda6fb9e7a8a29967735eff7a681fc1920f1e1c06d7b28e11"
+    },
+    {
+      "exam": "1999_AMC_12",
+      "contest": "amc12",
+      "edition": "1999",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/1999/solutions",
+      "bytes": 1252876,
+      "sha256": "5664c40e95bc33fb4d01b3d777d225038efb24a1d715bec37a9b870d445d8167"
+    },
+    {
+      "exam": "1999_AMC_12",
+      "contest": "amc12",
+      "edition": "1999",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1999-exam.pdf",
+      "bytes": 147976,
+      "sha256": "8764a6672ddba213e667cfdbd825266afe448f07ca14c1becd990e8faac292af"
+    },
+    {
+      "exam": "1999_AMC_8",
+      "contest": "amc8",
+      "edition": "1999",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/1999/solutions",
+      "bytes": 829663,
+      "sha256": "04d2d255dc830e69954bca25aa04a9fe71ec71839e4ebc225c964dec588a0d6b"
+    },
+    {
+      "exam": "1999_AMC_8",
+      "contest": "amc8",
+      "edition": "1999",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-1999-exam.pdf",
+      "bytes": 186839,
+      "sha256": "5910641f82b613a898e70117511b899e60279fd2eb8e90f4977137e42b8458f9"
+    },
+    {
+      "exam": "2000_AMC_10",
+      "contest": "amc10",
+      "edition": "2000",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2000/solutions",
+      "bytes": 1018910,
+      "sha256": "b46a56960e8d2a065d4cc3713035506ccb1259d0ce4e3ced04c804812c73c388"
+    },
+    {
+      "exam": "2000_AMC_10",
+      "contest": "amc10",
+      "edition": "2000",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2000-exam.pdf",
+      "bytes": 164078,
+      "sha256": "f8167dfd771d83723ef6a4ad50aa384b26467ed3a2cd4fd5fa025cb90454b3ed"
+    },
+    {
+      "exam": "2000_AMC_12",
+      "contest": "amc12",
+      "edition": "2000",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2000/solutions",
+      "bytes": 1113573,
+      "sha256": "1a716ed394e2e4f5e585c9f7a428c27334aecc3908d5342980acf25396892d78"
+    },
+    {
+      "exam": "2000_AMC_12",
+      "contest": "amc12",
+      "edition": "2000",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2000-exam.pdf",
+      "bytes": 166116,
+      "sha256": "b676e288170c30ac7cb96d4b3143f4ee9a7338ad7e7fd7a1234ae59e796f5e52"
+    },
+    {
+      "exam": "2000_AMC_8",
+      "contest": "amc8",
+      "edition": "2000",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2000/solutions",
+      "bytes": 848444,
+      "sha256": "ff7b5773f7eb08ccd6601612477d091411cab1266ef5442fa0fba9f0cce2a48c"
+    },
+    {
+      "exam": "2000_AMC_8",
+      "contest": "amc8",
+      "edition": "2000",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2000-exam.pdf",
+      "bytes": 178410,
+      "sha256": "8fc2f351d28bcce349f4b000784b84e458f08bc76f16100d38896a13921a931b"
+    },
+    {
+      "exam": "2001_AMC_10",
+      "contest": "amc10",
+      "edition": "2001",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2001/solutions",
+      "bytes": 933551,
+      "sha256": "8f07680711b91b40d30b53711e126b75ea10c362a98414bf6deb9ff13cf933b8"
+    },
+    {
+      "exam": "2001_AMC_10",
+      "contest": "amc10",
+      "edition": "2001",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2001-exam.pdf",
+      "bytes": 151144,
+      "sha256": "ce2a3e8b3c861bf644d81f5cdb988250c390aed5199e584c85bae911875211a0"
+    },
+    {
+      "exam": "2001_AMC_12",
+      "contest": "amc12",
+      "edition": "2001",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2001/solutions",
+      "bytes": 1159483,
+      "sha256": "2b02bbb4fa7c03d6feb33f4029b193567405d734e7ddb997db6e54838a876cea"
+    },
+    {
+      "exam": "2001_AMC_12",
+      "contest": "amc12",
+      "edition": "2001",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2001-exam.pdf",
+      "bytes": 174642,
+      "sha256": "f43e4ba0a6507e0e37118de51d96ef8e19feff2459f376dbdbc6f26649b3ad11"
+    },
+    {
+      "exam": "2001_AMC_8",
+      "contest": "amc8",
+      "edition": "2001",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2001/solutions",
+      "bytes": 783284,
+      "sha256": "cc66ebd5f94e354a4666627eed6967ba1601a8be91e50c0bc765d2044bc1a9b9"
+    },
+    {
+      "exam": "2001_AMC_8",
+      "contest": "amc8",
+      "edition": "2001",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2001-exam.pdf",
+      "bytes": 175462,
+      "sha256": "dcb80a45e3203884215c64cb210f911fd14f97c4fb327b4320df93e9b8b33787"
+    },
+    {
+      "exam": "2002_AMC_10A",
+      "contest": "amc10",
+      "edition": "2002A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2002A/solutions",
+      "bytes": 1010473,
+      "sha256": "ef646e1f0b9601b2c9e841baac72737fe537eefb4bdf0c7f325c9a1033d0e76c"
+    },
+    {
+      "exam": "2002_AMC_10A",
+      "contest": "amc10",
+      "edition": "2002A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2002A-exam.pdf",
+      "bytes": 148838,
+      "sha256": "c8065ad0390499d91dcfbd7367347fd025f01854621cad0259fc8962d183fe6a"
+    },
+    {
+      "exam": "2002_AMC_10B",
+      "contest": "amc10",
+      "edition": "2002B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2002B/solutions",
+      "bytes": 1083228,
+      "sha256": "959e00dbd1b525206c6cab11ea1c3a7519b3a98c7a2e07dd3ca43eff74f89e90"
+    },
+    {
+      "exam": "2002_AMC_10B",
+      "contest": "amc10",
+      "edition": "2002B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2002B-exam.pdf",
+      "bytes": 135009,
+      "sha256": "75d3637e393c95f4a1f3a80849ba48f68242c7d0b483a9741ad8adc092f744ba"
+    },
+    {
+      "exam": "2002_AMC_12A",
+      "contest": "amc12",
+      "edition": "2002A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2002A/solutions",
+      "bytes": 1082987,
+      "sha256": "2e4d8ca1b4be7d93e4c22d0e2590b14946c4be185acd68755d5bdc0e129077db"
+    },
+    {
+      "exam": "2002_AMC_12A",
+      "contest": "amc12",
+      "edition": "2002A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2002A-exam.pdf",
+      "bytes": 171284,
+      "sha256": "c2efaa76f54eb837e5c264f605676f1945e014d08747eb4461a4f5986bc445ad"
+    },
+    {
+      "exam": "2002_AMC_12B",
+      "contest": "amc12",
+      "edition": "2002B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2002B/solutions",
+      "bytes": 1142726,
+      "sha256": "fd1b73b203ece57340514bbf218eeb9b230595d18e2bc1c71268e6e79aa203de"
+    },
+    {
+      "exam": "2002_AMC_12B",
+      "contest": "amc12",
+      "edition": "2002B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2002B-exam.pdf",
+      "bytes": 145765,
+      "sha256": "73f5880dc55b6f9f4924537efb3ec368eb460acf997826b6f9b4445333fa1011"
+    },
+    {
+      "exam": "2002_AMC_8",
+      "contest": "amc8",
+      "edition": "2002",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2002/solutions",
+      "bytes": 774936,
+      "sha256": "c8245d634b37d031ce0ca4d14144d0c74f231506ef9ead0daf9d8c60d43b11c9"
+    },
+    {
+      "exam": "2002_AMC_8",
+      "contest": "amc8",
+      "edition": "2002",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2002-exam.pdf",
+      "bytes": 276981,
+      "sha256": "a4946bf3afc48ee672e68fdffc220bd0d2f06197627504b44134d91e17b7170b"
+    },
+    {
+      "exam": "2003_AMC_10A",
+      "contest": "amc10",
+      "edition": "2003A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2003A/solutions",
+      "bytes": 1013136,
+      "sha256": "1d7309300681f7e624abef44de82dc1c4179be606a25e066dad086c75eb1519a"
+    },
+    {
+      "exam": "2003_AMC_10A",
+      "contest": "amc10",
+      "edition": "2003A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2003A-exam.pdf",
+      "bytes": 158801,
+      "sha256": "47a9d5a8c9c2012ed4d032cbeacd2927a6e4bc506dc3571e6ab358abeacb509f"
+    },
+    {
+      "exam": "2003_AMC_10B",
+      "contest": "amc10",
+      "edition": "2003B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2003B/solutions",
+      "bytes": 1023171,
+      "sha256": "c8d8ca02c2e5ea8a852453e266bbddd92a22c3adb05c97c2b6ccbf5e7a7ee407"
+    },
+    {
+      "exam": "2003_AMC_10B",
+      "contest": "amc10",
+      "edition": "2003B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2003B-exam.pdf",
+      "bytes": 161423,
+      "sha256": "a7cf5da5a19bc11c8d93b490dfab971e1be1e92bb6c0641a4d136ea5b096248d"
+    },
+    {
+      "exam": "2003_AMC_12A",
+      "contest": "amc12",
+      "edition": "2003A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2003A/solutions",
+      "bytes": 1045297,
+      "sha256": "e525d676a4a232db9ce5159eb729c9f0fda95b80e883e1adf915c97376668faf"
+    },
+    {
+      "exam": "2003_AMC_12A",
+      "contest": "amc12",
+      "edition": "2003A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2003A-exam.pdf",
+      "bytes": 167157,
+      "sha256": "13ff906f53151a3a297d06a31e88d6b138ae3e222e5e096ee5991f5abcc322cf"
+    },
+    {
+      "exam": "2003_AMC_12B",
+      "contest": "amc12",
+      "edition": "2003B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2003B/solutions",
+      "bytes": 1098414,
+      "sha256": "02ddfe86ff66d2955f23eb221b770e02da866df7dbad51ff89a0bc0b2e298e6d"
+    },
+    {
+      "exam": "2003_AMC_12B",
+      "contest": "amc12",
+      "edition": "2003B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2003B-exam.pdf",
+      "bytes": 182118,
+      "sha256": "6ad8d864cf1a2774248aee628e503dc07e9d5eb9b784acc675513c412f062b12"
+    },
+    {
+      "exam": "2003_AMC_8",
+      "contest": "amc8",
+      "edition": "2003",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2003/solutions",
+      "bytes": 786895,
+      "sha256": "0786ee99b80d94eda97646a55928bfbee5cd714ecb301d2a22eb7f45691f698b"
+    },
+    {
+      "exam": "2003_AMC_8",
+      "contest": "amc8",
+      "edition": "2003",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2003-exam.pdf",
+      "bytes": 287639,
+      "sha256": "1e2cd9de96d39ba7933b97dbe21c21a6313856cdf6affe98a8500c5e46e54375"
+    },
+    {
+      "exam": "2004_AMC_10A",
+      "contest": "amc10",
+      "edition": "2004A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2004A/solutions",
+      "bytes": 1014057,
+      "sha256": "04a8e8d4392fb86b9c2b845bbe472888036fd4fcb044bec3b6e630fe3c758670"
+    },
+    {
+      "exam": "2004_AMC_10A",
+      "contest": "amc10",
+      "edition": "2004A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2004A-exam.pdf",
+      "bytes": 160286,
+      "sha256": "07073306dc17e8c4caaf993fd05cb46034c41f7ab6809ab674db02b63cc04c5f"
+    },
+    {
+      "exam": "2004_AMC_10B",
+      "contest": "amc10",
+      "edition": "2004B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2004B/solutions",
+      "bytes": 1070598,
+      "sha256": "119c54b5c2d01f00c502ed96ac96e191167ddf82a616423a12deb9ed08720cab"
+    },
+    {
+      "exam": "2004_AMC_10B",
+      "contest": "amc10",
+      "edition": "2004B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2004B-exam.pdf",
+      "bytes": 157666,
+      "sha256": "d7e73935db6b74072cf1c8a7c65c71b80a7d7ab18cba7ab04381476f26c513c7"
+    },
+    {
+      "exam": "2004_AMC_12A",
+      "contest": "amc12",
+      "edition": "2004A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2004A/solutions",
+      "bytes": 1188828,
+      "sha256": "ad6482ab45e62b62b89c20685923515acef2198626a63aa3e0b92ee1fc937d8e"
+    },
+    {
+      "exam": "2004_AMC_12A",
+      "contest": "amc12",
+      "edition": "2004A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2004A-exam.pdf",
+      "bytes": 199583,
+      "sha256": "28435ad71de2341a4664a4b9c6c2023d2dea2a1218eb94bb665a7833d0170325"
+    },
+    {
+      "exam": "2004_AMC_12B",
+      "contest": "amc12",
+      "edition": "2004B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2004B/solutions",
+      "bytes": 1069835,
+      "sha256": "f9f300d7603d422f7abc31703bfa47c98b565c7d16177cf80dace96e39baccb2"
+    },
+    {
+      "exam": "2004_AMC_12B",
+      "contest": "amc12",
+      "edition": "2004B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2004B-exam.pdf",
+      "bytes": 152426,
+      "sha256": "b7f5096eaad3f0fd1d03166d7b1979724cc8c17a4fff767b17c34293a0265f7f"
+    },
+    {
+      "exam": "2004_AMC_8",
+      "contest": "amc8",
+      "edition": "2004",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2004/solutions",
+      "bytes": 777690,
+      "sha256": "e69268a70e5cbb1f8178c4a176e92fd1b6cfaa8daa79c839604d606b557b8ede"
+    },
+    {
+      "exam": "2004_AMC_8",
+      "contest": "amc8",
+      "edition": "2004",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2004-exam.pdf",
+      "bytes": 220389,
+      "sha256": "032a78fdfbe0b946633a19496da943223238faaeeb844410bbb8ce8d859d5b2b"
+    },
+    {
+      "exam": "2005_AMC_10A",
+      "contest": "amc10",
+      "edition": "2005A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2005A/solutions",
+      "bytes": 998018,
+      "sha256": "e191b1adc916e1f37760b75421956fc11fe7f36da0b8a0a33b445a3210ee2262"
+    },
+    {
+      "exam": "2005_AMC_10A",
+      "contest": "amc10",
+      "edition": "2005A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2005A-exam.pdf",
+      "bytes": 148057,
+      "sha256": "aaf11b9f57c68b9b3c11e8da2965c439e18872c52e7a3cf993456f0603a90e47"
+    },
+    {
+      "exam": "2005_AMC_10B",
+      "contest": "amc10",
+      "edition": "2005B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2005B/solutions",
+      "bytes": 1085237,
+      "sha256": "da871fc22bc3d292f02538d09425b8595231f6f9d887a13c7db7e813afb5f665"
+    },
+    {
+      "exam": "2005_AMC_10B",
+      "contest": "amc10",
+      "edition": "2005B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2005B-exam.pdf",
+      "bytes": 141269,
+      "sha256": "cefa5a334358986e64481f28e782008345cd16cb10c8a2c66be167e3a219b5ff"
+    },
+    {
+      "exam": "2005_AMC_12A",
+      "contest": "amc12",
+      "edition": "2005A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2005A/solutions",
+      "bytes": 1084994,
+      "sha256": "63cc864672866750e965616f93d22c914f78a3bec4a7ff821a943d598ed7de66"
+    },
+    {
+      "exam": "2005_AMC_12A",
+      "contest": "amc12",
+      "edition": "2005A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2005A-exam.pdf",
+      "bytes": 160901,
+      "sha256": "ee5cc87be3b89c086d3491bd79b272b61bd50b159d0c23c671a104e32d5c3465"
+    },
+    {
+      "exam": "2005_AMC_12B",
+      "contest": "amc12",
+      "edition": "2005B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2005B/solutions",
+      "bytes": 1297734,
+      "sha256": "f8b78cdfce023f8370ac8ce59b2b461230f4da3119a3ad2bbc431af7c124c022"
+    },
+    {
+      "exam": "2005_AMC_12B",
+      "contest": "amc12",
+      "edition": "2005B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2005B-exam.pdf",
+      "bytes": 135189,
+      "sha256": "51034a6b0a8132b14167923bd5d9dc7bf94d0516fc8bc5e3dbe24f6c10b46faa"
+    },
+    {
+      "exam": "2005_AMC_8",
+      "contest": "amc8",
+      "edition": "2005",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2005/solutions",
+      "bytes": 815740,
+      "sha256": "e0f2ed8fb2b7768fa3893fe0fafaf6cc650456ec91b029ce146256d27a3c3482"
+    },
+    {
+      "exam": "2005_AMC_8",
+      "contest": "amc8",
+      "edition": "2005",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2005-exam.pdf",
+      "bytes": 162751,
+      "sha256": "8f5c4052fe4fee5ba2aa483e9e2fb658b721992835724bc9bf8ce728639058b8"
+    },
+    {
+      "exam": "2006_AMC_10A",
+      "contest": "amc10",
+      "edition": "2006A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2006A/solutions",
+      "bytes": 970301,
+      "sha256": "ce6352245db385c3e2aceb670900a11496241abf5ca1d13eaddee3747801a042"
+    },
+    {
+      "exam": "2006_AMC_10A",
+      "contest": "amc10",
+      "edition": "2006A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2006A-exam.pdf",
+      "bytes": 161786,
+      "sha256": "defb926628c7bbd23ce388282b58d99512d8269a6568f9ef5b7bc8cb9ac735a1"
+    },
+    {
+      "exam": "2006_AMC_10B",
+      "contest": "amc10",
+      "edition": "2006B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2006B/solutions",
+      "bytes": 1074090,
+      "sha256": "50aa5e1801949846fae5f901ec47f170762780b1411bb7e40dbebabe8f1f630f"
+    },
+    {
+      "exam": "2006_AMC_10B",
+      "contest": "amc10",
+      "edition": "2006B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2006B-exam.pdf",
+      "bytes": 152787,
+      "sha256": "4b74f22c21248ef0081e4344ea730985693c0796088a7c339d9084741954fde9"
+    },
+    {
+      "exam": "2006_AMC_12A",
+      "contest": "amc12",
+      "edition": "2006A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2006A/solutions",
+      "bytes": 1144887,
+      "sha256": "1edbde106c7436025cc9bbf87638897f3d96336ee70396aca754290176198dce"
+    },
+    {
+      "exam": "2006_AMC_12A",
+      "contest": "amc12",
+      "edition": "2006A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2006A-exam.pdf",
+      "bytes": 171641,
+      "sha256": "de9551f338b2fc8ec2ef21cabf642f444a50f8a89fa8bd7d196cfc30cc34953e"
+    },
+    {
+      "exam": "2006_AMC_12B",
+      "contest": "amc12",
+      "edition": "2006B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2006B/solutions",
+      "bytes": 1208557,
+      "sha256": "4e587bac4f8cb103d7e03322d532fdc58b169d6279388458cc98479974410678"
+    },
+    {
+      "exam": "2006_AMC_12B",
+      "contest": "amc12",
+      "edition": "2006B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2006B-exam.pdf",
+      "bytes": 150376,
+      "sha256": "b80b178be7dd7146cc3b4fc820c20617e919dbf4fe7f7b01a6549e932a6d21ff"
+    },
+    {
+      "exam": "2006_AMC_8",
+      "contest": "amc8",
+      "edition": "2006",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2006/solutions",
+      "bytes": 786979,
+      "sha256": "06e9451be0f502610e7c18870cfea50b0584865ebc72e16188260a602bc39def"
+    },
+    {
+      "exam": "2006_AMC_8",
+      "contest": "amc8",
+      "edition": "2006",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2006-exam.pdf",
+      "bytes": 170951,
+      "sha256": "3dfc44f27f822753856995ddeb764b7d544b2ceaf6e94375ab9dafe1607e3f2a"
+    },
+    {
+      "exam": "2007_AMC_10A",
+      "contest": "amc10",
+      "edition": "2007A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2007A/solutions",
+      "bytes": 1013136,
+      "sha256": "3911e24a5940c5a5e8267f6e5cefbb5aca22fd51e64625137aca752c831c061b"
+    },
+    {
+      "exam": "2007_AMC_10A",
+      "contest": "amc10",
+      "edition": "2007A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2007A-exam.pdf",
+      "bytes": 149451,
+      "sha256": "7a65dabac3ac47e7cdf39b69c7b1d2ab76519ef0e2a3fbaef4e693c845c6e446"
+    },
+    {
+      "exam": "2007_AMC_10B",
+      "contest": "amc10",
+      "edition": "2007B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2007B/solutions",
+      "bytes": 997769,
+      "sha256": "8eb315a05d0ff638ae00c62259a9846b35b990f985d38df5378d43658169b00a"
+    },
+    {
+      "exam": "2007_AMC_10B",
+      "contest": "amc10",
+      "edition": "2007B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2007B-exam.pdf",
+      "bytes": 153141,
+      "sha256": "2678398a4d40bd131f1ff48184e2ee3d3e0a24d8fa243b99cf9051363f64f28d"
+    },
+    {
+      "exam": "2007_AMC_12A",
+      "contest": "amc12",
+      "edition": "2007A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2007A/solutions",
+      "bytes": 1105507,
+      "sha256": "dd83e449a3b1b2e92c64d13e9a651ba28b1450c98ef3c974f2a004ee473bdc11"
+    },
+    {
+      "exam": "2007_AMC_12A",
+      "contest": "amc12",
+      "edition": "2007A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2007A-exam.pdf",
+      "bytes": 139179,
+      "sha256": "c486215093f7ad16ec70001c1ab1274bd5d2df25ae0fbef6f70033dcebf15b2e"
+    },
+    {
+      "exam": "2007_AMC_12B",
+      "contest": "amc12",
+      "edition": "2007B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2007B/solutions",
+      "bytes": 1141417,
+      "sha256": "2086a3703536ffcf6dba228f8261cb94742c1311faddf8a1299ac57a17ed4933"
+    },
+    {
+      "exam": "2007_AMC_12B",
+      "contest": "amc12",
+      "edition": "2007B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2007B-exam.pdf",
+      "bytes": 140270,
+      "sha256": "b8bdbeffd4b915bf4102c1529c8b67f944df4172fcb1b6cbc7b2f2d86e5ea89d"
+    },
+    {
+      "exam": "2007_AMC_8",
+      "contest": "amc8",
+      "edition": "2007",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2007/solutions",
+      "bytes": 833626,
+      "sha256": "96e68c5cc44a268c2e722e73e3d89b0400329a324fdc14d18e94e0f34e1c6434"
+    },
+    {
+      "exam": "2007_AMC_8",
+      "contest": "amc8",
+      "edition": "2007",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2007-exam.pdf",
+      "bytes": 169136,
+      "sha256": "ac6bc2dc802a2f6056c3ecc22de3a416fb0a87c3466d13a71c7b6ab082d92e99"
+    },
+    {
+      "exam": "2008_AMC_10A",
+      "contest": "amc10",
+      "edition": "2008A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2008A/solutions",
+      "bytes": 1037775,
+      "sha256": "1e4152f0080af4c0b004b489deb0e0fcec43d2ec0493aa32e07ccca3934be2d6"
+    },
+    {
+      "exam": "2008_AMC_10A",
+      "contest": "amc10",
+      "edition": "2008A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2008A-exam.pdf",
+      "bytes": 157940,
+      "sha256": "7d8dd2970ab29715b49ea8c64cd98707acb3da3b5e3c0e0065c928ce8e22dd84"
+    },
+    {
+      "exam": "2008_AMC_10B",
+      "contest": "amc10",
+      "edition": "2008B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2008B/solutions",
+      "bytes": 1065186,
+      "sha256": "9575db85f334bfc8a9810a3f41980c5396fcabead978a9c0ff780ea46efc1435"
+    },
+    {
+      "exam": "2008_AMC_10B",
+      "contest": "amc10",
+      "edition": "2008B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2008B-exam.pdf",
+      "bytes": 149517,
+      "sha256": "ced4ef0d645427fd08c2639fbf45ce849106a1114a9fa2c56a9cad9f660d0390"
+    },
+    {
+      "exam": "2008_AMC_12A",
+      "contest": "amc12",
+      "edition": "2008A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2008A/solutions",
+      "bytes": 1364097,
+      "sha256": "0182d7494c8a20c456b20e707b11bc5924aca36550c2328fb850c68209367c32"
+    },
+    {
+      "exam": "2008_AMC_12A",
+      "contest": "amc12",
+      "edition": "2008A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2008A-exam.pdf",
+      "bytes": 158511,
+      "sha256": "552b92ea10e9f45dd7b917680bd7b2546cb403e513e82a16be6f654e6051642b"
+    },
+    {
+      "exam": "2008_AMC_12B",
+      "contest": "amc12",
+      "edition": "2008B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2008B/solutions",
+      "bytes": 1396485,
+      "sha256": "365d785db02739ff1f78138eab8c15208f7d4c3f9c5cfb3d4a65795d29f06b78"
+    },
+    {
+      "exam": "2008_AMC_12B",
+      "contest": "amc12",
+      "edition": "2008B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2008B-exam.pdf",
+      "bytes": 152574,
+      "sha256": "8c33887d639546bcf48750ac8c17fc6b2a9f2a1188adc31e2eb3c2453c33313c"
+    },
+    {
+      "exam": "2008_AMC_8",
+      "contest": "amc8",
+      "edition": "2008",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2008/solutions",
+      "bytes": 829772,
+      "sha256": "81a621978865fe0b376eca4b94db246410ffe8f53063def3513e404fa3d30b45"
+    },
+    {
+      "exam": "2008_AMC_8",
+      "contest": "amc8",
+      "edition": "2008",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2008-exam.pdf",
+      "bytes": 162902,
+      "sha256": "a9b4ea896ff7e98efb37e188f82fe0801ea017d175665926eab0b82cfe5667b0"
+    },
+    {
+      "exam": "2009_AMC_10A",
+      "contest": "amc10",
+      "edition": "2009A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2009A/solutions",
+      "bytes": 1035791,
+      "sha256": "8743395c50a977dd0ff9655c4ad21e701fac6dac445e7d501d496cb67a4f0bc1"
+    },
+    {
+      "exam": "2009_AMC_10A",
+      "contest": "amc10",
+      "edition": "2009A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2009A-exam.pdf",
+      "bytes": 151182,
+      "sha256": "70c660e4c71d0b82feba5aaad2aec03b27fa10b6a1a1146de821f2da0f619511"
+    },
+    {
+      "exam": "2009_AMC_10B",
+      "contest": "amc10",
+      "edition": "2009B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2009B/solutions",
+      "bytes": 1095988,
+      "sha256": "dd95978b8d03e7152c6786a366d4ee696e115ace20939f231c55366ff48446db"
+    },
+    {
+      "exam": "2009_AMC_10B",
+      "contest": "amc10",
+      "edition": "2009B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2009B-exam.pdf",
+      "bytes": 164558,
+      "sha256": "b1e77c8e385b5d4f2dc713a551643308237b552c43e161c75d2b5d9ffa601481"
+    },
+    {
+      "exam": "2009_AMC_12A",
+      "contest": "amc12",
+      "edition": "2009A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2009A/solutions",
+      "bytes": 1299673,
+      "sha256": "cd06c436054582e196fba2cfb2e6e56605dbd5f68569558d77e96dd10bd346ea"
+    },
+    {
+      "exam": "2009_AMC_12A",
+      "contest": "amc12",
+      "edition": "2009A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2009A-exam.pdf",
+      "bytes": 154158,
+      "sha256": "ebad7b4f6ad6e0a2bed95eec481241d6ba61c46a2de891e4c9159921320902bf"
+    },
+    {
+      "exam": "2009_AMC_12B",
+      "contest": "amc12",
+      "edition": "2009B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2009B/solutions",
+      "bytes": 1155787,
+      "sha256": "b8f37a332948f74a5a5631130107eb2a8267ae3c5936f0fcb3ffe414531a8d5b"
+    },
+    {
+      "exam": "2009_AMC_12B",
+      "contest": "amc12",
+      "edition": "2009B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2009B-exam.pdf",
+      "bytes": 169325,
+      "sha256": "ac275550cddd9206f6da0e9ce792a9828e0dbc6d254d21a4c710986ac8e2d1fc"
+    },
+    {
+      "exam": "2009_AMC_8",
+      "contest": "amc8",
+      "edition": "2009",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2009/solutions",
+      "bytes": 841746,
+      "sha256": "197f95a025f1cb2bb56b1f4626551ccf0d227d6b70f9f197a2374f0258fc34d5"
+    },
+    {
+      "exam": "2009_AMC_8",
+      "contest": "amc8",
+      "edition": "2009",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2009-exam.pdf",
+      "bytes": 163939,
+      "sha256": "f1366c99c65a08536945d98b03663ffe664572f0d469a49f46d15e752a0d3d82"
+    },
+    {
+      "exam": "2010_AMC_10A",
+      "contest": "amc10",
+      "edition": "2010A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2010A/solutions",
+      "bytes": 1030046,
+      "sha256": "813d7492aa69898e62a0d0d2535b6df90040fcd9f59dc67e4c5da9b6faa97d90"
+    },
+    {
+      "exam": "2010_AMC_10A",
+      "contest": "amc10",
+      "edition": "2010A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2010A-exam.pdf",
+      "bytes": 140389,
+      "sha256": "177fd36846db17029e5e9e59cb26025b3b6e75348010262ab135aa42ac309b85"
+    },
+    {
+      "exam": "2010_AMC_10B",
+      "contest": "amc10",
+      "edition": "2010B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2010B/solutions",
+      "bytes": 1094980,
+      "sha256": "d4aa56b25f488658a8cafcda9e245527510c51fe9b863310231499f71da4d137"
+    },
+    {
+      "exam": "2010_AMC_10B",
+      "contest": "amc10",
+      "edition": "2010B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2010B-exam.pdf",
+      "bytes": 134473,
+      "sha256": "e45c50943845b9359bcf30d73338adb34f0c2b6756bc577edeb56f320228cf0f"
+    },
+    {
+      "exam": "2010_AMC_12A",
+      "contest": "amc12",
+      "edition": "2010A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2010A/solutions",
+      "bytes": 1285889,
+      "sha256": "31e09e39a0978a0561c52553aad4f1f80611c6d64f556f0a75395496f4e5b550"
+    },
+    {
+      "exam": "2010_AMC_12A",
+      "contest": "amc12",
+      "edition": "2010A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2010A-exam.pdf",
+      "bytes": 145694,
+      "sha256": "91813649325badec036d5f62eda3718649c83cf899c07e708335d901a1483b27"
+    },
+    {
+      "exam": "2010_AMC_12B",
+      "contest": "amc12",
+      "edition": "2010B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2010B/solutions",
+      "bytes": 1401563,
+      "sha256": "b83a1f44e92d61973d3537ee0e4c5761fab39cf32d2f75f8dd229b9f55223bf1"
+    },
+    {
+      "exam": "2010_AMC_12B",
+      "contest": "amc12",
+      "edition": "2010B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2010B-exam.pdf",
+      "bytes": 146857,
+      "sha256": "41b1406bf25fb58d65df640336e626f5ef4c924e4e6df08f8a8a0eebe00d5271"
+    },
+    {
+      "exam": "2010_AMC_8",
+      "contest": "amc8",
+      "edition": "2010",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2010/solutions",
+      "bytes": 917815,
+      "sha256": "1efe9c56596ee2ab6dbab55e584cc5bb1dc87a8c73e5238ff4f04869f16290d8"
+    },
+    {
+      "exam": "2010_AMC_8",
+      "contest": "amc8",
+      "edition": "2010",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2010-exam.pdf",
+      "bytes": 162403,
+      "sha256": "4cda17de580443678ec9c56eaa9a0134761127f49a4e5f2d517dbb45293792c0"
+    },
+    {
+      "exam": "2011_AMC_10A",
+      "contest": "amc10",
+      "edition": "2011A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2011A/solutions",
+      "bytes": 1028739,
+      "sha256": "8b572900e83651c034181579a97a95479a58eba0d3999f36e6f25757b35fd568"
+    },
+    {
+      "exam": "2011_AMC_10A",
+      "contest": "amc10",
+      "edition": "2011A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2011A-exam.pdf",
+      "bytes": 142292,
+      "sha256": "b9d21d6f615c70d4e290ecacf5a8e8a7bf70e9d585288138611725440c5cdb30"
+    },
+    {
+      "exam": "2011_AMC_10B",
+      "contest": "amc10",
+      "edition": "2011B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2011B/solutions",
+      "bytes": 1079778,
+      "sha256": "dda74cf7337319570eed3dd7dd8ed17b7659d3b1150f691559b103734c6abae9"
+    },
+    {
+      "exam": "2011_AMC_10B",
+      "contest": "amc10",
+      "edition": "2011B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2011B-exam.pdf",
+      "bytes": 149490,
+      "sha256": "1fe8bf6c08c4132c2aa651ced1ee4c11b6a856c76970a9f43e6ce3571d3dae58"
+    },
+    {
+      "exam": "2011_AMC_12A",
+      "contest": "amc12",
+      "edition": "2011A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2011A/solutions",
+      "bytes": 1231847,
+      "sha256": "a439393c1ef9d0ad89f0d24303b7e8230082ce401d531fe060726942a588a6eb"
+    },
+    {
+      "exam": "2011_AMC_12A",
+      "contest": "amc12",
+      "edition": "2011A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2011A-exam.pdf",
+      "bytes": 149127,
+      "sha256": "3b22dee035aac7b735f2a8baa72c01217a1b9f179382d3e419d73f6a4857bfa3"
+    },
+    {
+      "exam": "2011_AMC_12B",
+      "contest": "amc12",
+      "edition": "2011B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2011B/solutions",
+      "bytes": 1369357,
+      "sha256": "9e4c9d11195c7f1ee47a36ec726826f869ba911bf741446ca4e0418781f7556e"
+    },
+    {
+      "exam": "2011_AMC_12B",
+      "contest": "amc12",
+      "edition": "2011B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2011B-exam.pdf",
+      "bytes": 149741,
+      "sha256": "73c34d7c9a2a85a2c0f46b6de68de4c0367192f46c4d50872dcdb70414fcb5de"
+    },
+    {
+      "exam": "2011_AMC_8",
+      "contest": "amc8",
+      "edition": "2011",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2011/solutions",
+      "bytes": 839319,
+      "sha256": "367acbdb73569987edbf2717f46ff0a49caea6ac475cff873fed49b1f5874a97"
+    },
+    {
+      "exam": "2011_AMC_8",
+      "contest": "amc8",
+      "edition": "2011",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2011-exam.pdf",
+      "bytes": 155136,
+      "sha256": "e0a41d1824d5217baf9464e4bca15abcbbd7d453f4ea636af9b63c4dbd726c8d"
+    },
+    {
+      "exam": "2012_AMC_10A",
+      "contest": "amc10",
+      "edition": "2012A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2012A/solutions",
+      "bytes": 1056326,
+      "sha256": "20e043b79d049540b24480af7a0f0cc83884dc420a29b9889eb75d3079c9039a"
+    },
+    {
+      "exam": "2012_AMC_10A",
+      "contest": "amc10",
+      "edition": "2012A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2012A-exam.pdf",
+      "bytes": 192713,
+      "sha256": "58c99fcd747d7e996875f4ff114a247b60d6b74d5958240842905642426231d9"
+    },
+    {
+      "exam": "2012_AMC_10B",
+      "contest": "amc10",
+      "edition": "2012B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2012B/solutions",
+      "bytes": 1000071,
+      "sha256": "f9d2f6920458eec7c19f539eda6c328ce627ae836c9e30836fc3f8e9465eec3f"
+    },
+    {
+      "exam": "2012_AMC_10B",
+      "contest": "amc10",
+      "edition": "2012B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2012B-exam.pdf",
+      "bytes": 141880,
+      "sha256": "dd2a930cf188baed727ab4c7db6c35f6c0b3c79930ad45f14df8a4e4aa2e04b2"
+    },
+    {
+      "exam": "2012_AMC_12A",
+      "contest": "amc12",
+      "edition": "2012A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2012A/solutions",
+      "bytes": 1186175,
+      "sha256": "223bc8145a866bc65e06d6ccd19c2b9e28870e5cab32e6df9b5c51655ad4a8e1"
+    },
+    {
+      "exam": "2012_AMC_12A",
+      "contest": "amc12",
+      "edition": "2012A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2012A-exam.pdf",
+      "bytes": 158864,
+      "sha256": "137044402e47562ad190e99ccf3b61b1162a7fcf5f836d702388f446ccb59e5c"
+    },
+    {
+      "exam": "2012_AMC_12B",
+      "contest": "amc12",
+      "edition": "2012B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2012B/solutions",
+      "bytes": 1283163,
+      "sha256": "4bd5efbe7bf94eb63b06d8711b413495b92982db90fad375fe553d262487b635"
+    },
+    {
+      "exam": "2012_AMC_12B",
+      "contest": "amc12",
+      "edition": "2012B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2012B-exam.pdf",
+      "bytes": 176770,
+      "sha256": "7d2de9fd2125822d36f467c091de35fc69ede84cc620f4d7f1bdf0870bc6fda2"
+    },
+    {
+      "exam": "2012_AMC_8",
+      "contest": "amc8",
+      "edition": "2012",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2012/solutions",
+      "bytes": 904320,
+      "sha256": "884096e9ef797a328f77114b7296787b6a0593fb9de08066a85baa3b34f296cd"
+    },
+    {
+      "exam": "2012_AMC_8",
+      "contest": "amc8",
+      "edition": "2012",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2012-exam.pdf",
+      "bytes": 141019,
+      "sha256": "96656b5f86e90b946c4c951b42c78684cda293eb9ac013e66368ee06d10b30f8"
+    },
+    {
+      "exam": "2013_AMC_10A",
+      "contest": "amc10",
+      "edition": "2013A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2013A/solutions",
+      "bytes": 984152,
+      "sha256": "149c65140e4167524eef8e720816ccf0ad75716f50f264f23748ee7baad775b0"
+    },
+    {
+      "exam": "2013_AMC_10A",
+      "contest": "amc10",
+      "edition": "2013A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2013A-exam.pdf",
+      "bytes": 148366,
+      "sha256": "20771e5aa31d559df240c00a3564c092a4ff8013c5c0d03586cdb3b076208995"
+    },
+    {
+      "exam": "2013_AMC_10B",
+      "contest": "amc10",
+      "edition": "2013B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2013B/solutions",
+      "bytes": 1069416,
+      "sha256": "387641ba6743c6a72be827f3501ebe84196a4f9b8a4803da7a53cd07edebb790"
+    },
+    {
+      "exam": "2013_AMC_10B",
+      "contest": "amc10",
+      "edition": "2013B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2013B-exam.pdf",
+      "bytes": 147415,
+      "sha256": "2306391e18c03ffc6e8f1b7af4a6e690dac339f4c09989a56971f7f53805ea64"
+    },
+    {
+      "exam": "2013_AMC_12A",
+      "contest": "amc12",
+      "edition": "2013A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2013A/solutions",
+      "bytes": 1259689,
+      "sha256": "18c22c15aefb1a767b8ad1e647cf03c1a8599cc1da7c7c07f2f71f0a7bba7ad6"
+    },
+    {
+      "exam": "2013_AMC_12A",
+      "contest": "amc12",
+      "edition": "2013A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2013A-exam.pdf",
+      "bytes": 166493,
+      "sha256": "c84e6e53b39c36d65bfa75a2afe45a2badc658f3b91c69564d39a8f9abdf5088"
+    },
+    {
+      "exam": "2013_AMC_12B",
+      "contest": "amc12",
+      "edition": "2013B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2013B/solutions",
+      "bytes": 1275099,
+      "sha256": "831691f38aebd9646b9f79e35b327036b667d19b5ea84da8ce1ccbf282ad3acc"
+    },
+    {
+      "exam": "2013_AMC_12B",
+      "contest": "amc12",
+      "edition": "2013B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2013B-exam.pdf",
+      "bytes": 149313,
+      "sha256": "1372a4f6717f170fdf14e56c238fcc321c853722284331e6ba43663890d3fcc9"
+    },
+    {
+      "exam": "2013_AMC_8",
+      "contest": "amc8",
+      "edition": "2013",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2013/solutions",
+      "bytes": 881735,
+      "sha256": "572c48bff973c2cd38b2b756e87c01ce6ff7ae09104200cfa2054b1dcac764f9"
+    },
+    {
+      "exam": "2013_AMC_8",
+      "contest": "amc8",
+      "edition": "2013",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2013-exam.pdf",
+      "bytes": 169398,
+      "sha256": "1dc3fc5d85a9ab05e96ca7b79a71ed97d49fdc38047a38695893e5b0bf7b4601"
+    },
+    {
+      "exam": "2014_AMC_10A",
+      "contest": "amc10",
+      "edition": "2014A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2014A/solutions",
+      "bytes": 1158472,
+      "sha256": "a81cda04759dee226bb7e09dcfc835cfb05e56d5161973019b0368a6751650de"
+    },
+    {
+      "exam": "2014_AMC_10A",
+      "contest": "amc10",
+      "edition": "2014A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2014A-exam.pdf",
+      "bytes": 163286,
+      "sha256": "591eecdae2ffafd6421ec4eae4f7ee0bae26ea94a81776b500cf5ad773c362ab"
+    },
+    {
+      "exam": "2014_AMC_10B",
+      "contest": "amc10",
+      "edition": "2014B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2014B/solutions",
+      "bytes": 1123770,
+      "sha256": "aca5ea298aef76377858fee09fa97854c2355feca4d6a3d1858fef28b630f2b0"
+    },
+    {
+      "exam": "2014_AMC_10B",
+      "contest": "amc10",
+      "edition": "2014B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2014B-exam.pdf",
+      "bytes": 148369,
+      "sha256": "cd26eb465246e24f8d11e7e38077ef24c3993c685c19b29e8630a595adff531b"
+    },
+    {
+      "exam": "2014_AMC_12A",
+      "contest": "amc12",
+      "edition": "2014A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2014A/solutions",
+      "bytes": 1286206,
+      "sha256": "332edea09188694850b326a2c8ad34934c8ca7eab4912178e66a4c7c53bdc55c"
+    },
+    {
+      "exam": "2014_AMC_12A",
+      "contest": "amc12",
+      "edition": "2014A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2014A-exam.pdf",
+      "bytes": 144754,
+      "sha256": "7e7d8b7b067eab65cfb6edd8d2cdec5caf2ae966960ae6bbcfe857a0ff220dd6"
+    },
+    {
+      "exam": "2014_AMC_12B",
+      "contest": "amc12",
+      "edition": "2014B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2014B/solutions",
+      "bytes": 1301994,
+      "sha256": "daa6033d5fcb30c8d954ff41c6c03aaf65bd126746514092f473171d391f0ba3"
+    },
+    {
+      "exam": "2014_AMC_12B",
+      "contest": "amc12",
+      "edition": "2014B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2014B-exam.pdf",
+      "bytes": 154857,
+      "sha256": "2430f5734cc4791149af632dc863c09cbb338dbfe2ab4d6d6c30ee1b319d2a5c"
+    },
+    {
+      "exam": "2014_AMC_8",
+      "contest": "amc8",
+      "edition": "2014",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2014/solutions",
+      "bytes": 840143,
+      "sha256": "ef24f67b2a9cff41e29bd53631c6f3816728bf16098fb057af63a582ebd65856"
+    },
+    {
+      "exam": "2014_AMC_8",
+      "contest": "amc8",
+      "edition": "2014",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2014-exam.pdf",
+      "bytes": 156933,
+      "sha256": "b6df31537139e49f40204eabc012d9d4a93b30bad038c13b4d4f5947a1d48f98"
+    },
+    {
+      "exam": "2015_AMC_10A",
+      "contest": "amc10",
+      "edition": "2015A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2015A/solutions",
+      "bytes": 1104857,
+      "sha256": "9336f0ed11c8a63a0b74045832679c3d3d7ded07c0dc15d94ad3edbcdfff22c2"
+    },
+    {
+      "exam": "2015_AMC_10A",
+      "contest": "amc10",
+      "edition": "2015A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2015A-exam.pdf",
+      "bytes": 141230,
+      "sha256": "89e208d366a98877a370bf617224588551354c8123e5d27a2845c6cc6b4313d0"
+    },
+    {
+      "exam": "2015_AMC_10B",
+      "contest": "amc10",
+      "edition": "2015B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2015B/solutions",
+      "bytes": 1004007,
+      "sha256": "f11f24070443f9aba328ba188c1acd0452762aca6aa23069997cd80e74ad2d82"
+    },
+    {
+      "exam": "2015_AMC_10B",
+      "contest": "amc10",
+      "edition": "2015B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2015B-exam.pdf",
+      "bytes": 157846,
+      "sha256": "a4078148d674bfd781d9de9eb4bc445dfc04c59e58b97d900c05a3b85c0edfa7"
+    },
+    {
+      "exam": "2015_AMC_12A",
+      "contest": "amc12",
+      "edition": "2015A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2015A/solutions",
+      "bytes": 1227730,
+      "sha256": "6e222993308d7c6aa6c9974dcc75bbcd8cf6fe4f2488d4eb39cf0f741bf1d130"
+    },
+    {
+      "exam": "2015_AMC_12A",
+      "contest": "amc12",
+      "edition": "2015A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2015A-exam.pdf",
+      "bytes": 147629,
+      "sha256": "162c81b11f98daf9b33272aac56611075a4b801564d3d2a4266cd646ac3773ec"
+    },
+    {
+      "exam": "2015_AMC_12B",
+      "contest": "amc12",
+      "edition": "2015B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2015B/solutions",
+      "bytes": 1216333,
+      "sha256": "3de1c927b38b42bdac03c322415241f9ed2409e71303748ebd213ab04409ed60"
+    },
+    {
+      "exam": "2015_AMC_12B",
+      "contest": "amc12",
+      "edition": "2015B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2015B-exam.pdf",
+      "bytes": 152415,
+      "sha256": "a5a393189fc8ce1e5c78156e62243a67630773b84970974860afecfbf19b2ef3"
+    },
+    {
+      "exam": "2015_AMC_8",
+      "contest": "amc8",
+      "edition": "2015",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2015/solutions",
+      "bytes": 957532,
+      "sha256": "6a6c247dfca17ad8cce3fe02311616735a0912037e99b63ba0d25a3bd903bba3"
+    },
+    {
+      "exam": "2015_AMC_8",
+      "contest": "amc8",
+      "edition": "2015",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2015-exam.pdf",
+      "bytes": 176469,
+      "sha256": "f39105a70627350e1f6737a6a737a02344fe3e2bcc92e9d6d821ce7084958329"
+    },
+    {
+      "exam": "2016_AMC_10A",
+      "contest": "amc10",
+      "edition": "2016A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2016A/solutions",
+      "bytes": 1097136,
+      "sha256": "b65e1707329813ed6e08481325ea7da9526096f14a7b14cdefe54ae464e5e4d4"
+    },
+    {
+      "exam": "2016_AMC_10A",
+      "contest": "amc10",
+      "edition": "2016A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2016A-exam.pdf",
+      "bytes": 155754,
+      "sha256": "120f959b8977813190ff123b265dd39ca19eed49dc9a2d22b97a4726a7625a00"
+    },
+    {
+      "exam": "2016_AMC_10B",
+      "contest": "amc10",
+      "edition": "2016B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2016B/solutions",
+      "bytes": 1142954,
+      "sha256": "d064f39d73c772de6b03b7072941c2ad29e4fe0859ad097ac8e93c6b29c2246e"
+    },
+    {
+      "exam": "2016_AMC_10B",
+      "contest": "amc10",
+      "edition": "2016B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2016B-exam.pdf",
+      "bytes": 148034,
+      "sha256": "3677c5d5b6fca628b28ba38368916e04503eeeb90f68587b728a85297003f9a1"
+    },
+    {
+      "exam": "2016_AMC_12A",
+      "contest": "amc12",
+      "edition": "2016A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2016A/solutions",
+      "bytes": 1331044,
+      "sha256": "27a6f6418745aa5dee96fe52d59162264facbabf8c80671a6ed10fee158c052f"
+    },
+    {
+      "exam": "2016_AMC_12A",
+      "contest": "amc12",
+      "edition": "2016A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2016A-exam.pdf",
+      "bytes": 155361,
+      "sha256": "da881407dd965174c63c0a4ee673703c881bb4e615d8d30e29e7ffadd5628e0d"
+    },
+    {
+      "exam": "2016_AMC_12B",
+      "contest": "amc12",
+      "edition": "2016B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2016B/solutions",
+      "bytes": 1309788,
+      "sha256": "a8ab53099f4933ea938d99c5cb2b2aa657861acb8ccb1d8f569d837ab749c7c5"
+    },
+    {
+      "exam": "2016_AMC_12B",
+      "contest": "amc12",
+      "edition": "2016B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2016B-exam.pdf",
+      "bytes": 152103,
+      "sha256": "a13246469ffd7bb37c39877156ecbfe2dea99282d9837fd3b717a8c8e854601e"
+    },
+    {
+      "exam": "2016_AMC_8",
+      "contest": "amc8",
+      "edition": "2016",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2016/solutions",
+      "bytes": 878726,
+      "sha256": "17b931dd2a0cfcd18f814001043f1bf70482f7053452d5ea9bafd25c65c38ddb"
+    },
+    {
+      "exam": "2016_AMC_8",
+      "contest": "amc8",
+      "edition": "2016",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2016-exam.pdf",
+      "bytes": 144595,
+      "sha256": "cec87536fb14b72b6b3d735bcc0a260ff5df733fe8ce7650afd0023c0a3a6aac"
+    },
+    {
+      "exam": "2017_AMC_10A",
+      "contest": "amc10",
+      "edition": "2017A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2017A/solutions",
+      "bytes": 1133250,
+      "sha256": "d039f971090f56fa50c26505dcfb6e76af5d69301008a30cda1d94ced4eb7599"
+    },
+    {
+      "exam": "2017_AMC_10A",
+      "contest": "amc10",
+      "edition": "2017A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2017A-exam.pdf",
+      "bytes": 140662,
+      "sha256": "28592f24213c3d7bae42b22f6f7aa4c374aedafae5b0167e16bb9cbca53bf2fb"
+    },
+    {
+      "exam": "2017_AMC_10B",
+      "contest": "amc10",
+      "edition": "2017B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2017B/solutions",
+      "bytes": 1054391,
+      "sha256": "152723128a60684f48116e65fba43f0896f163fc01b4a613a58d2a4469f6042c"
+    },
+    {
+      "exam": "2017_AMC_10B",
+      "contest": "amc10",
+      "edition": "2017B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2017B-exam.pdf",
+      "bytes": 133887,
+      "sha256": "62d7ff612365213de6a6a9e66109a9b466ecfbacffe0ae188f28058b7f2145a2"
+    },
+    {
+      "exam": "2017_AMC_12A",
+      "contest": "amc12",
+      "edition": "2017A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2017A/solutions",
+      "bytes": 1273488,
+      "sha256": "9851a379d19dd89c5a720d67318b0086118281cd29fc174d19ad16623bc3b63c"
+    },
+    {
+      "exam": "2017_AMC_12A",
+      "contest": "amc12",
+      "edition": "2017A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2017A-exam.pdf",
+      "bytes": 162538,
+      "sha256": "b2a3fd835210f8425b03f121ea7785714ffa62726eaae6ddf207f541d0deb303"
+    },
+    {
+      "exam": "2017_AMC_12B",
+      "contest": "amc12",
+      "edition": "2017B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2017B/solutions",
+      "bytes": 1328082,
+      "sha256": "023d67fa8eae757999e7f1df5d06e47615fd251edfeef4ae2c5d880a8d61bfce"
+    },
+    {
+      "exam": "2017_AMC_12B",
+      "contest": "amc12",
+      "edition": "2017B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2017B-exam.pdf",
+      "bytes": 144259,
+      "sha256": "776ab1076201be132fb7f8531393ad8b74e06e1a872e4330fb4c884bb43628d4"
+    },
+    {
+      "exam": "2017_AMC_8",
+      "contest": "amc8",
+      "edition": "2017",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2017/solutions",
+      "bytes": 950360,
+      "sha256": "69c8d4f984f27e2c4c31e965101e53695e508734be52fd1e54f86129dd3ef9ea"
+    },
+    {
+      "exam": "2017_AMC_8",
+      "contest": "amc8",
+      "edition": "2017",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2017-exam.pdf",
+      "bytes": 159336,
+      "sha256": "fc0a84cd98d1dc413a1d08cd24cfdda9665a422bd54424cffa428bcb3e284980"
+    },
+    {
+      "exam": "2018_AMC_10A",
+      "contest": "amc10",
+      "edition": "2018A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2018A/solutions",
+      "bytes": 1081757,
+      "sha256": "3e69adfbaaaa95cdb4eba9d96dcc00a587379840da2f2bbc7417514de81682ae"
+    },
+    {
+      "exam": "2018_AMC_10A",
+      "contest": "amc10",
+      "edition": "2018A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2018A-exam.pdf",
+      "bytes": 171370,
+      "sha256": "6565ccc44c59e661895ee0f050fffe5c439d2588e6c23bfbe4a1ec9717414fb8"
+    },
+    {
+      "exam": "2018_AMC_10B",
+      "contest": "amc10",
+      "edition": "2018B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2018B/solutions",
+      "bytes": 1151289,
+      "sha256": "4a6ded1649dafce105e5a8443fb92e73eb35400613d2c1885c50fa03dd6eab45"
+    },
+    {
+      "exam": "2018_AMC_10B",
+      "contest": "amc10",
+      "edition": "2018B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2018B-exam.pdf",
+      "bytes": 173749,
+      "sha256": "32d0434d4288e8ba357b28d8869237eacc65cf35e1d7efd9a338cdcb610b4caf"
+    },
+    {
+      "exam": "2018_AMC_12A",
+      "contest": "amc12",
+      "edition": "2018A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2018A/solutions",
+      "bytes": 1418189,
+      "sha256": "64f36c5fcc42ad50f73e25ea243f68a61be5a407a8e7deed744d4065a363f384"
+    },
+    {
+      "exam": "2018_AMC_12A",
+      "contest": "amc12",
+      "edition": "2018A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2018A-exam.pdf",
+      "bytes": 160619,
+      "sha256": "82bd994eaec0012ff35e4d5073d532211dd7da9fc1953902eb8643e9c6ddbb77"
+    },
+    {
+      "exam": "2018_AMC_12B",
+      "contest": "amc12",
+      "edition": "2018B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2018B/solutions",
+      "bytes": 1273423,
+      "sha256": "7b19d55a7f39ed9e41e7c3089b150018fb57149e9bb7f71f22ca8618e1d02cb2"
+    },
+    {
+      "exam": "2018_AMC_12B",
+      "contest": "amc12",
+      "edition": "2018B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2018B-exam.pdf",
+      "bytes": 174272,
+      "sha256": "d3c34fce2d39b5f957f1e08177a4f8b8664812db353014ad9d5b56f270421a68"
+    },
+    {
+      "exam": "2018_AMC_8",
+      "contest": "amc8",
+      "edition": "2018",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2018/solutions",
+      "bytes": 1131703,
+      "sha256": "15ff295890fdc94d1178fc39ee1d583960ceb4b46d907dc3eba4cda33f341824"
+    },
+    {
+      "exam": "2018_AMC_8",
+      "contest": "amc8",
+      "edition": "2018",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2018-exam.pdf",
+      "bytes": 179623,
+      "sha256": "03e8d7aa6a3f3b0ccee58aacd7ea20e2baab595d48982d393e92d2a079c236ac"
+    },
+    {
+      "exam": "2019_AMC_10A",
+      "contest": "amc10",
+      "edition": "2019A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2019A/solutions",
+      "bytes": 1147368,
+      "sha256": "e6550106e4914e2e8b625bb61f1464705ba54cdd0deb008b72982f50d42b413e"
+    },
+    {
+      "exam": "2019_AMC_10A",
+      "contest": "amc10",
+      "edition": "2019A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2019A-exam.pdf",
+      "bytes": 149022,
+      "sha256": "286a5fad47198e36a56f3a1241e7186d8cc7551415f6c59c047f381a4cf9ce98"
+    },
+    {
+      "exam": "2019_AMC_10B",
+      "contest": "amc10",
+      "edition": "2019B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2019B/solutions",
+      "bytes": 1221238,
+      "sha256": "00050f6f55ecb76e75cb08e2b26558071c82d79be2f0de76517969fb677a2e97"
+    },
+    {
+      "exam": "2019_AMC_10B",
+      "contest": "amc10",
+      "edition": "2019B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2019B-exam.pdf",
+      "bytes": 152053,
+      "sha256": "428486fe4cd380c5f751c76f37a9a79081461117e195b457075f7da661c9f916"
+    },
+    {
+      "exam": "2019_AMC_12A",
+      "contest": "amc12",
+      "edition": "2019A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2019A/solutions",
+      "bytes": 1344815,
+      "sha256": "2ef8020f0812f33b73f055ce7dc57d54b70f1e7a9010597534e8e2e616d80a2b"
+    },
+    {
+      "exam": "2019_AMC_12A",
+      "contest": "amc12",
+      "edition": "2019A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2019A-exam.pdf",
+      "bytes": 155106,
+      "sha256": "04d52680f2811dda6adf74f844908b191468ca303ab70f5e96169daa15ed8d1c"
+    },
+    {
+      "exam": "2019_AMC_12B",
+      "contest": "amc12",
+      "edition": "2019B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2019B/solutions",
+      "bytes": 1404874,
+      "sha256": "81a29c86c88dc45161237b74c8248a0d917fb568aef2ba00f04fd8a9bf4a5599"
+    },
+    {
+      "exam": "2019_AMC_12B",
+      "contest": "amc12",
+      "edition": "2019B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2019B-exam.pdf",
+      "bytes": 161454,
+      "sha256": "79e6c133b7443a0b3259bd8df119083707905ebe0d50af22e528fb090791f59a"
+    },
+    {
+      "exam": "2019_AMC_8",
+      "contest": "amc8",
+      "edition": "2019",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2019/solutions",
+      "bytes": 952253,
+      "sha256": "988474502741595d00a720d54256ba5afb3c94c69095e3b3091d269df70c0130"
+    },
+    {
+      "exam": "2019_AMC_8",
+      "contest": "amc8",
+      "edition": "2019",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2019-exam.pdf",
+      "bytes": 291869,
+      "sha256": "790de341e265245ac7c6d709780c48722702fa15b4102bbf9c46c7903a8c5539"
+    },
+    {
+      "exam": "2020_AMC_10A",
+      "contest": "amc10",
+      "edition": "2020A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2020A/solutions",
+      "bytes": 1098206,
+      "sha256": "2fd87a2a44e59aff473dcecc5b4e3e5ae93b9a99a198c041311afbf1ff99f250"
+    },
+    {
+      "exam": "2020_AMC_10A",
+      "contest": "amc10",
+      "edition": "2020A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2020A-exam.pdf",
+      "bytes": 152235,
+      "sha256": "56c85cc4e45ba20dcf4bb5c7f34a5305f7996515f9e0408d58f6773e6b320df2"
+    },
+    {
+      "exam": "2020_AMC_10B",
+      "contest": "amc10",
+      "edition": "2020B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2020B/solutions",
+      "bytes": 1150239,
+      "sha256": "9648a27ea075ba7f4dafa98217a82abe8746534a8466216f87e10845e8f85c50"
+    },
+    {
+      "exam": "2020_AMC_10B",
+      "contest": "amc10",
+      "edition": "2020B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2020B-exam.pdf",
+      "bytes": 155837,
+      "sha256": "b9694f10cf9c17c6bca00c10d242c0f43ddefa270932397fdd043a0cb9bc03d7"
+    },
+    {
+      "exam": "2020_AMC_12A",
+      "contest": "amc12",
+      "edition": "2020A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2020A/solutions",
+      "bytes": 1316353,
+      "sha256": "a68eb9465bc973e0fc6d43b1ffd67c8c1fe4a1c69d65d1351fe3480281a0d817"
+    },
+    {
+      "exam": "2020_AMC_12A",
+      "contest": "amc12",
+      "edition": "2020A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2020A-exam.pdf",
+      "bytes": 155135,
+      "sha256": "efb5ec54a2bd2c5bca0d764a992f5c65c009edba09220eca73d3761163e745d0"
+    },
+    {
+      "exam": "2020_AMC_12B",
+      "contest": "amc12",
+      "edition": "2020B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2020B/solutions",
+      "bytes": 1485196,
+      "sha256": "7a8518eb82190575608f33e835bc9de283d48937d2df6622bac24ccb99e3153b"
+    },
+    {
+      "exam": "2020_AMC_12B",
+      "contest": "amc12",
+      "edition": "2020B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2020B-exam.pdf",
+      "bytes": 159844,
+      "sha256": "9a68cdfc7ab98b9bf8948a92bd932f42833f26b2d34c1f18170c750aa0569044"
+    },
+    {
+      "exam": "2020_AMC_8",
+      "contest": "amc8",
+      "edition": "2020",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2020/solutions",
+      "bytes": 907865,
+      "sha256": "be1a6cea841966b2cc427031537ce1a397804872aa4b8cd4137c70e761692179"
+    },
+    {
+      "exam": "2020_AMC_8",
+      "contest": "amc8",
+      "edition": "2020",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2020-exam.pdf",
+      "bytes": 190514,
+      "sha256": "825ddd903f48d0ff73d2eb8f7ac84a075bc9ed45a34ba90abe64af7444a3bcde"
+    },
+    {
+      "exam": "2021_AMC_10A",
+      "contest": "amc10",
+      "edition": "2021A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2021A/solutions",
+      "bytes": 1204346,
+      "sha256": "d41358f812438843c545eb3198d3e0a17258890657afc708080f1ef00522ee94"
+    },
+    {
+      "exam": "2021_AMC_10A",
+      "contest": "amc10",
+      "edition": "2021A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021A-exam.pdf",
+      "bytes": 155574,
+      "sha256": "580a451840b07241dd8bb1981402ca6d3cf17dfbc9a30d037f3d8d9efac1c940"
+    },
+    {
+      "exam": "2021_AMC_10B",
+      "contest": "amc10",
+      "edition": "2021B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2021B/solutions",
+      "bytes": 1152420,
+      "sha256": "6d6538e38d20bd88576d0b4a0695a28cb5bfcae69b198989fec14f46723adafc"
+    },
+    {
+      "exam": "2021_AMC_10B",
+      "contest": "amc10",
+      "edition": "2021B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021B-exam.pdf",
+      "bytes": 172017,
+      "sha256": "27c773fdca9211f73c841cb54e6a28d3dde1864387891c6c57f9cffad8cba5d6"
+    },
+    {
+      "exam": "2021_AMC_12A",
+      "contest": "amc12",
+      "edition": "2021A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2021A/solutions",
+      "bytes": 1507176,
+      "sha256": "d60ce8314d8d1d85a398299f05f7fffa6b1d5d75e968634cd640caf112a0f2d2"
+    },
+    {
+      "exam": "2021_AMC_12A",
+      "contest": "amc12",
+      "edition": "2021A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021A-exam.pdf",
+      "bytes": 167036,
+      "sha256": "b2bee1fe8ff221b2048d132e2432318cc5aee43dbd68a8d4a53e755b109e7ebf"
+    },
+    {
+      "exam": "2021_AMC_12B",
+      "contest": "amc12",
+      "edition": "2021B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2021B/solutions",
+      "bytes": 1496903,
+      "sha256": "d2bc790b41807ac1b6b89c14f6fa855657cb9b6a641fc524d4fdf476ea4f9f4d"
+    },
+    {
+      "exam": "2021_AMC_12B",
+      "contest": "amc12",
+      "edition": "2021B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021B-exam.pdf",
+      "bytes": 167946,
+      "sha256": "8f52e85a0a51c6fb95dea03b75b1a04392e31c16c5e60c67d790ec118b88d3d4"
+    },
+    {
+      "exam": "2021_Fall_AMC_10A",
+      "contest": "amc10",
+      "edition": "2021C",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2021C/solutions",
+      "bytes": 1130977,
+      "sha256": "1370c18a67d2b171cb8d91cf2a49b5501d63f947ce326e580566a1e95897c0ef"
+    },
+    {
+      "exam": "2021_Fall_AMC_10A",
+      "contest": "amc10",
+      "edition": "2021C",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021C-exam.pdf",
+      "bytes": 149805,
+      "sha256": "171e32012c1c13f578cfd04eeaa36298fbd4cb71fabff5f3613e7c602631c861"
+    },
+    {
+      "exam": "2021_Fall_AMC_10B",
+      "contest": "amc10",
+      "edition": "2021D",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2021D/solutions",
+      "bytes": 1143860,
+      "sha256": "e7a694808b4e341ec6838900327d24b5a32d3bb0ddfdef9e7f6594dbb64b0032"
+    },
+    {
+      "exam": "2021_Fall_AMC_10B",
+      "contest": "amc10",
+      "edition": "2021D",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021D-exam.pdf",
+      "bytes": 208001,
+      "sha256": "a91acacec2bdbb0d149e2b9c6acf730215e5654269200a06e8ac4cb0238177a2"
+    },
+    {
+      "exam": "2021_Fall_AMC_12A",
+      "contest": "amc12",
+      "edition": "2021C",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2021C/solutions",
+      "bytes": 1363637,
+      "sha256": "e0d194663bebed49e91b5fc44ab962a7b781e51eb50e22fa813a19393e2d7f87"
+    },
+    {
+      "exam": "2021_Fall_AMC_12A",
+      "contest": "amc12",
+      "edition": "2021C",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021C-exam.pdf",
+      "bytes": 165733,
+      "sha256": "388972c4a66d5c2ad38e1f4ce946af71bc8ee74a81cf4fb6335a55d0ab6b2fc5"
+    },
+    {
+      "exam": "2021_Fall_AMC_12B",
+      "contest": "amc12",
+      "edition": "2021D",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2021D/solutions",
+      "bytes": 1293845,
+      "sha256": "837b083cd054de58180250da3b759e0ac23595359efda240d31f34748965773c"
+    },
+    {
+      "exam": "2021_Fall_AMC_12B",
+      "contest": "amc12",
+      "edition": "2021D",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021D-exam.pdf",
+      "bytes": 169595,
+      "sha256": "9eab20f305c25aef6561c9bab769f1a038c5422b8b84edaaa1c7edf10f5c70a2"
+    },
+    {
+      "exam": "2022_AMC_10A",
+      "contest": "amc10",
+      "edition": "2022A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2022A/solutions",
+      "bytes": 1318296,
+      "sha256": "e43e7f220a244ac0aa134865b6717777598543c07095f8a1b5fab987d16c007b"
+    },
+    {
+      "exam": "2022_AMC_10A",
+      "contest": "amc10",
+      "edition": "2022A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2022A-exam.pdf",
+      "bytes": 168852,
+      "sha256": "a943353f954db4cb1657ee52981e6054117c22225fcce08259bc1140a9459c8b"
+    },
+    {
+      "exam": "2022_AMC_10B",
+      "contest": "amc10",
+      "edition": "2022B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2022B/solutions",
+      "bytes": 1195466,
+      "sha256": "638416003009bd307322182a0c63865778c5d089c42ac7aa51f671d1924f3a8b"
+    },
+    {
+      "exam": "2022_AMC_10B",
+      "contest": "amc10",
+      "edition": "2022B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2022B-exam.pdf",
+      "bytes": 168812,
+      "sha256": "362b08bddccdae8e4622231c61f4fb93e7068664f93e7cbb327049a508a93dd2"
+    },
+    {
+      "exam": "2022_AMC_12A",
+      "contest": "amc12",
+      "edition": "2022A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2022A/solutions",
+      "bytes": 1342885,
+      "sha256": "25afecb70d053b546e2a70288716895c648653913bd0416ce4795c52ef2097e0"
+    },
+    {
+      "exam": "2022_AMC_12A",
+      "contest": "amc12",
+      "edition": "2022A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2022A-exam.pdf",
+      "bytes": 150969,
+      "sha256": "f72b6a830a033f2b7d9f59d659347b6f9ab4baf9678191604d31f7134174a8a6"
+    },
+    {
+      "exam": "2022_AMC_12B",
+      "contest": "amc12",
+      "edition": "2022B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2022B/solutions",
+      "bytes": 1355248,
+      "sha256": "efb71db844024a12187d69e16958d86ad39eb081c9924a1953c2ed60eb149bca"
+    },
+    {
+      "exam": "2022_AMC_12B",
+      "contest": "amc12",
+      "edition": "2022B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2022B-exam.pdf",
+      "bytes": 167395,
+      "sha256": "2a15df66df15b514e8b36f7d5917475ef5cc37fa132dd05afe5c089c6c7f0b8f"
+    },
+    {
+      "exam": "2022_AMC_8",
+      "contest": "amc8",
+      "edition": "2022",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2022/solutions",
+      "bytes": 855033,
+      "sha256": "f6ad07a456359e4a04c57b5f7113696c7dfb0efd7fa5aa98d9fc2b7c9e8650bd"
+    },
+    {
+      "exam": "2022_AMC_8",
+      "contest": "amc8",
+      "edition": "2022",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2022-exam.pdf",
+      "bytes": 228394,
+      "sha256": "79666757401f5f1a189c640f6d154394f3b1b475b36ebaf7fc5c8c9be5801899"
+    },
+    {
+      "exam": "2023_AMC_10A",
+      "contest": "amc10",
+      "edition": "2023A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2023A/solutions",
+      "bytes": 1241596,
+      "sha256": "971ce13217f703d7fce4f9708498a2defc20377d359d8d1cc9ee28b098f4e7d6"
+    },
+    {
+      "exam": "2023_AMC_10A",
+      "contest": "amc10",
+      "edition": "2023A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2023A-exam.pdf",
+      "bytes": 152269,
+      "sha256": "434ce551247300b6b39579ed7e92e70d1b6bed4dcc33cf52a4b8484d9abcc6a1"
+    },
+    {
+      "exam": "2023_AMC_10B",
+      "contest": "amc10",
+      "edition": "2023B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2023B/solutions",
+      "bytes": 1129643,
+      "sha256": "ac2db544428494b9df231f17a65938616be974766d9bcbd0611bd41f2cd3599f"
+    },
+    {
+      "exam": "2023_AMC_10B",
+      "contest": "amc10",
+      "edition": "2023B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2023B-exam.pdf",
+      "bytes": 166136,
+      "sha256": "ad8ac8ba4c9029126383826492d0b62f6a80ef3a5b2fe0de6e82181efdbefd28"
+    },
+    {
+      "exam": "2023_AMC_12A",
+      "contest": "amc12",
+      "edition": "2023A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2023A/solutions",
+      "bytes": 1326994,
+      "sha256": "8ee57a6587e75f919020451b868a6268853063e33eb032717e4af0bf5adccc7a"
+    },
+    {
+      "exam": "2023_AMC_12A",
+      "contest": "amc12",
+      "edition": "2023A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2023A-exam.pdf",
+      "bytes": 158257,
+      "sha256": "a3949cc2757c2bd8586ffce0c1160f6e1993c260b322c3d8b36350219ea99c2a"
+    },
+    {
+      "exam": "2023_AMC_12B",
+      "contest": "amc12",
+      "edition": "2023B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2023B/solutions",
+      "bytes": 1279289,
+      "sha256": "bd5cd4b39bb27e92ca2207803e39a05a4fafddeca2beceb058c29855f516fe2c"
+    },
+    {
+      "exam": "2023_AMC_12B",
+      "contest": "amc12",
+      "edition": "2023B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2023B-exam.pdf",
+      "bytes": 143551,
+      "sha256": "80ab2e0aecca5557cff9d5e5ba473860b6cd6847677b82593fe838937b0e3179"
+    },
+    {
+      "exam": "2023_AMC_8",
+      "contest": "amc8",
+      "edition": "2023",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2023/solutions",
+      "bytes": 1022328,
+      "sha256": "8c29db496c61771d3c8756ea8fffce12920def81479453a1c776e1113dde3037"
+    },
+    {
+      "exam": "2023_AMC_8",
+      "contest": "amc8",
+      "edition": "2023",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2023-exam.pdf",
+      "bytes": 239038,
+      "sha256": "91248168f43f90d86d8613828afd399b0df32679cb2425c545a26689097bfac6"
+    },
+    {
+      "exam": "2024_AMC_10A",
+      "contest": "amc10",
+      "edition": "2024A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2024A/solutions",
+      "bytes": 1154743,
+      "sha256": "5fed52d29857ed2e73b79316a935cba357bf2b5edda16ac2add7780e78466254"
+    },
+    {
+      "exam": "2024_AMC_10A",
+      "contest": "amc10",
+      "edition": "2024A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2024A-exam.pdf",
+      "bytes": 190787,
+      "sha256": "ad8516c65c938a35fc99647cc1aa2244c897dbf4d2b2dfe42e86306e11547258"
+    },
+    {
+      "exam": "2024_AMC_10B",
+      "contest": "amc10",
+      "edition": "2024B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2024B/solutions",
+      "bytes": 1192718,
+      "sha256": "2671c8998a9a67627ff232acd1dfac260f51b807965eab592a796f27906e4ae2"
+    },
+    {
+      "exam": "2024_AMC_10B",
+      "contest": "amc10",
+      "edition": "2024B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2024B-exam.pdf",
+      "bytes": 153375,
+      "sha256": "7e18eca821f8834114dcdfb7896745ed726fd270c3172b06d248a63893cb946d"
+    },
+    {
+      "exam": "2024_AMC_12A",
+      "contest": "amc12",
+      "edition": "2024A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2024A/solutions",
+      "bytes": 1348809,
+      "sha256": "9875ffc0649d84c28198568c6d6972f9569a76bcf8751c85f132d0a01bfb9b8a"
+    },
+    {
+      "exam": "2024_AMC_12A",
+      "contest": "amc12",
+      "edition": "2024A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2024A-exam.pdf",
+      "bytes": 207804,
+      "sha256": "97f20e48e30755e42ac841b3ec3b47c32a0a19979a8a6301374bd10ca44b8987"
+    },
+    {
+      "exam": "2024_AMC_12B",
+      "contest": "amc12",
+      "edition": "2024B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2024B/solutions",
+      "bytes": 1599493,
+      "sha256": "d4c4afd69ead6e9babb327526e913666b05a6c9bb5b0632e9ea7809ec564c295"
+    },
+    {
+      "exam": "2024_AMC_12B",
+      "contest": "amc12",
+      "edition": "2024B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2024B-exam.pdf",
+      "bytes": 153230,
+      "sha256": "77e7e81fbd84338bd065437187057324f2c391d868080f4abf80074643835fed"
+    },
+    {
+      "exam": "2024_AMC_8",
+      "contest": "amc8",
+      "edition": "2024",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2024/solutions",
+      "bytes": 954103,
+      "sha256": "1a2407993ccdaa6eee3004d193f536c4c887811942bd85eec25ce8f2d9db569d"
+    },
+    {
+      "exam": "2024_AMC_8",
+      "contest": "amc8",
+      "edition": "2024",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2024-exam.pdf",
+      "bytes": 210320,
+      "sha256": "a0e3641cdb32fd9cdc2abab9d57a42005d6a5d5213cd969ce8aa5c4fafd7885e"
+    },
+    {
+      "exam": "2025_AMC_10A",
+      "contest": "amc10",
+      "edition": "2025A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2025A/solutions",
+      "bytes": 1198661,
+      "sha256": "350b51b60ad5412aed0b1ee553318652ce98a1146e87d70a05b069091b08270c"
+    },
+    {
+      "exam": "2025_AMC_10A",
+      "contest": "amc10",
+      "edition": "2025A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2025A-exam.pdf",
+      "bytes": 162305,
+      "sha256": "2eae70e2801ed5d7f50a1e605996f055e747bec7798a7a570bc1fa8669424304"
+    },
+    {
+      "exam": "2025_AMC_10B",
+      "contest": "amc10",
+      "edition": "2025B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc10/2025B/solutions",
+      "bytes": 1359409,
+      "sha256": "cf9d9f05708ee08cd76252c09e1b652d2dc4bf0d5e2701f607a7f623089b5acb"
+    },
+    {
+      "exam": "2025_AMC_10B",
+      "contest": "amc10",
+      "edition": "2025B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2025B-exam.pdf",
+      "bytes": 167710,
+      "sha256": "c64a24cb1a56db7b761f5fc000879da0ca329225de24c9429cbbd22e87d7e53e"
+    },
+    {
+      "exam": "2025_AMC_12A",
+      "contest": "amc12",
+      "edition": "2025A",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2025A/solutions",
+      "bytes": 1429899,
+      "sha256": "ba7a6860f4d04021d5c9f61f05d33b3cfddca239176293ee411babae6573c53c"
+    },
+    {
+      "exam": "2025_AMC_12A",
+      "contest": "amc12",
+      "edition": "2025A",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2025A-exam.pdf",
+      "bytes": 172050,
+      "sha256": "086a773bcda32e3075caba8bd0e214979aa18277acd780026fe5c5f7915bf04f"
+    },
+    {
+      "exam": "2025_AMC_12B",
+      "contest": "amc12",
+      "edition": "2025B",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc12/2025B/solutions",
+      "bytes": 1136975,
+      "sha256": "9f851f1eb8b824abb334e0df4c017e663fc0135d4113cd5b6b5926fe4794110d"
+    },
+    {
+      "exam": "2025_AMC_12B",
+      "contest": "amc12",
+      "edition": "2025B",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2025B-exam.pdf",
+      "bytes": 156162,
+      "sha256": "e41ff887d5d00d79036f7755669f8c2c179e61ef89524064d5813225d825f545"
+    },
+    {
+      "exam": "2025_AMC_8",
+      "contest": "amc8",
+      "edition": "2025",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2025/solutions",
+      "bytes": 988799,
+      "sha256": "3fefd3e2f52a1f66cca5fddfea5e72e1eaf2845ff5bcb3d1b16c03b549d9f04f"
+    },
+    {
+      "exam": "2025_AMC_8",
+      "contest": "amc8",
+      "edition": "2025",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2025-exam.pdf",
+      "bytes": 228591,
+      "sha256": "fd93b34e53f6f2aa77b7c4efdf1266edd32251033364d0c268f92b4b4d8b17ab"
+    },
+    {
+      "exam": "2026_AMC_8",
+      "contest": "amc8",
+      "edition": "2026",
+      "kind": "html",
+      "url": "https://live.poshenloh.com/past-contests/amc8/2026/solutions",
+      "bytes": 912978,
+      "sha256": "997a01d6ec8a18ac16f2308e24f60e385587b33a3d2987240e5f21ab434f659a"
+    },
+    {
+      "exam": "2026_AMC_8",
+      "contest": "amc8",
+      "edition": "2026",
+      "kind": "pdf",
+      "url": "https://live.poshenloh.com/images/past-contests/pdf/amc8-2026-exam.pdf",
+      "bytes": 156676,
+      "sha256": "08214d081a11cf751aa6140b26eb60ad0fd97083eb8dfe6d5286fa8b54d615ca"
+    }
+  ],
+  "officialSolutions": [
+    {
+      "exam": "2023_AMC_8",
+      "label": "2023 AMC 8",
+      "url": "https://maa.org/wp-content/uploads/2024/08/2023_AMC8_Solutions_.pdf",
+      "file": "official-solutions/AMC8_2023_Solutions.pdf",
+      "sha256": "7012acdcbfac9925810a982d9fe3c68a34f9279dbe3d57c73b1df5cc101ef5eb",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0",
+      "modified": false
+    },
+    {
+      "exam": "2022_AMC_10A",
+      "label": "2022 AMC 10A",
+      "url": "https://maa.org/wp-content/uploads/2024/08/2022-AMC-10A-solutions.pdf",
+      "file": "official-solutions/AMC10A_2022_Solutions.pdf",
+      "sha256": "806a4e74584d2f8329388fdc7ce5870362c430e83dfb889ff129f8522b98c48e",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0",
+      "modified": false
+    }
+  ]
+}

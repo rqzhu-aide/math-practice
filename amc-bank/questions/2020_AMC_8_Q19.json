@@ -1,0 +1,49 @@
+{
+  "Year": 2020,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Number Theory",
+  "Number": 19,
+  "Question": "A number is called flippy if its digits alternate between two distinct digits. For example, \\(2020\\) and \\(37373\\) are flippy, but \\(3883\\) and \\(123123\\) are not. How many five-digit flippy numbers are divisible by \\(15?\\)",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(3\\)",
+    "B": "\\(4\\)",
+    "C": "\\(5\\)",
+    "D": "\\(6\\)",
+    "E": "\\(8\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "B",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.82",
+    "Concepts": "divisibility; digits",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2020/solutions",
+    "SourceSHA256": "be1a6cea841966b2cc427031537ce1a397804872aa4b8cd4137c70e761692179",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2020_AMC_8_Q19",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:number-theory"
+  ],
+  "skill": []
+}

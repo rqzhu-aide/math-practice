@@ -1,0 +1,63 @@
+{
+  "Year": 2022,
+  "Level": "AMC 10",
+  "Batch": "A",
+  "Area": "Geometry",
+  "Number": 25,
+  "Question": "Let \\(R,\\) \\(S,\\) and \\(T\\) be squares that have vertices at lattice points (i.e., points whose coordinates are both integers) in the coordinate plane, together with their interiors.\n\nThe bottom edge of each square is on the \\(x\\)-axis. The left edge of \\(R\\) and the right edge of \\(S\\) are on the \\(y\\)-axis, and \\(R\\) contains \\(\\dfrac{9}{4}\\) as many lattice points as does \\(S.\\) The top two vertices of \\(T\\) are in \\(R \\cup S,\\) and \\(T\\) contains \\(\\dfrac{1}{4}\\) of the lattice points contained in \\(R \\cup S.\\) See the figure (not drawn to scale).\n\n[Figure 1](figures/2022_AMC_10A_Q25_question_fig1.svg)\n\nThe fraction of lattice points in \\(S\\) that are in \\(S \\cap T\\) is \\(27\\) times the fraction of lattice points in \\(R\\) that are in \\(R \\cap T.\\) What is the minimum possible value of the edge length of \\(R\\) plus the edge length of \\(S\\) plus the edge length of \\(T?\\)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(336\\)",
+    "B": "\\(337\\)",
+    "C": "\\(338\\)",
+    "D": "\\(339\\)",
+    "E": "\\(340\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "B",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.48",
+    "Concepts": "lattice point; modular arithmetic; optimization",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc10/2022A/solutions",
+    "SourceSHA256": "e43e7f220a244ac0aa134865b6717777598543c07095f8a1b5fab987d16c007b",
+    "Figures": [
+      "figures/2022_AMC_10A_Q25_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2022_AMC_10A_Q25_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc10/2022A/25.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "OfficialSolution": {
+      "url": "../amc-bank/official-solutions/AMC10A_2022_Solutions.pdf",
+      "sourceURL": "https://maa.org/wp-content/uploads/2024/08/2022-AMC-10A-solutions.pdf",
+      "label": "2022 AMC 10A",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2022_AMC_10A_Q25",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:geometry"
+  ],
+  "skill": []
+}

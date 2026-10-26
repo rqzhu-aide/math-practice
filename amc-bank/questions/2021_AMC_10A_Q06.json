@@ -1,0 +1,49 @@
+{
+  "Year": 2021,
+  "Level": "AMC 10",
+  "Batch": "A",
+  "Area": "Prealgebra",
+  "Number": 6,
+  "Question": "Chantal and Jean start hiking from a trailhead toward a fire tower. Jean is wearing a heavy backpack and walks slower. Chantal starts walking at \\(4\\) miles per hour. Halfway to the tower, the trail becomes really steep, and Chantal slows down to \\(2\\) miles per hour. After reaching the tower, she immediately turns around and descends the steep part of the trail at \\(3\\) miles per hour. She meets Jean at the halfway point. What was Jean’s average speed, in miles per hour, until they meet?",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(\\dfrac{12}{13}\\)",
+    "B": "\\(1\\)",
+    "C": "\\(\\dfrac{13}{12}\\)",
+    "D": "\\(\\dfrac{24}{13}\\)",
+    "E": "\\(2\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "A",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.95",
+    "Concepts": "distance rate and time",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc10/2021A/solutions",
+    "SourceSHA256": "d41358f812438843c545eb3198d3e0a17258890657afc708080f1ef00522ee94",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2021_AMC_10A_Q06",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

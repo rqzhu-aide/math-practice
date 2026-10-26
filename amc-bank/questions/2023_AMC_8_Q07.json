@@ -1,0 +1,63 @@
+{
+  "Year": 2023,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Geometry",
+  "Number": 7,
+  "Question": "A rectangle, with sides parallel to the \\(x\\)-axis and \\(y\\)-axis, has opposite vertices located at \\((15, 3)\\) and \\((16, 5).\\) A line is drawn through points \\(A(0, 0)\\) and \\(B(3, 1).\\) Another line is drawn through points \\(C(0, 10)\\) and \\(D(2, 9).\\) How many points on the rectangle lie on at least one of the two lines?\n\n[Figure 1](figures/2023_AMC_8_Q07_question_fig1.svg)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(0\\)",
+    "B": "\\(1\\)",
+    "C": "\\(2\\)",
+    "D": "\\(3\\)",
+    "E": "\\(4\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "B",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.80",
+    "Concepts": "coordinate geometry; linear equation",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2023/solutions",
+    "SourceSHA256": "8c29db496c61771d3c8756ea8fffce12920def81479453a1c776e1113dde3037",
+    "Figures": [
+      "figures/2023_AMC_8_Q07_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2023_AMC_8_Q07_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2023/7.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "OfficialSolution": {
+      "url": "../amc-bank/official-solutions/AMC8_2023_Solutions.pdf",
+      "sourceURL": "https://maa.org/wp-content/uploads/2024/08/2023_AMC8_Solutions_.pdf",
+      "label": "2023 AMC 8",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2023_AMC_8_Q07",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:geometry"
+  ],
+  "skill": []
+}

@@ -1,0 +1,49 @@
+{
+  "Year": 2021,
+  "Level": "AMC 10",
+  "Batch": "Fall A",
+  "Area": "Counting & Probability",
+  "Number": 24,
+  "Question": "Each of the \\(12\\) edges of a cube is labeled \\(0\\) or \\(1.\\) Two labelings are considered different even if one can be obtained from the other by a sequence of one or more rotations and/or reflections. For how many such labelings is the sum of the labels on the edges of each of the \\(6\\) faces of the cube equal to \\(2?\\)",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(8\\)",
+    "B": "\\(10\\)",
+    "C": "\\(12\\)",
+    "D": "\\(16\\)",
+    "E": "\\(20\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "E",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.89",
+    "Concepts": "arrangements with restrictions; cube geometry; casework",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc10/2021C/solutions",
+    "SourceSHA256": "1370c18a67d2b171cb8d91cf2a49b5501d63f947ce326e580566a1e95897c0ef",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2021_Fall_AMC_10A_Q24",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:counting-probability"
+  ],
+  "skill": []
+}

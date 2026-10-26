@@ -1004,7 +1004,9 @@ button:disabled { opacity: .55; cursor: not-allowed; }
 .signals-footnote { line-height: 1.6; }
 .signals-status { font-size: .75rem; }
 .signals-panel .panel-toggle { font-size: .75rem; }
-footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 18px; margin-top: 32px; font-size: .75rem; display: flex; justify-content: space-between; gap: 18px; }
+footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 18px; margin-top: 32px; font-size: .75rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 18px; }
+footer .source-credits { width: 100%; line-height: 1.7; }
+footer .source-credits p { margin: 0; }
 .modal { background: var(--surface); }
 .modal-title { font-family: var(--font); }
 .solution-reflection { padding-top: 22px; margin-top: 28px; border-top: 1px solid var(--hairline); color: var(--accent-deep); font: 400 1.125rem/1.6 var(--book-serif); }
@@ -1211,10 +1213,18 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
     </div>
   </div>
 
-  <footer><span>Your drafts and notebook stay in this browser.</span><span class="site-credit">Developed by Ruoqing Zhu · <a href="https://github.com/rqzhu-aide" target="_blank" rel="noopener noreferrer">GitHub: rqzhu-aide</a></span></footer>
+  <footer>
+    <div class="source-credits">
+      <p>AMC questions and official solution booklets: <a href="https://maa.org/student-programs/amc/" target="_blank" rel="noopener noreferrer">Mathematical Association of America (MAA)</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.</p>
+      <p>Chinese K-12 material: <a href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">xiaoyang111222/cn-math-taxonomy</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.</p>
+    </div>
+    <span>Your drafts and notebook stay in this browser.</span>
+    <span class="site-credit">Developed by Ruoqing Zhu · <a href="https://github.com/rqzhu-aide" target="_blank" rel="noopener noreferrer">GitHub: rqzhu-aide</a> · Original app: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a></span>
+  </footer>
 </div>
 
 <script src="../cn-math-bank/bank.js"></script>
+<script src="../amc-bank/bank.js"></script>
 <script src="../custom-banks/banks.js"></script>
 <script src="answer-check.js"></script>
 <script src="vendor/katex/katex.min.js"></script>
@@ -1272,7 +1282,7 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
   /* ---------- Question pool ---------- */
 
   var customBanks = Array.isArray(window.CUSTOM_MATH_BANKS) ? window.CUSTOM_MATH_BANKS : [];
-  var BANKS = [window.AMC_BANK, window.CN_MATH_BANK].concat(customBanks).filter(function (b) { return b && Array.isArray(b.questions) && b.questions.length; });
+  var BANKS = [window.CN_MATH_BANK, window.AMC_BANK].concat(customBanks).filter(function (b) { return b && Array.isArray(b.questions) && b.questions.length; });
   var BANK = BANKS[0] || { id: 'cn-math', questions: [] };
   function usesGradeNavigation(bank) { return bank !== window.AMC_BANK; }
   var cnSourceNotice = Array.prototype.slice.call($('sourceNotice').childNodes || []);
@@ -1691,14 +1701,29 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
     solTitle.textContent = questionTitle(q) + '. Solution';
     var body = el("div");
     body.appendChild(el("span", "sol-answer",
-      q.gradingStatus === 'disputed' ? 'Not graded. Historical printed key: (' + q.answer + '). See the explanation below.' : q.answer ? (q.responseType && q.responseType !== 'choice' ? 'Reference answer: ' + q.answer : "Correct answer: (" + q.answer + ")") : "Answer not yet verified"));
+      q.gradingStatus === 'disputed' ? 'Not graded. Historical printed key: (' + q.answer + ').' : q.answer ? (q.responseType && q.responseType !== 'choice' ? 'Reference answer: ' + q.answer : "Correct answer: (" + q.answer + ")") : "Answer not yet verified"));
+    if (q.gradingStatus === 'disputed' && q.gradingNote) body.appendChild(el('p', 'pool-hint', q.gradingNote));
     var sol = q.solution || "";
-    body.appendChild(richContent(sol || "No solution is available for this question.", q, "q-text"));
+    var amcSolutionOmitted = !sol && questionIndex[q.id].bank === window.AMC_BANK;
+    var officialSolutionURL = amcSolutionOmitted && q.officialSolution && [
+      '../amc-bank/official-solutions/AMC8_2023_Solutions.pdf',
+      '../amc-bank/official-solutions/AMC10A_2022_Solutions.pdf'
+    ].indexOf(q.officialSolution.url) >= 0 ? q.officialSolution.url : null;
+    var solutionMessage = amcSolutionOmitted ? "A worked solution for this problem is not included." : "No solution is available for this question.";
+    if (officialSolutionURL) solutionMessage = "Official MAA solutions are available in the original booklet.";
+    body.appendChild(richContent(sol || solutionMessage, q, "q-text"));
     if (sol) body.appendChild(el('p', 'solution-reflection', 'Which idea made this solution work? Look for a step you could use in another problem.'));
 
-    if (sol && q.solutionSource) {
-      var sourceLine = el("p", "pool-hint", "Solution source: ");
-      var sourceText = q.solutionSource === "live-poshenloh" ? "LIVE past contest archive" : q.solutionSource;
+    if (officialSolutionURL) {
+      var officialLine = el('p', 'pool-hint');
+      var officialLink = el('a', null, 'Read official MAA solutions (PDF)');
+      officialLink.href = officialSolutionURL;
+      officialLink.target = '_blank'; officialLink.rel = 'noopener noreferrer';
+      officialLine.appendChild(officialLink);
+      body.appendChild(officialLine);
+    } else if ((sol && q.solutionSource) || (amcSolutionOmitted && httpURL(q.sourceURL))) {
+      var sourceLine = el("p", "pool-hint", amcSolutionOmitted ? "" : "Solution source: ");
+      var sourceText = amcSolutionOmitted ? "View the source page at LIVE by Po-Shen Loh" : q.solutionSource === "live-poshenloh" ? "LIVE by Po-Shen Loh (third-party solution)" : q.solutionSource;
       var sourceURL = httpURL(q.sourceURL);
       if (sourceURL) {
         var sourceLink = el("a", null, sourceText);
@@ -1793,9 +1818,25 @@ footer { border-top: 1px solid var(--hairline); text-align: left; padding-top: 1
         else source = document.createTextNode(BANK.label || BANK.id);
         notice.appendChild(source);
         if (BANK.license) notice.appendChild(document.createTextNode(' · License: ' + BANK.license));
+      } else {
+        notice.appendChild(document.createTextNode('AMC questions by '));
+        var amcSource = el('a', null, 'Mathematical Association of America');
+        amcSource.href = 'https://maa.org/student-programs/amc/';
+        amcSource.target = '_blank'; amcSource.rel = 'noopener noreferrer';
+        notice.appendChild(amcSource);
+        notice.appendChild(document.createTextNode(', adapted under '));
+        var amcLicense = el('a', null, 'CC BY-NC-SA 4.0');
+        amcLicense.href = 'https://creativecommons.org/licenses/by-nc-sa/4.0/';
+        amcLicense.target = '_blank'; amcLicense.rel = 'noopener noreferrer';
+        notice.appendChild(amcLicense);
+        notice.appendChild(document.createTextNode('. Formatting and selected corrections applied. No MAA endorsement. '));
+        var amcNotes = el('a', null, 'Source notes');
+        amcNotes.href = 'https://github.com/rqzhu-aide/math-practice/blob/main/amc-bank/NOTICE.md';
+        amcNotes.target = '_blank'; amcNotes.rel = 'noopener noreferrer';
+        notice.appendChild(amcNotes);
       }
     }
-    notice.hidden = !curriculum;
+    notice.hidden = false;
     pool.hint.textContent = cn ? 'Explore a curriculum topic, or start with a problem below.' : curriculum ? 'Explore a topic, or start with a problem below.' : 'Start with an AMC 8 problem, or browse the collection above.';
   }
   function httpURL(value) {

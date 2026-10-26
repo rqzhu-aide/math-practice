@@ -1,0 +1,63 @@
+{
+  "Year": 2023,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Counting & Probability",
+  "Number": 16,
+  "Question": "The letters \\(P,\\) \\(Q,\\) and \\(R\\) are entered into a \\(20 \\times 20\\) table according to the pattern shown below. How many \\(P\\)s, \\(Q\\)s, and \\(R\\)s will appear in the completed table?\n\n[Figure 1](figures/2023_AMC_8_Q16_question_fig1.svg)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(132\\) \\(P\\)s, \\(134\\) \\(Q\\)s, \\(134\\) \\(R\\)s",
+    "B": "\\(133\\) \\(P\\)s, \\(133\\) \\(Q\\)s, \\(134\\) \\(R\\)s",
+    "C": "\\(133\\) \\(P\\)s, \\(134\\) \\(Q\\)s, \\(133\\)\n\\(R\\)s",
+    "D": "\\(134\\) \\(P\\)s, \\(132\\) \\(Q\\)s, \\(134\\) \\(R\\)s",
+    "E": "\\(134\\) \\(P\\)s, \\(133\\) \\(Q\\)s, \\(133\\) \\(R\\)s"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "C",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.86",
+    "Concepts": "pattern recognition; modular arithmetic",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2023/solutions",
+    "SourceSHA256": "8c29db496c61771d3c8756ea8fffce12920def81479453a1c776e1113dde3037",
+    "Figures": [
+      "figures/2023_AMC_8_Q16_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2023_AMC_8_Q16_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2023/16.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "OfficialSolution": {
+      "url": "../amc-bank/official-solutions/AMC8_2023_Solutions.pdf",
+      "sourceURL": "https://maa.org/wp-content/uploads/2024/08/2023_AMC8_Solutions_.pdf",
+      "label": "2023 AMC 8",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2023_AMC_8_Q16",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:counting-probability"
+  ],
+  "skill": []
+}

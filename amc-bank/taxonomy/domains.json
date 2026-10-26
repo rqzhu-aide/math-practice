@@ -1,0 +1,42 @@
+[
+  {
+    "id": "domain:number-algebra",
+    "label": "Number and algebra",
+    "sourceLabel": "数与代数"
+  },
+  {
+    "id": "domain:geometry",
+    "label": "Geometry",
+    "sourceLabel": "图形与几何"
+  },
+  {
+    "id": "domain:probability-statistics",
+    "label": "Probability and statistics",
+    "sourceLabel": "统计与概率"
+  },
+  {
+    "id": "domain:modeling-practice",
+    "label": "Modeling and mathematical practice",
+    "sourceLabel": "综合与实践"
+  },
+  {
+    "id": "domain:prealgebra",
+    "label": "Prealgebra",
+    "sourceLabel": "Prealgebra"
+  },
+  {
+    "id": "domain:algebra",
+    "label": "Algebra",
+    "sourceLabel": "Algebra"
+  },
+  {
+    "id": "domain:number-theory",
+    "label": "Number Theory",
+    "sourceLabel": "Number Theory"
+  },
+  {
+    "id": "domain:counting-probability",
+    "label": "Counting & Probability",
+    "sourceLabel": "Counting & Probability"
+  }
+]

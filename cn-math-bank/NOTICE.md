@@ -28,4 +28,5 @@ content. Original project code, documentation, templates, and examples are also
 licensed under CC BY-NC 4.0; see the [repository license](../LICENSE). Unrelated
 third-party assets retain their own licenses. Noncommercial use and free-of-charge
 distribution are different concepts; this notice adds no extra restriction to
-the upstream license. AMC content is not included in this repository.
+the upstream license. The separate AMC bank has its own
+[CC BY-NC-SA 4.0 terms and attribution](../amc-bank/NOTICE.md).

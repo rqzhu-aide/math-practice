@@ -1,0 +1,56 @@
+{
+  "Year": 2022,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Prealgebra",
+  "Number": 15,
+  "Question": "Laszlo went online to shop for black pepper and found thirty different black pepper options varying in weight and price, shown in the scatter plot below. In ounces, what is the weight of the pepper that offers the lowest price per ounce?\n\n[Figure 1](figures/2022_AMC_8_Q15_question_fig1.svg)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(1\\)",
+    "B": "\\(2\\)",
+    "C": "\\(3\\)",
+    "D": "\\(4\\)",
+    "E": "\\(5\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "C",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.89",
+    "Concepts": "data and graph interpretation; slope; optimization",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2022/solutions",
+    "SourceSHA256": "f6ad07a456359e4a04c57b5f7113696c7dfb0efd7fa5aa98d9fc2b7c9e8650bd",
+    "Figures": [
+      "figures/2022_AMC_8_Q15_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2022_AMC_8_Q15_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2022/15.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2022_AMC_8_Q15",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

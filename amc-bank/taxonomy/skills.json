@@ -1,0 +1,18 @@
+[
+  {
+    "id": "skill:arithmetic:integer-operations",
+    "label": "Integer arithmetic",
+    "status": "curated-broad-content",
+    "labelLanguage": "en",
+    "formula": null,
+    "description": "Evaluate explicitly supplied integer expressions using the four arithmetic operations and nonnegative integer powers. This label does not assert mastery of a source-unit application."
+  },
+  {
+    "id": "skill:arithmetic:rational-operations",
+    "label": "Fraction and decimal arithmetic",
+    "status": "curated-broad-content",
+    "labelLanguage": "en",
+    "formula": null,
+    "description": "Evaluate explicitly supplied numerical expressions involving fractions, decimals, percentages, or division with a fractional result. This label does not assert mastery of a source-unit application."
+  }
+]

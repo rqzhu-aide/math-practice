@@ -1,5 +1,14 @@
 # Third-party material
 
+- **American Mathematics Competitions (AMC):** question content, answer keys,
+  included original diagrams, and official solution booklets are credited to the
+  [Mathematical Association of America (MAA)](https://maa.org/student-programs/amc/).
+  Shared with MAA's permission under [CC BY-NC-SA 4.0](amc-bank/LICENSE), which also
+  covers this project's adaptations of AMC material. Transcription provenance
+  credits [LIVE by Po-Shen Loh](https://live.poshenloh.com/past-contests).
+  Its copied solution text and solution-only diagrams are not distributed.
+  Two unchanged official MAA solution booklets cover 50 questions. Source links,
+  modification details, and license scope are in [AMC NOTICE.md](amc-bank/NOTICE.md).
 - **Processed Chinese curriculum bank:** adapted from
   [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy),
   revision `62b341d4b66b175413d6e3f697e37639fd96aa2d`. Data and its adaptations
@@ -10,4 +19,5 @@
 
 The repository's [CC BY-NC 4.0 license](LICENSE) covers original project material.
 It does not replace third-party licenses or their attribution requirements.
-No AMC questions, solutions, or figures are part of this repository.
+In particular, AMC material and its adaptations remain under CC BY-NC-SA 4.0;
+they are not relicensed under the original app's CC BY-NC 4.0 license.

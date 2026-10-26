@@ -18,10 +18,10 @@ from connection_settings import ConnectionSettings, SettingsError
 from openai_connection import OpenAIConnection
 from model_connections import model_status, test_speech, test_inference, transcribe, MAX_AUDIO_BYTES
 from practice_tutor import review_submission
-from question_banks import BankError, custom_asset_path
+from question_banks import BankError, FIGURE_PATH, custom_asset_path
 
 ROOT = Path(__file__).resolve().parents[1]
-ENGINE_VERSION = 'public-v2'
+ENGINE_VERSION = 'public-v3'
 
 
 def engine_instance(root=ROOT):
@@ -212,13 +212,16 @@ class Handler(BaseHTTPRequestHandler):
                 return self.error_json(404, 'File not found.')
             return self.send_bytes(200, asset.read_bytes(), mimetypes.guess_type(asset.name)[0] or 'application/octet-stream',
                                    content_security_policy="sandbox; default-src 'none'; style-src 'unsafe-inline'")
-        allowed = (relative in ('math-practice/index.html', 'cn-math-bank/bank.js',
+        allowed = (relative in ('math-practice/index.html', 'cn-math-bank/bank.js', 'amc-bank/bank.js',
+                               'amc-bank/official-solutions/AMC8_2023_Solutions.pdf',
+                               'amc-bank/official-solutions/AMC10A_2022_Solutions.pdf',
                                'math-practice/answer-check.js',
                                'math-practice/settings.html', 'math-practice/settings.css', 'math-practice/settings.js',
                                'math-practice/theme.css', 'math-practice/theme.js',
                                'math-practice/speech-input.js', 'math-practice/speech-worklet.js', 'math-practice/practice-feedback.js')
                    or relative.startswith('math-practice/vendor/')
-                   or relative.startswith('cn-math-bank/figures/'))
+                   or relative.startswith('cn-math-bank/figures/')
+                   or (relative.startswith('amc-bank/') and FIGURE_PATH.fullmatch(relative[len('amc-bank/'):])))
         path = (ROOT / relative).resolve()
         if not allowed or not path.is_relative_to(ROOT) or not path.is_file() or any(p.startswith('.') for p in Path(relative).parts):
             return self.error_json(404, 'File not found.')

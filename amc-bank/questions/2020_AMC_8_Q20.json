@@ -1,0 +1,49 @@
+{
+  "Year": 2020,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Prealgebra",
+  "Number": 20,
+  "Question": "A scientist walking through a forest recorded as integers the heights of \\(5\\) trees standing in a row. She observed that each tree was either twice as tall or half as tall as the one to its right. Unfortunately some of her data was lost when rain fell on her notebook. Her notes are shown below, with blanks indicating the missing numbers. Based on her observations, the scientist was able to reconstruct the lost data. What was the average height of the trees, in meters?\n\n\\[\\begin{array}{|c|c|}\\hline T_1&\\underline{\\phantom{00}}\\,\\mathrm m\\\\T_2&11\\,\\mathrm m\\\\T_3&\\underline{\\phantom{00}}\\,\\mathrm m\\\\T_4&\\underline{\\phantom{00}}\\,\\mathrm m\\\\T_5&\\underline{\\phantom{00}}\\,\\mathrm m\\\\\\hline\\overline T&\\underline{\\phantom{00}}.2\\,\\mathrm m\\\\\\hline\\end{array}\\]",
+  "Question Type": "text",
+  "Choices": {
+    "A": "\\(22.2\\)",
+    "B": "\\(24.2\\)",
+    "C": "\\(33.2\\)",
+    "D": "\\(35.2\\)",
+    "E": "\\(37.2\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "B",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.57",
+    "Concepts": "casework; mean",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2020/solutions",
+    "SourceSHA256": "be1a6cea841966b2cc427031537ce1a397804872aa4b8cd4137c70e761692179",
+    "Figures": [],
+    "FigureSources": {},
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2020_AMC_8_Q20",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}

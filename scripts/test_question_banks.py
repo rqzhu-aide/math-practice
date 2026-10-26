@@ -13,7 +13,7 @@ import urllib.request
 from connection_settings import ConnectionSettings
 from import_question_bank import import_bank
 from practice_tutor import question_images, review_submission
-from question_banks import BankError, custom_question_path
+from question_banks import BankError, bank_root_for_question, custom_question_path
 from serve_math_practice import Handler, ThreadingHTTPServer
 from student_assessment import AssessmentError, ModelConfig, StudentAssessment
 
@@ -54,6 +54,20 @@ class BankFixture:
         self.write_json(source / 'bank.json', manifest)
         self.write_json(source / 'questions' / (record['ID'] + '.json'), record)
         return source, record
+
+    def make_amc_question(self, question_id='2021_Fall_AMC_10A_Q01', figure=False):
+        bank = self.root / 'amc-bank'
+        (bank / 'questions').mkdir(parents=True, exist_ok=True)
+        record = {'ID': question_id, 'Bank': 'amc', 'ResponseType': 'choice',
+                  'Question': 'What is 2 + 2?', 'Choices': {'A': '3', 'B': '4'},
+                  'Correct Answer': 'B', 'Solution': ''}
+        if figure:
+            (bank / 'figures').mkdir(exist_ok=True)
+            (bank / 'figures/shape.png').write_bytes(PNG)
+            record['Question'] += '\n[Figure 1](figures/shape.png)'
+            record['Choices']['B'] = '[Figure 2](figures/shape.png)'
+        self.write_question(bank, record)
+        return bank, record
 
     @staticmethod
     def write_json(path, value):
@@ -274,6 +288,71 @@ class CustomRuntimeTests(BankFixture, unittest.TestCase):
         images.assert_called_once_with(record, root=self.root)
 
 
+class AmcRuntimeTests(BankFixture, unittest.TestCase):
+    def test_historical_and_current_ids_use_authoritative_records_without_models(self):
+        assessor = StudentAssessment(ModelConfig(), root=self.root)
+        ids = ('1950_AMC_12_Q50', '1985_AMC_8_Q25', '2000_AMC_10_Q25',
+               '2025_AMC_10A_Q01', '2025_AMC_10B_Q25', '2025_AMC_12A_Q01',
+               '2025_AMC_12B_Q25', '2021_Fall_AMC_10A_Q01', '2021_Fall_AMC_12B_Q25')
+        with patch('student_assessment.OPENER.open', side_effect=AssertionError('No model request expected')):
+            for question_id in ids:
+                with self.subTest(question_id=question_id):
+                    _, record = self.make_amc_question(question_id)
+                    attempt = {'questionId': question_id, 'answer': 'B', 'thoughts': 'I added two and two.',
+                               'question': {'Correct Answer': 'A'}, 'Correct Answer': 'A'}
+                    result = assessor.assess(attempt)
+                    wrong = assessor.assess({**attempt, 'answer': 'A'})
+                    self.assertTrue(result['answerCorrect'])
+                    self.assertFalse(wrong['answerCorrect'])
+                    self.assertEqual(result['category'], 'cannot_judge')
+                    self.assertFalse(result['modelUsed'])
+                    self.assertEqual(result['decisionRequests'], 0)
+                    self.assertEqual(assessor._question(question_id), record)
+
+    def test_invalid_missing_and_mismatched_amc_records_do_not_use_models(self):
+        bank, record = self.make_amc_question()
+        assessor = StudentAssessment(ModelConfig(('https://decision.example',), 'test-model'), root=self.root)
+        with patch.object(assessor, '_decide', side_effect=AssertionError('No model fallback expected')):
+            for question_id, status in (('9999_AMC_8_Q01', 404), ('1950_AMC_12_Q51', 400),
+                                        ('2025_AMC_8_Q00', 400), ('2025_AMC_8_Q1', 400),
+                                        ('../2025_AMC_8_Q01', 400)):
+                with self.subTest(question_id=question_id), self.assertRaises(AssessmentError) as raised:
+                    assessor.assess({'questionId': question_id, 'answer': 'B', 'thoughts': 'I added.'})
+                self.assertEqual(raised.exception.status, status)
+            for changes in ({'ID': '2025_AMC_8_Q01'}, {'Bank': 'other'}):
+                self.write_question(bank, {**record, **changes}, filename=record['ID'] + '.json')
+                with self.assertRaisesRegex(AssessmentError, 'does not match'):
+                    assessor._question(record['ID'])
+
+    def test_configured_amc_assessment_uses_decision_model_with_disk_reference(self):
+        _, record = self.make_amc_question()
+        assessor = StudentAssessment(ModelConfig(('https://decision.example',), 'test-model'), root=self.root)
+        with patch.object(assessor, '_decide', return_value=[{'id': 'correctness', 'code': 'correct'}]) as decide:
+            result = assessor.assess({'questionId': record['ID'], 'answer': 'B', 'thoughts': 'I added.'})
+        self.assertTrue(result['answerCorrect'])
+        self.assertTrue(result['modelUsed'])
+        self.assertEqual(result['decisionRequests'], 1)
+        self.assertIn('"referenceAnswer": "B"', decide.call_args.args[0])
+        self.assertIn('"referenceSolution": ""', decide.call_args.args[0])
+
+    def test_amc_tutor_figures_use_amc_bank_and_deduplicate_picture_choices(self):
+        bank, record = self.make_amc_question(figure=True)
+        renderer = MagicMock()
+        page = renderer.open.return_value.__enter__.return_value.__getitem__.return_value
+        page.rect.width, page.rect.height = 10, 10
+        page.get_pixmap.return_value.tobytes.return_value = PNG
+        with patch.dict('sys.modules', {'pymupdf': renderer}):
+            urls, names = question_images(record, root=self.root)
+        self.assertEqual(bank_root_for_question(record, root=self.root), bank)
+        self.assertEqual(names, ['figures/shape.png'])
+        self.assertEqual(urls, ['data:image/png;base64,' + base64.b64encode(PNG).decode('ascii')])
+        renderer.open.assert_called_once_with(bank / 'figures/shape.png')
+        with self.assertRaises(AssessmentError):
+            question_images({**record, 'Question': '[Figure 1](figures/../../config.json)'}, root=self.root)
+        with self.assertRaises(BankError):
+            bank_root_for_question({**record, 'ID': 'other__question'}, root=self.root)
+
+
 class QuietHandler(Handler):
     def log_message(self, *args):
         pass
@@ -337,6 +416,62 @@ class CustomAssetHttpTests(BankFixture, unittest.TestCase):
                      '/custom-banks/algebra/figures/../../../config.json',
                      '/custom-banks/algebra/figures/shape.svg/extra',
                      '/custom-banks/uninstalled/figures/shape.svg'):
+            with self.subTest(path=path):
+                code, _, data = self.request(path)
+                self.assertEqual(code, 404)
+                self.assertNotIn(b'private', data)
+
+    def test_amc_bundle_and_flat_figures_are_public_but_other_files_are_private(self):
+        bank, record = self.make_amc_question(figure=True)
+        bundle = b'window.AMC_BANK = {"questions": []};\n'
+        (bank / 'bank.js').write_bytes(bundle)
+        (bank / 'figures/shape.svg').write_bytes(SVG)
+        (bank / 'figures/config.json').write_text('{"secret":"private"}', encoding='utf-8')
+        (bank / 'config.json').write_text('{"secret":"private"}', encoding='utf-8')
+        (bank / 'figures/nested').mkdir()
+        (bank / 'figures/nested/shape.png').write_bytes(PNG)
+        for path, expected, kind in (('/amc-bank/bank.js', bundle, 'javascript'),
+                                     ('/amc-bank/figures/shape.png', PNG, 'image/png'),
+                                     ('/amc-bank/figures/shape.svg', SVG, 'image/svg+xml')):
+            with self.subTest(path=path):
+                code, headers, data = self.request(path)
+                self.assertEqual(code, 200)
+                self.assertEqual(data, expected)
+                self.assertIn(kind, headers['Content-Type'])
+                self.assertEqual(headers['X-Content-Type-Options'], 'nosniff')
+        for path in ('/amc-bank/config.json', '/amc-bank/questions/' + record['ID'] + '.json',
+                     '/amc-bank/figures/config.json', '/amc-bank/figures/nested/shape.png',
+                     '/amc-bank/figures/../config.json', '/amc-bank/figures/%2e%2e/config.json',
+                     '/amc-bank/figures/%2e%2e%2fconfig.json', '/amc-bank/figures/..%5cconfig.json',
+                     '/amc-bank/figures/shape.png/extra', '/amc-bank/figures/missing.png',
+                     '/math-practice/amc-bank.js', '/question%20bank/figures/shape.png'):
+            with self.subTest(path=path):
+                code, _, data = self.request(path)
+                self.assertEqual(code, 404)
+                self.assertNotIn(b'private', data)
+
+    def test_only_the_two_official_amc_solution_pdfs_are_public(self):
+        bank, _ = self.make_amc_question()
+        official = bank / 'official-solutions'
+        official.mkdir()
+        for filename in ('AMC8_2023_Solutions.pdf', 'AMC10A_2022_Solutions.pdf'):
+            expected = b'%PDF-1.4\n' + filename.encode('ascii')
+            (official / filename).write_bytes(expected)
+            code, headers, data = self.request('/amc-bank/official-solutions/' + filename)
+            self.assertEqual(code, 200)
+            self.assertEqual(headers['Content-Type'], 'application/pdf')
+            self.assertEqual(data, expected)
+        (official / 'unrelated.pdf').write_bytes(b'%PDF-1.4\nprivate')
+        (official / 'config.json').write_bytes(b'{"secret":"private"}')
+        (bank / 'config.json').write_bytes(b'{"secret":"private"}')
+        for path in ('/amc-bank/official-solutions/unrelated.pdf',
+                     '/amc-bank/official-solutions/config.json',
+                     '/amc-bank/official-solutions/../config.json',
+                     '/amc-bank/official-solutions/%2e%2e/config.json',
+                     '/amc-bank/official-solutions/%2e%2e%2fconfig.json',
+                     '/amc-bank/official-solutions/..%5cconfig.json',
+                     '/amc-bank/official-solutions/../official-solutions/AMC8_2023_Solutions.pdf',
+                     '/amc-bank/official-solutions/AMC8_2023_Solutions.pdf/extra'):
             with self.subTest(path=path):
                 code, _, data = self.request(path)
                 self.assertEqual(code, 404)

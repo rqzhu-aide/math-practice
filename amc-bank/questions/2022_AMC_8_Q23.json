@@ -1,0 +1,56 @@
+{
+  "Year": 2022,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Counting & Probability",
+  "Number": 23,
+  "Question": "A \\(\\bigtriangleup\\) or \\(\\bigcirc\\) is placed in each of the nine squares in a \\(3 \\times 3\\) grid. Shown below is a sample configuration with three \\(\\bigtriangleup\\)’s in a line.\n\n[Figure 1](figures/2022_AMC_8_Q23_question_fig1.svg)\n\nHow many configurations will have three \\(\\bigtriangleup\\)’s in a line and three \\(\\bigcirc\\)’s in a line?",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(39\\)",
+    "B": "\\(42\\)",
+    "C": "\\(78\\)",
+    "D": "\\(84\\)",
+    "E": "\\(96\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "D",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.98",
+    "Concepts": "casework; symmetry",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2022/solutions",
+    "SourceSHA256": "f6ad07a456359e4a04c57b5f7113696c7dfb0efd7fa5aa98d9fc2b7c9e8650bd",
+    "Figures": [
+      "figures/2022_AMC_8_Q23_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2022_AMC_8_Q23_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2022/23.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2022_AMC_8_Q23",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:counting-probability"
+  ],
+  "skill": []
+}

@@ -1,0 +1,56 @@
+{
+  "Year": 2020,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Algebra",
+  "Number": 22,
+  "Question": "When a positive integer \\(N\\) is fed into a machine, the output is a number calculated according to the rule shown below.\n\n[Figure 1](figures/2020_AMC_8_Q22_question_fig1.svg)\n\nFor example, starting with an input of \\(N=7,\\) the machine will output \\(3 \\cdot 7 + 1 = 22.\\) Then if the output is repeatedly inserted into the machine five more times, the final output is \\(26.\\) \\[ \\begin{align*} &7 \\to 22 \\to 11 \\to 34 \\\\ &\\to 17 \\to 52 \\to 26 \\end{align*} \\] When the same \\(6\\)-step process is applied to a different starting value of \\(N,\\) the final output is \\(1.\\) What is the sum of all such integers \\(N?\\) \\[ \\begin{align*} &N \\to \\underline{\\phantom{00}} \\to \\underline{\\phantom{00}} \\to \\underline{\\phantom{00}}\\\\ &\\to \\underline{\\phantom{00}} \\to \\underline{\\phantom{00}} \\to 1 \\end{align*} \\]",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(73\\)",
+    "B": "\\(74\\)",
+    "C": "\\(75\\)",
+    "D": "\\(82\\)",
+    "E": "\\(83\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "E",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.44",
+    "Concepts": "work backwards; tree diagram",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2020/solutions",
+    "SourceSHA256": "be1a6cea841966b2cc427031537ce1a397804872aa4b8cd4137c70e761692179",
+    "Figures": [
+      "figures/2020_AMC_8_Q22_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2020_AMC_8_Q22_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2020/22.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2020_AMC_8_Q22",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:algebra"
+  ],
+  "skill": []
+}

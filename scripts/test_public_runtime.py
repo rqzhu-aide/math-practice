@@ -208,11 +208,11 @@ class HttpRuntimeTests(RuntimeFixture, unittest.TestCase):
         self.assertFalse(value['inference']['configured'])
         self.assertNotIn('speech-secret', json.dumps(value))
 
-    def test_private_and_amc_paths_are_not_served(self):
+    def test_private_and_legacy_paths_are_not_served(self):
         for path in ('/math-practice/config.json', '/scripts/student_assessment.py',
                      '/math-practice/amc-bank.js', '/question%20bank/figures/example.png'):
             self.assertEqual(self.request(path)[0], 404)
-        self.assertEqual(self.request('/api/assessment', {**ATTEMPT, 'questionId': '2026_AMC_8_Q01'})[0], 400)
+        self.assertEqual(self.request('/api/assessment', {**ATTEMPT, 'questionId': '9999_AMC_8_Q01'})[0], 404)
 
 
 if __name__ == '__main__':

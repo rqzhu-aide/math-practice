@@ -1,0 +1,63 @@
+{
+  "Year": 2023,
+  "Level": "AMC 8",
+  "Batch": "NA",
+  "Area": "Prealgebra",
+  "Number": 13,
+  "Question": "Along the route of a bicycle race, \\(7\\) water stations are evenly spaced between the start and finish lines, as shown in the figure below. There are also \\(2\\) repair stations evenly spaced between the start and finish lines. The \\(3\\)rd water station is located \\(2\\) miles after the \\(1\\)st repair station. How long is the race in miles?\n\n[Figure 1](figures/2023_AMC_8_Q13_question_fig1.svg)",
+  "Question Type": "mixed",
+  "Choices": {
+    "A": "\\(8\\)",
+    "B": "\\(16\\)",
+    "C": "\\(24\\)",
+    "D": "\\(48\\)",
+    "E": "\\(96\\)"
+  },
+  "Choices Type": "text",
+  "Correct Answer": "D",
+  "Solution": "",
+  "Meta": {
+    "QuestionSource": "live-poshenloh",
+    "AnswerSource": "live-poshenloh-answer-key",
+    "SolutionSource": "",
+    "AreaSource": "jev:0.63",
+    "Concepts": "fraction; ratio and proportion",
+    "SourceURL": "https://live.poshenloh.com/past-contests/amc8/2023/solutions",
+    "SourceSHA256": "8c29db496c61771d3c8756ea8fffce12920def81479453a1c776e1113dde3037",
+    "Figures": [
+      "figures/2023_AMC_8_Q13_question_fig1.svg"
+    ],
+    "FigureSources": {
+      "figures/2023_AMC_8_Q13_question_fig1.svg": {
+        "url": "https://live.poshenloh.com/images/past-contests/amc8/2023/13.svg",
+        "alt": ""
+      }
+    },
+    "SolutionStatus": "Third-party worked solution not included in this distribution",
+    "Attribution": "American Mathematics Competitions (AMC), Mathematical Association of America (MAA)",
+    "Copyright": "Copyright Mathematical Association of America",
+    "License": "CC-BY-NC-SA-4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "TranscriptionSource": "LIVE by Po-Shen Loh",
+    "OfficialSolution": {
+      "url": "../amc-bank/official-solutions/AMC8_2023_Solutions.pdf",
+      "sourceURL": "https://maa.org/wp-content/uploads/2024/08/2023_AMC8_Solutions_.pdf",
+      "label": "2023 AMC 8",
+      "attribution": "Mathematical Association of America (MAA)",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    "Modifications": [
+      "Converted to structured JSON and LaTeX for Math Practice; figure references normalized",
+      "Third-party worked solution and solution-only figures omitted from the public distribution"
+    ]
+  },
+  "ID": "2023_AMC_8_Q13",
+  "Bank": "amc",
+  "SchemaVersion": "2.0",
+  "ResponseType": "choice",
+  "Language": "en",
+  "domain": [
+    "domain:prealgebra"
+  ],
+  "skill": []
+}
